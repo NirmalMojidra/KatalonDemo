@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img</name>
+   <name>a_one</name>
    <tag></tag>
-   <elementGuidId>3e1ed2cb-57cd-4eff-9d7e-3605b8949973</elementGuidId>
+   <elementGuidId>493a2dc8-6856-4b3f-94c5-8714a98ead94</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@id='gallery']/li[3]/img</value>
+         <key>BASIC</key>
+         <value>//a[@id = 'one' and @href = '#' and (text() = 'one' or . = 'one')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//img[@src = 'images/high_tatras3_min.jpg' and @alt = 'Planning the ascent' and @ref_element = 'Object Repository/Page_Drag and Drop Demo Sites  Test/iframe_Photo Manager_demo-fram']</value>
+         <key>XPATH</key>
+         <value>//a[@id='one']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,90 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>id</name>
       <type>Main</type>
-      <value>images/high_tatras3_min.jpg</value>
+      <value>one</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>alt</name>
+      <name>href</name>
       <type>Main</type>
-      <value>Planning the ascent</value>
+      <value>#</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>width</name>
+      <name>draggable</name>
       <type>Main</type>
-      <value>96</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>height</name>
+      <name>text</name>
       <type>Main</type>
-      <value>72</value>
+      <value>one</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;gallery&quot;)/li[@class=&quot;ui-widget-content ui-corner-tr ui-draggable ui-draggable-handle&quot;]/img[1]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Drag and Drop Demo Sites  Test/iframe_Photo Manager_demo-fram</value>
+      <value>id(&quot;one&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//a[@id='one']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//ul[@id='gallery']/li[3]/img</value>
+      <value>//section[@id='wrapper']/article/ul/li/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <value>//a[contains(text(),'one')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='High Tatras 3'])[1]/following::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Drag and drop'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete image'])[2]/following::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ads via Carbon'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View larger'])[3]/preceding::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HTML5 demos'])[1]/preceding::a[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete image'])[3]/preceding::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='@rem built this'])[1]/preceding::a[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
-      <value>//img[@alt='Planning the ascent']</value>
+      <name>xpath:href</name>
+      <value>//a[contains(@href, '#')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//li[3]/img</value>
+      <value>//li/a</value>
    </webElementXpaths>
 </WebElementEntity>

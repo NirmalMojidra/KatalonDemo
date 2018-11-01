@@ -25,6 +25,6 @@ Thread.sleep(2000)
 
 //Actions drag_drop = new Actions(WebUI)
 
-CustomKeywords.'test.dragDrop'("findTestObject('Object Repository/Page_HTML5 Demo Drag and drop/a_three')", "findTestObject('Object Repository/Page_HTML5 Demo Drag and drop/div_Drag and drop_bin')")
+CustomKeywords.'test.dragDrop'("findTestObject('Object Repository/Page_HTML5 Demo Drag and drop/a_one')", "findTestObject('Object Repository/Page_HTML5 Demo Drag and drop/div_Drag and drop_bin')")
 //test.dragDrop("findTestObject('Object Repository/Page_HTML5 Demo Drag and drop/a_three')", "findTestObject('Object Repository/Page_HTML5 Demo Drag and drop/div_Drag and drop_bin')")
 //drag_drop.dragAndDrop(findTestObject('Object Repository/Page_HTML5 Demo Drag and drop/a_three'), findTestObject('Object Repository/Page_HTML5 Demo Drag and drop/div_Drag and drop_bin'))
