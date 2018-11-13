@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@id = 'one' and @href = '#' and (text() = 'one' or . = 'one')]</value>
+         <value>id(&quot;one&quot;)[count(. | //a[@id = 'one' and @href = '#' and @draggable = 'true' and (text() = 'one' or . = 'one')]) = count(//a[@id = 'one' and @href = '#' and @draggable = 'true' and (text() = 'one' or . = 'one')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -38,7 +38,7 @@
       <value>#</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>draggable</name>
       <type>Main</type>
@@ -52,7 +52,7 @@
       <value>one</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

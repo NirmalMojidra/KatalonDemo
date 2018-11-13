@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='bin']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;bin&quot;)[count(. | //div[@id = 'bin']) = count(//div[@id = 'bin'])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,7 +31,7 @@
       <value>bin</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
