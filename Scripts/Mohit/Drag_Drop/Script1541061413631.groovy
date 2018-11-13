@@ -15,9 +15,9 @@ Thread.sleep(2000)
 
 Screen screen = new Screen()
 
-Pattern one = new Pattern(imgDir + "one.png")
+Pattern one = new Pattern(imgDir + 'one.png')
 
-Pattern drop = new Pattern(imgDir + "drop.png")
+Pattern drop = new Pattern(imgDir + 'drop.png')
 
 Thread.sleep(2000)
 
