@@ -1,7 +1,9 @@
-import org.sikuli.script.Pattern
-import org.sikuli.script.Screen
-
+import org.sikuli.script.Pattern as Pattern
+import org.sikuli.script.Screen as Screen
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+def imgDir = RunConfiguration.getProjectDir() + '/img/'
 
 WebUI.openBrowser('')
 
@@ -11,8 +13,12 @@ WebUI.maximizeWindow()
 
 Thread.sleep(2000)
 
-Screen screen = new Screen();
-Pattern one = new Pattern("C:/Users/bhanawat_m/Pictures/img/one.PNG");
-Pattern drop = new Pattern("C:/Users/bhanawat_m/Pictures/img/drop.PNG");
-Thread.sleep(2000);
-screen.dragDrop(one, drop);
+Screen screen = new Screen()
+
+Pattern one = new Pattern(imgDir + "one.png")
+
+Pattern drop = new Pattern(imgDir + "drop.png")
+
+Thread.sleep(2000)
+
+screen.dragDrop(one, drop)
