@@ -22,3 +22,4 @@ Pattern drop = new Pattern(imgDir + 'drop.png')
 Thread.sleep(2000)
 
 screen.dragDrop(one, drop)
+
