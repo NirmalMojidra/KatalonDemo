@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_MouseHoverAndScreenshot</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abc3ba6e-2fa2-4fdd-8d7d-dcd8f72eb854</testCaseGuid>
+   <variable>
+      <defaultValue>'https://siteorigin.com/'</defaultValue>
+      <description></description>
+      <id>0f7f518c-16b3-48ad-b519-f2c2dfe99041</id>
+      <masked>false</masked>
+      <name>Url</name>
+   </variable>
+   <variable>
+      <defaultValue>'MainPage'</defaultValue>
+      <description></description>
+      <id>56f49319-677c-45f4-97c6-714f2d8fccf4</id>
+      <masked>false</masked>
+      <name>filename</name>
+   </variable>
+</TestCaseEntity>
