@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Firefox 63.0,,2018-11-14 15:44:19,2018-11-14 15:44:32,13.699s,INCOMPLETE
+,,,,,,
+Test Cases/Mohit/Drag_Drop,Firefox 63.0,,2018-11-14 15:44:19,2018-11-14 15:44:32,13.435s,INCOMPLETE
+"Statement - imgDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + ""/img/""",Firefox 63.0,,2018-11-14 15:44:19,2018-11-14 15:44:19,0.001s,PASSED
+Statement - java.lang.Thread.sleep(2000),Firefox 63.0,,2018-11-14 15:44:19,2018-11-14 15:44:21,2.000s,PASSED
+openBrowser,Firefox 63.0,,2018-11-14 15:44:21,2018-11-14 15:44:30,9.064s,PASSED
+maximizeWindow,Firefox 63.0,,2018-11-14 15:44:30,2018-11-14 15:44:30,0.136s,PASSED
+Statement - java.lang.Thread.sleep(2000),Firefox 63.0,,2018-11-14 15:44:30,2018-11-14 15:44:32,2.002s,PASSED
+Statement - screen = new org.sikuli.script.Screen(),Firefox 63.0,,2018-11-14 15:44:32,2018-11-14 15:44:32,0.000s,INCOMPLETE
