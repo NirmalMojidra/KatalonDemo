@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-New Test Suite,,,2018-11-14 15:45:52,2018-11-14 15:45:53,0.911s,FAILED
-,,,,,,
-Test Cases/Mohit/New Test Case,,,2018-11-14 15:45:52,2018-11-14 15:45:53,0.655s,FAILED
-openBrowser,,,2018-11-14 15:45:52,2018-11-14 15:45:53,0.516s,FAILED

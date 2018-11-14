@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-New Test Suite,Chrome 70.0.3538.102,,2018-11-14 15:45:05,2018-11-14 15:45:17,11.592s,PASSED
-,,,,,,
-Test Cases/Mohit/New Test Case,Chrome 70.0.3538.102,,2018-11-14 15:45:06,2018-11-14 15:45:17,11.288s,PASSED
-openBrowser,Chrome 70.0.3538.102,,2018-11-14 15:45:06,2018-11-14 15:45:11,5.422s,PASSED
-Statement - java.lang.Thread.sleep(5000),Chrome 70.0.3538.102,,2018-11-14 15:45:11,2018-11-14 15:45:16,5.006s,PASSED
-closeBrowser,Chrome 70.0.3538.102,,2018-11-14 15:45:16,2018-11-14 15:45:17,0.689s,PASSED
