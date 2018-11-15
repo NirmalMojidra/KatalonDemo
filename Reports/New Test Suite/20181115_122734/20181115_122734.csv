@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2018-11-15 12:27:41,2018-11-15 12:27:43,2.377s,FAILED
+,,,,,,
+Test Cases/Mohit/DemoSite/phpTravels,,,2018-11-15 12:27:41,2018-11-15 12:27:43,1.813s,FAILED
+openBrowser,,,2018-11-15 12:27:41,2018-11-15 12:27:43,1.460s,FAILED

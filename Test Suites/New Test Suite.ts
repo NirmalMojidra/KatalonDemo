@@ -4,7 +4,7 @@
    <name>New Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-14T15:46:29</lastRun>
+   <lastRun>2018-11-15T12:31:18</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,9 +12,9 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>c263f2b0-b6e8-495a-a6ce-c7977d1a73ad</testSuiteGuid>
    <testCaseLink>
-      <guid>8284181b-6f8f-42a6-9107-afc99cb6c065</guid>
+      <guid>28cd1beb-29d5-46f2-9457-7e439cefa4b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mohit/New Test Case</testCaseId>
+      <testCaseId>Test Cases/Mohit/DemoSite/phpTravels</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
