@@ -2,6 +2,9 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import org.testng.Assert
+
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -13,3 +16,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://demo.automationtesting.in/Register.html')
+
+WebUI.maximizeWindow()
+
+WebUI.delay(5)
+
+Assert.assertFalse(CustomKeywords.'com.at.util.ScreenShotCustome.compareimages'(findTestObject('Object Repository/ScreenShotObject/LogoImage')))
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()

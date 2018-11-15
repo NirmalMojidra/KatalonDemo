@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CommandLineExecution,Chrome 70.0.3538.102,,2018-11-15 11:06:21,2018-11-15 11:06:41,20.168s,PASSED
+,,,,,,
+Test Cases/Nirmal/TC3 - Image Comparison Sikuli,Chrome 70.0.3538.102,,2018-11-15 11:06:22,2018-11-15 11:06:41,19.672s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-15 11:06:22,2018-11-15 11:06:25,3.502s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-15 11:06:25,2018-11-15 11:06:29,3.422s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-15 11:06:29,2018-11-15 11:06:30,1.135s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 11:06:30,2018-11-15 11:06:35,5.018s,PASSED
+Statement - org.testng.Assert.assertFalse(CustomKeywords.com.at.util.ScreenShotCustome.compareimages(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/ScreenShotObject/LogoImage))),Chrome 70.0.3538.102,,2018-11-15 11:06:35,2018-11-15 11:06:36,0.617s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 11:06:36,2018-11-15 11:06:41,5.002s,PASSED
+closeBrowser,Chrome 70.0.3538.102,,2018-11-15 11:06:41,2018-11-15 11:06:41,0.676s,PASSED

@@ -32,7 +32,7 @@ WebUI.click(findTestObject('Object Repository/Page_File Upload Demo/button_Submi
 def autoit()
 {
 	Runtime RT = Runtime.getRuntime()
-	Process P =  RT.exec('C:\\Users\\mojidra_n\\Desktop\\fileupload.exe')
+	Process P =  RT.exec('C:\\Users\\mojidra_n\\git\\KatalonDemo\\FileUploadAutoit\\fileupload.exe')
 }
  
 

@@ -5,6 +5,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import java.awt.image.BufferedImage
+
 import javax.imageio.ImageIO
 
 import org.openqa.selenium.WebDriver
@@ -22,10 +24,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.sun.org.apache.bcel.internal.generic.RETURN
 
 import internal.GlobalVariable
 import ru.yandex.qatools.ashot.AShot
 import ru.yandex.qatools.ashot.Screenshot
+import ru.yandex.qatools.ashot.comparison.ImageDiff
+import ru.yandex.qatools.ashot.comparison.ImageDiffer
 
 public class ScreenShotCustome {
 	@Keyword
@@ -34,6 +39,22 @@ public class ScreenShotCustome {
 		WebDriver driver =  DriverFactory.getWebDriver()
 
 		Screenshot screenshot = new AShot().takeScreenshot(driver, element)
-		ImageIO.write(screenshot.getImage(),"JPG", new File("C:\\Users\\mojidra_n\\git\\KatalonDemo\\ScreenShot\\Example.jpg"))
+		ImageIO.write(screenshot.getImage(),"PNG", new File("C:\\Users\\mojidra_n\\git\\KatalonDemo\\ScreenShot\\Example.png"))
+	}
+
+	@Keyword
+	public Boolean compareimages(TestObject object) {
+		WebElement element = WebUiCommonHelper.findWebElement(object, 10)
+		WebDriver driver =  DriverFactory.getWebDriver()
+
+		BufferedImage expectedimage = ImageIO.read(new File("C:\\Users\\mojidra_n\\git\\KatalonDemo\\ScreenShot\\Example.png"))
+		Screenshot logoimagescreenshot = new AShot().takeScreenshot(driver, element)
+		BufferedImage actualimage = logoimagescreenshot.getImage()
+
+		ImageDiffer ImgDiff = new ImageDiffer()
+
+		ImageDiff Diff = ImgDiff.makeDiff(expectedimage, actualimage)
+
+		return Diff.hasDiff()
 	}
 }

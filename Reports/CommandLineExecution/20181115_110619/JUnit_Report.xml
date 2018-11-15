@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CommandLineExecution" time="20" tests="1" failures="0" errors="0">
+   <testsuite name="CommandLineExecution" tests="1" failures="0" errors="0" time="20" timestamp="2018-11-15 11:06:21" hostname="mojidra_n - Nirmal-M.India.XoriantCorp.com" id="Test Suites/CommandLineExecution">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mojidra_n\\Katalon Studio\\KatalonDemo\\Reports\\CommandLineExecution\\20181115_110619"/>
+         <property name="logFiles" value="C:\\Users\\mojidra_n\\Katalon Studio\\KatalonDemo\\Reports\\CommandLineExecution\\20181115_110619\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mojidra_n - Nirmal-M.India.XoriantCorp.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.20.4.197"/>
+         <property name="sessionId" value="01e0093998ceae03d841c88d40ef0fe7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Nirmal/TC3 - Image Comparison Sikuli" classname="Test Cases/Nirmal/TC3 - Image Comparison Sikuli" status="PASSED">
+         <system-out><![CDATA[2018-11-15 11:06:22 - [TEST_CASE][PASSED] - Test Cases/Nirmal/TC3 - Image Comparison Sikuli: Test Cases/Nirmal/TC3 - Image Comparison Sikuli
+
+2018-11-15 11:06:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-15 11:06:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-15 11:06:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demo.automationtesting.in/Register.html' successfully
+
+2018-11-15 11:06:29 - [MESSAGE][PASSED] - Navigate to 'http://demo.automationtesting.in/Register.html' successfully
+
+2018-11-15 11:06:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-15 11:06:30 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-15 11:06:30 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-15 11:06:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-15 11:06:35 - [TEST_STEP][PASSED] - Statement - org.testng.Assert.assertFalse(CustomKeywords.com.at.util.ScreenShotCustome.compareimages(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/ScreenShotObject/LogoImage))): com.at.util.ScreenShotCustome.compareimages is PASSED
+
+2018-11-15 11:06:36 - [MESSAGE][PASSED] - com.at.util.ScreenShotCustome.compareimages is PASSED
+
+2018-11-15 11:06:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-15 11:06:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-15 11:06:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-15 11:06:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-15 11:06:21 - [TEST_SUITE][PASSED] - CommandLineExecution: Test Cases/Nirmal/TC3 - Image Comparison Sikuli]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

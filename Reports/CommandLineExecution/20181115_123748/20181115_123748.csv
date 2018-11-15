@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CommandLineExecution,,,2018-11-15 12:37:49,2018-11-15 12:37:51,1.203s,FAILED
+,,,,,,
+Test Cases/Nirmal/TC3 - Image Comparison Sikuli,,,2018-11-15 12:37:50,2018-11-15 12:37:50,0.938s,FAILED
+openBrowser,,,2018-11-15 12:37:50,2018-11-15 12:37:50,0.602s,FAILED
