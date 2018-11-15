@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite 1" time="76" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite 1" tests="1" failures="0" errors="0" time="76" timestamp="2018-11-15 16:47:07" hostname="bhanawat_m - Digambar-SK.India.XoriantCorp.com" id="Test Suites/Mohit/TestSuite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\bhanawat_m\\git\\KatalonDemo\\Reports\\Mohit\\TestSuite 1\\20181115_164659"/>
+         <property name="logFiles" value="C:\\Users\\bhanawat_m\\git\\KatalonDemo\\Reports\\Mohit\\TestSuite 1\\20181115_164659\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bhanawat_m - Digambar-SK.India.XoriantCorp.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Firefox 63.0"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="fca81622-e013-4cdf-ad50-452c46e53b53"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Mohit/DemoSite/phpTravels" classname="Test Cases/Mohit/DemoSite/phpTravels" status="PASSED">
+         <system-out><![CDATA[2018-11-15 16:47:09 - [TEST_CASE][PASSED] - Test Cases/Mohit/DemoSite/phpTravels: Test Cases/Mohit/DemoSite/phpTravels
+
+2018-11-15 16:47:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.phptravels.net/'
+
+2018-11-15 16:47:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.phptravels.net/'
+
+2018-11-15 16:47:42 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-15 16:47:43 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-15 16:47:43 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-11-15 16:47:43 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < 1000, (i++)]): null
+
+2018-11-15 16:47:43 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-15 16:47:43 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.className("text-center")).isDisplayed(): null
+
+2018-11-15 16:47:43 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-15 16:47:44 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-11-15 16:47:44 - [TEST_STEP][PASSED] - Statement - elements = driver.findElements(org.openqa.selenium.By.className("text-center")): null
+
+2018-11-15 16:47:44 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement webElement : elements): null
+
+2018-11-15 16:47:44 - [TEST_STEP][PASSED] - Statement - Title = webElement.getAttribute("title"): null
+
+2018-11-15 16:47:44 - [TEST_STEP][PASSED] - Statement - If (Title.equals("Flights")): null
+
+2018-11-15 16:47:44 - [TEST_STEP][PASSED] - Statement - Title = webElement.getAttribute("title"): null
+
+2018-11-15 16:47:44 - [TEST_STEP][PASSED] - Statement - If (Title.equals("Flights")): null
+
+2018-11-15 16:47:44 - [TEST_STEP][PASSED] - Statement - Title = webElement.getAttribute("title"): null
+
+2018-11-15 16:47:44 - [TEST_STEP][PASSED] - Statement - If (Title.equals("Flights")): null
+
+2018-11-15 16:47:44 - [TEST_STEP][PASSED] - Statement - Title = webElement.getAttribute("title"): null
+
+2018-11-15 16:47:44 - [TEST_STEP][PASSED] - Statement - If (Title.equals("Flights")): null
+
+2018-11-15 16:47:44 - [TEST_STEP][PASSED] - Statement - Title = webElement.getAttribute("title"): null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - If (Title.equals("Flights")): null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - Title = webElement.getAttribute("title"): null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - If (Title.equals("Flights")): null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - Title = webElement.getAttribute("title"): null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - If (Title.equals("Flights")): null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - Title = webElement.getAttribute("title"): null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - If (Title.equals("Flights")): null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - Title = webElement.getAttribute("title"): null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - If (Title.equals("Flights")): null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - Title = webElement.getAttribute("title"): null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - If (Title.equals("Flights")): null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - webElement.click(): null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < 1000, (i++)]): null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.id("flights")).isDisplayed(): null
+
+2018-11-15 16:47:45 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - action = new org.openqa.selenium.interactions.Actions(driver): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - elements = driver.findElements(org.openqa.selenium.By.className("select2-chosen")): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement webElement : elements): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - loc = webElement.getLocation(): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - If (loc.getX() == 0 || loc.getY() == 0): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - <not implemented yet for class: org.codehaus.groovy.ast.stmt.ContinueStatement>: null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - loc = webElement.getLocation(): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - If (loc.getX() == 0 || loc.getY() == 0): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - <not implemented yet for class: org.codehaus.groovy.ast.stmt.ContinueStatement>: null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - loc = webElement.getLocation(): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - If (loc.getX() == 0 || loc.getY() == 0): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - <not implemented yet for class: org.codehaus.groovy.ast.stmt.ContinueStatement>: null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - loc = webElement.getLocation(): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - If (loc.getX() == 0 || loc.getY() == 0): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - <not implemented yet for class: org.codehaus.groovy.ast.stmt.ContinueStatement>: null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - loc = webElement.getLocation(): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - If (loc.getX() == 0 || loc.getY() == 0): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - <not implemented yet for class: org.codehaus.groovy.ast.stmt.ContinueStatement>: null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - loc = webElement.getLocation(): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - If (loc.getX() == 0 || loc.getY() == 0): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("Enter City Or Airport") == false): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - action.moveToElement(webElement).click().perform(): null
+
+2018-11-15 16:47:46 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-15 16:47:48 - [TEST_STEP][PASSED] - Statement - action.moveByOffset(loc.getX(), loc.getY()).sendKeys("pun").perform(): null
+
+2018-11-15 16:47:49 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-15 16:47:51 - [TEST_STEP][PASSED] - Statement - driver.findElements(org.openqa.selenium.By.className("select2-result")).get(0).click(): null
+
+2018-11-15 16:47:51 - [TEST_STEP][PASSED] - Statement - loc = webElement.getLocation(): null
+
+2018-11-15 16:47:51 - [TEST_STEP][PASSED] - Statement - If (loc.getX() == 0 || loc.getY() == 0): null
+
+2018-11-15 16:47:51 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("Enter City Or Airport") == false): null
+
+2018-11-15 16:47:52 - [TEST_STEP][PASSED] - Statement - action.moveToElement(webElement).click().perform(): null
+
+2018-11-15 16:47:52 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-15 16:47:54 - [TEST_STEP][PASSED] - Statement - action.moveByOffset(loc.getX(), loc.getY()).sendKeys("pun").perform(): null
+
+2018-11-15 16:47:54 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-15 16:47:56 - [TEST_STEP][PASSED] - Statement - driver.findElements(org.openqa.selenium.By.className("select2-result")).get(0).click(): null
+
+2018-11-15 16:47:57 - [TEST_STEP][PASSED] - Statement - loc = webElement.getLocation(): null
+
+2018-11-15 16:47:57 - [TEST_STEP][PASSED] - Statement - If (loc.getX() == 0 || loc.getY() == 0): null
+
+2018-11-15 16:47:57 - [TEST_STEP][PASSED] - Statement - <not implemented yet for class: org.codehaus.groovy.ast.stmt.ContinueStatement>: null
+
+2018-11-15 16:47:57 - [TEST_STEP][PASSED] - Statement - loc = webElement.getLocation(): null
+
+2018-11-15 16:47:57 - [TEST_STEP][PASSED] - Statement - If (loc.getX() == 0 || loc.getY() == 0): null
+
+2018-11-15 16:47:57 - [TEST_STEP][PASSED] - Statement - <not implemented yet for class: org.codehaus.groovy.ast.stmt.ContinueStatement>: null
+
+2018-11-15 16:47:57 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.name("departure")).click(): null
+
+2018-11-15 16:47:57 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-15 16:47:58 - [TEST_STEP][PASSED] - Statement - elements = driver.findElements(org.openqa.selenium.By.className("day")): null
+
+2018-11-15 16:47:59 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement webElement : elements): null
+
+2018-11-15 16:47:59 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:47:59 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:47:59 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:47:59 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:47:59 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:47:59 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:47:59 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:47:59 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:47:59 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:47:59 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:47:59 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:47:59 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:47:59 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:47:59 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:00 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:01 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:02 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:03 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:04 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:05 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:06 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:06 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:06 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:06 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:06 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:06 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("18")): null
+
+2018-11-15 16:48:06 - [TEST_STEP][PASSED] - Statement - webElement.click(): null
+
+2018-11-15 16:48:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-15 16:48:07 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-11-15 16:48:07 - [TEST_STEP][PASSED] - Statement - elements = driver.findElements(org.openqa.selenium.By.className("pfb0")): null
+
+2018-11-15 16:48:07 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement webElement : elements): null
+
+2018-11-15 16:48:07 - [TEST_STEP][PASSED] - Statement - out.println(webElement.getText()): null
+
+2018-11-15 16:48:07 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("SEARCH")): null
+
+2018-11-15 16:48:07 - [TEST_STEP][PASSED] - Statement - out.println(webElement.getText()): null
+
+2018-11-15 16:48:07 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("SEARCH")): null
+
+2018-11-15 16:48:07 - [TEST_STEP][PASSED] - Statement - out.println(webElement.getText()): null
+
+2018-11-15 16:48:07 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("SEARCH")): null
+
+2018-11-15 16:48:07 - [TEST_STEP][PASSED] - Statement - out.println(webElement.getText()): null
+
+2018-11-15 16:48:07 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("SEARCH")): null
+
+2018-11-15 16:48:07 - [TEST_STEP][PASSED] - Statement - webElement.click(): null
+
+2018-11-15 16:48:09 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < 1000, (i++)]): null
+
+2018-11-15 16:48:09 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-15 16:48:09 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.id("bookbtn")).isDisplayed(): null
+
+2018-11-15 16:48:09 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-15 16:48:10 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-11-15 16:48:10 - [TEST_STEP][PASSED] - Statement - driver.findElements(org.openqa.selenium.By.id("bookbtn")).get(0).click(): null
+
+2018-11-15 16:48:11 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < 1000, (i++)]): null
+
+2018-11-15 16:48:11 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-15 16:48:11 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.name("firstname")).isDisplayed(): null
+
+2018-11-15 16:48:11 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-15 16:48:12 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-11-15 16:48:12 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.name("firstname")).sendKeys("Firstname"): null
+
+2018-11-15 16:48:12 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.name("lastname")).sendKeys("LastName"): null
+
+2018-11-15 16:48:12 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.name("email")).sendKeys("dummyemail@email.com"): null
+
+2018-11-15 16:48:12 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.name("confirmemail")).sendKeys("dummyemail@email.com"): null
+
+2018-11-15 16:48:12 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.name("phone")).sendKeys("9874563201"): null
+
+2018-11-15 16:48:13 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.name("address")).sendKeys("Dummy Address"): null
+
+2018-11-15 16:48:13 - [TEST_STEP][PASSED] - Statement - elements = driver.findElements(org.openqa.selenium.By.className("btn-success")): null
+
+2018-11-15 16:48:13 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement webElement : elements): null
+
+2018-11-15 16:48:13 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("CONFIRM THIS BOOKING")): null
+
+2018-11-15 16:48:13 - [TEST_STEP][PASSED] - Statement - webElement.click(): null
+
+2018-11-15 16:48:13 - [TEST_STEP][PASSED] - Statement - If (webElement.getText().equals("CONFIRM THIS BOOKING")): null
+
+2018-11-15 16:48:13 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < 1000, (i++)]): null
+
+2018-11-15 16:48:13 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-15 16:48:13 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.className("arrivalpay")).isDisplayed(): null
+
+2018-11-15 16:48:13 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-15 16:48:13 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-15 16:48:14 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-15 16:48:14 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.className("arrivalpay")).isDisplayed(): null
+
+2018-11-15 16:48:14 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-15 16:48:14 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-15 16:48:15 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-15 16:48:15 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.className("arrivalpay")).isDisplayed(): null
+
+2018-11-15 16:48:15 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-15 16:48:15 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-15 16:48:16 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-15 16:48:16 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.className("arrivalpay")).isDisplayed(): null
+
+2018-11-15 16:48:16 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-15 16:48:16 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-15 16:48:17 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-15 16:48:17 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.className("arrivalpay")).isDisplayed(): null
+
+2018-11-15 16:48:17 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-15 16:48:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-15 16:48:18 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-15 16:48:18 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.className("arrivalpay")).isDisplayed(): null
+
+2018-11-15 16:48:18 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-15 16:48:18 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-15 16:48:19 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-15 16:48:19 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.className("arrivalpay")).isDisplayed(): null
+
+2018-11-15 16:48:19 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-15 16:48:20 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-11-15 16:48:20 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.className("arrivalpay")).click(): null
+
+2018-11-15 16:48:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-15 16:48:21 - [TEST_STEP][PASSED] - Statement - driver.switchTo().alert().accept(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-15 16:47:07 - [TEST_SUITE][PASSED] - TestSuite 1: Test Cases/Mohit/DemoSite/phpTravels]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
