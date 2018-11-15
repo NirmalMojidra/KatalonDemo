@@ -5,9 +5,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 def imgDir = RunConfiguration.getProjectDir() + '/img/'
 
-WebUI.openBrowser('')
+Thread.sleep(2000)
+WebUI.openBrowser("https://html5demos.com/drag/")
 
-WebUI.navigateToUrl('https://html5demos.com/drag/')
+//WebUI.navigateToUrl('https://html5demos.com/drag/')
 
 WebUI.maximizeWindow()
 
