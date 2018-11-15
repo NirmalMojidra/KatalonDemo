@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2018-11-15 14:24:10,2018-11-15 14:24:14,3.810s,FAILED
+,,,,,,
+Test Cases/Mohit/Drag_Drop,,,2018-11-15 14:24:10,2018-11-15 14:24:14,3.472s,FAILED
+"Statement - imgDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + ""/img/""",,,2018-11-15 14:24:10,2018-11-15 14:24:10,0.002s,PASSED
+Statement - java.lang.Thread.sleep(2000),,,2018-11-15 14:24:11,2018-11-15 14:24:13,2.007s,PASSED
+openBrowser,,,2018-11-15 14:24:13,2018-11-15 14:24:14,1.144s,FAILED

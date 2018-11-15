@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="30" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="30" timestamp="2018-11-15 15:02:12" hostname="bhanawat_m - Digambar-SK.India.XoriantCorp.com" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\bhanawat_m\\git\\KatalonDemo\\Reports\\New Test Suite\\20181115_150206"/>
+         <property name="logFiles" value="C:\\Users\\bhanawat_m\\git\\KatalonDemo\\Reports\\New Test Suite\\20181115_150206\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bhanawat_m - Digambar-SK.India.XoriantCorp.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="638093e493cc66bc6e99ac17c399e3e9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Mohit/Drag_Drop" classname="Test Cases/Mohit/Drag_Drop" status="PASSED">
+         <system-out><![CDATA[2018-11-15 15:02:13 - [TEST_CASE][PASSED] - Test Cases/Mohit/Drag_Drop: Test Cases/Mohit/Drag_Drop
+
+2018-11-15 15:02:13 - [TEST_STEP][PASSED] - Statement - imgDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + "/img/": null
+
+2018-11-15 15:02:13 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-15 15:02:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://html5demos.com/drag/'
+
+2018-11-15 15:02:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://html5demos.com/drag/'
+
+2018-11-15 15:02:26 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-15 15:02:27 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-15 15:02:27 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-15 15:02:29 - [TEST_STEP][PASSED] - Statement - screen = new org.sikuli.script.Screen(): null
+
+2018-11-15 15:02:33 - [TEST_STEP][PASSED] - Statement - one = new org.sikuli.script.Pattern((imgDir + one.png)): null
+
+2018-11-15 15:02:37 - [TEST_STEP][PASSED] - Statement - drop = new org.sikuli.script.Pattern((imgDir + drop.png)): null
+
+2018-11-15 15:02:37 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-15 15:02:39 - [TEST_STEP][PASSED] - Statement - screen.dragDrop(one, drop): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-15 15:02:12 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Mohit/Drag_Drop]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
