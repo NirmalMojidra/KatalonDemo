@@ -17,7 +17,7 @@ import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 
 import internal.GlobalVariable
@@ -25,8 +25,8 @@ import internal.GlobalVariable
 public class TakeScreenshot {
 	@Keyword
 	public void takeScreenshotOfWebPage(String fileName){
-
-		String path=System.getProperty("user.dir") + "\\Include\\Snapshots"+ "\\"+fileName+".PNG"
+		
+		String path=System.getProperty("user.dir") + "\\Snapshots"+ "\\"+fileName+".PNG"
 		WebUI.takeScreenshot(path)
 	}
 }
