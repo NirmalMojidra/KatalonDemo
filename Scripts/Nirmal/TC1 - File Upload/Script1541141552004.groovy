@@ -26,13 +26,11 @@ WebUI.click(findTestObject('Object Repository/Page_File Upload Demo/input_New To
 autoit()
 
 // Clicking On Submit Button
-WebUI.click(findTestObject('Object Repository/Page_File Upload Demo/button_Submit File'))
+WebUI.click(findTestObject('Object Repository/Page_File Upload Demo/button_Submit File')) // Auto it Script
 
-// Auto it Script
-def autoit()
-{
-	Runtime RT = Runtime.getRuntime()
-	Process P =  RT.exec('C:\\Users\\mojidra_n\\git\\KatalonDemo\\FileUploadAutoit\\fileupload.exe')
+def autoit() {
+    Runtime RT = Runtime.getRuntime()
+
+    Process P = RT.exec('C:\\Users\\mojidra_n\\git\\KatalonDemo\\FileUploadAutoit\\fileupload.exe')
 }
- 
 
