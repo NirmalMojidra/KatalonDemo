@@ -31,7 +31,6 @@ for (WebElement webElement : elements) {
 
     if (Title.equals('Flights')) {
         webElement.click()
-
         break
     }
 }
@@ -66,9 +65,9 @@ for (WebElement webElement : elements) {
     
     action.moveToElement(webElement).click().perform()
 
-    Thread.sleep(2000)
+    Thread.sleep(500)
 
-    action.moveByOffset(loc.getX(), loc.getY()).sendKeys('pun').perform()
+    action.moveByOffset(loc.getX(), loc.getY()).sendKeys(City_To_From).perform()
 
     Thread.sleep(2000)
 
@@ -82,10 +81,10 @@ Thread.sleep(1000)
 elements = driver.findElements(By.className('day'))
 
 for (WebElement webElement : elements) {
-    if (webElement.getText().equals('18')) {
+    if (webElement.getText().equals(Travel_Date)) {
         webElement.click()
 
-        Thread.sleep(1000)
+        Thread.sleep(500)
 
         break
     }
@@ -105,7 +104,7 @@ for (int i = 0; i < 1000; i++) {
     try {
         driver.findElement(By.id('bookbtn')).isDisplayed()
 
-        Thread.sleep(1000)
+        Thread.sleep(500)
 
         break
     }
@@ -120,7 +119,7 @@ for (int i = 0; i < 1000; i++) {
     try {
         driver.findElement(By.name('firstname')).isDisplayed()
 
-        Thread.sleep(1000)
+        Thread.sleep(500)
 
         break
     }
@@ -153,7 +152,7 @@ for (int i = 0; i < 1000; i++) {
     try {
         driver.findElement(By.className('arrivalpay')).isDisplayed()
 
-        Thread.sleep(1000)
+        Thread.sleep(500)
 
         break
     }

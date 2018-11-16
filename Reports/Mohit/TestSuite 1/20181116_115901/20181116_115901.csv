@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite 1,Chrome 70.0.3538.102,,2018-11-16 11:59:07,2018-11-16 11:59:42,35.281s,PASSED
+,,,,,,
+Test Cases/Mohit/DemoSite/phpTravels,Chrome 70.0.3538.102,,2018-11-16 11:59:07,2018-11-16 11:59:41,34.264s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-16 11:59:07,2018-11-16 11:59:15,7.540s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-16 11:59:15,2018-11-16 11:59:16,1.174s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 70.0.3538.102,,2018-11-16 11:59:16,2018-11-16 11:59:16,0.012s,PASSED
+"Statement - For ([i = 0, i < 1000, (i++)])",Chrome 70.0.3538.102,,2018-11-16 11:59:16,2018-11-16 11:59:17,1.111s,PASSED
+"Statement - elements = driver.findElements(org.openqa.selenium.By.className(""text-center""))",Chrome 70.0.3538.102,,2018-11-16 11:59:17,2018-11-16 11:59:17,0.053s,PASSED
+Statement - For (org.openqa.selenium.WebElement webElement : elements),Chrome 70.0.3538.102,,2018-11-16 11:59:17,2018-11-16 11:59:17,0.218s,PASSED
+"Statement - For ([i = 0, i < 1000, (i++)])",Chrome 70.0.3538.102,,2018-11-16 11:59:17,2018-11-16 11:59:18,1.055s,PASSED
+Statement - action = new org.openqa.selenium.interactions.Actions(driver),Chrome 70.0.3538.102,,2018-11-16 11:59:18,2018-11-16 11:59:18,0.016s,PASSED
+"Statement - elements = driver.findElements(org.openqa.selenium.By.className(""select2-chosen""))",Chrome 70.0.3538.102,,2018-11-16 11:59:18,2018-11-16 11:59:19,0.035s,PASSED
+Statement - For (org.openqa.selenium.WebElement webElement : elements),Chrome 70.0.3538.102,,2018-11-16 11:59:19,2018-11-16 11:59:24,5.638s,PASSED
+"Statement - driver.findElement(org.openqa.selenium.By.name(""departure"")).click()",Chrome 70.0.3538.102,,2018-11-16 11:59:24,2018-11-16 11:59:24,0.108s,PASSED
+Statement - java.lang.Thread.sleep(1000),Chrome 70.0.3538.102,,2018-11-16 11:59:24,2018-11-16 11:59:25,1.002s,PASSED
+"Statement - elements = driver.findElements(org.openqa.selenium.By.className(""day""))",Chrome 70.0.3538.102,,2018-11-16 11:59:25,2018-11-16 11:59:25,0.063s,PASSED
+Statement - For (org.openqa.selenium.WebElement webElement : elements),Chrome 70.0.3538.102,,2018-11-16 11:59:25,2018-11-16 11:59:30,5.032s,PASSED
+"Statement - elements = driver.findElements(org.openqa.selenium.By.className(""pfb0""))",Chrome 70.0.3538.102,,2018-11-16 11:59:30,2018-11-16 11:59:30,0.017s,PASSED
+Statement - For (org.openqa.selenium.WebElement webElement : elements),Chrome 70.0.3538.102,,2018-11-16 11:59:30,2018-11-16 11:59:32,1.952s,PASSED
+"Statement - For ([i = 0, i < 1000, (i++)])",Chrome 70.0.3538.102,,2018-11-16 11:59:32,2018-11-16 11:59:33,0.543s,PASSED
+"Statement - driver.findElements(org.openqa.selenium.By.id(""bookbtn"")).get(0).click()",Chrome 70.0.3538.102,,2018-11-16 11:59:33,2018-11-16 11:59:34,0.858s,PASSED
+"Statement - For ([i = 0, i < 1000, (i++)])",Chrome 70.0.3538.102,,2018-11-16 11:59:34,2018-11-16 11:59:34,0.540s,PASSED
+"Statement - driver.findElement(org.openqa.selenium.By.name(""firstname"")).sendKeys(""Firstname"")",Chrome 70.0.3538.102,,2018-11-16 11:59:34,2018-11-16 11:59:34,0.097s,PASSED
+"Statement - driver.findElement(org.openqa.selenium.By.name(""lastname"")).sendKeys(""LastName"")",Chrome 70.0.3538.102,,2018-11-16 11:59:34,2018-11-16 11:59:34,0.091s,PASSED
+"Statement - driver.findElement(org.openqa.selenium.By.name(""email"")).sendKeys(""dummyemail@email.com"")",Chrome 70.0.3538.102,,2018-11-16 11:59:34,2018-11-16 11:59:35,0.140s,PASSED
+"Statement - driver.findElement(org.openqa.selenium.By.name(""confirmemail"")).sendKeys(""dummyemail@email.com"")",Chrome 70.0.3538.102,,2018-11-16 11:59:35,2018-11-16 11:59:35,0.131s,PASSED
+"Statement - driver.findElement(org.openqa.selenium.By.name(""phone"")).sendKeys(""9874563201"")",Chrome 70.0.3538.102,,2018-11-16 11:59:35,2018-11-16 11:59:35,0.092s,PASSED
+"Statement - driver.findElement(org.openqa.selenium.By.name(""address"")).sendKeys(""Dummy Address"")",Chrome 70.0.3538.102,,2018-11-16 11:59:35,2018-11-16 11:59:35,0.109s,PASSED
+"Statement - elements = driver.findElements(org.openqa.selenium.By.className(""btn-success""))",Chrome 70.0.3538.102,,2018-11-16 11:59:35,2018-11-16 11:59:35,0.015s,PASSED
+Statement - For (org.openqa.selenium.WebElement webElement : elements),Chrome 70.0.3538.102,,2018-11-16 11:59:35,2018-11-16 11:59:35,0.117s,PASSED
+"Statement - For ([i = 0, i < 1000, (i++)])",Chrome 70.0.3538.102,,2018-11-16 11:59:35,2018-11-16 11:59:40,4.979s,PASSED
+"Statement - driver.findElement(org.openqa.selenium.By.className(""arrivalpay"")).click()",Chrome 70.0.3538.102,,2018-11-16 11:59:40,2018-11-16 11:59:40,0.099s,PASSED
+Statement - java.lang.Thread.sleep(1000),Chrome 70.0.3538.102,,2018-11-16 11:59:40,2018-11-16 11:59:41,1.001s,PASSED
+Statement - driver.switchTo().alert().accept(),Chrome 70.0.3538.102,,2018-11-16 11:59:41,2018-11-16 11:59:41,0.047s,PASSED
