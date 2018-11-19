@@ -19,7 +19,6 @@ import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 
 
-
 // Registration Module :
 WebUI.openBrowser('')
 
