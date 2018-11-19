@@ -10,11 +10,17 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
 
-// Registration
+
+
+// Registration Module :
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://demowebshop.tricentis.com/')
@@ -41,25 +47,115 @@ WebUI.click(findTestObject('Object Repository/End To End Senario/Page_Demo Web S
 
 WebUI.click(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Your registration comple'))
 
+WebUI.delay(5)
 
-// Selecting A Product From Product Category and Click:
-
+// Selecting A Product From Product Category and Click :
 WebUI.mouseOver(findTestObject('Object Repository/Page_Demo Web Shop/a_Computers'))
 
 WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop/a_Desktops'))
 
-//Adding Product to The Cart
+WebUI.delay(5)
 
+// Adding Product to The Cart :
 WebUI.click(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Desktops/input_Build it_button-2 produc'))
 
 WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop. Build your own/input_Qty_add-to-cart-button-7'))
 
-// Navigating to Cart
+WebUI.delay(5)
 
+// Navigating to Cart :
 WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop. Build your own/span_Shopping cart'))
 
+WebUI.selectOptionByLabel(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/select_Select countryUnited St'),'India', false)
+
+WebUI.sendKeys(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_ZipPost'),'411037')
+
+WebUI.click(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_estimat'))
+
+WebUI.click(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms o'))
+
+WebUI.click(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/button_Checkout'))
+
+WebUI.delay(5)
+
+// CheckOut Page :
+
+// Billing Address :
+
+WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Company_BillingNewAddres'),'Electronica')
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/select_Select countryUnited St'), 'India', false)
+
+WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_City_BillingNewAddress.C'), 'Bombay')
+
+WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 1_BillingNewAddr'), 'RockStar Road RockStar Soc')
+
+WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 2_BillingNewAddr'), 'Flat no 1001')
+
+WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Zip  postal code_Billing'), '411033')
+
+WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Phone number_BillingNewA'), '9922445566')
+
+WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Fax number_BillingNewAdd'), '+44 161 999 8888')
+
+WebUI.click(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 new-address-ne'))
+
+// Shipping Address : 
+
+WebUI.delay(5)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 Custom'), 10)
+
+WebDriver driver =  DriverFactory.getWebDriver()
+
+WebElement elem = driver.findElement(By.xpath("(//input[@type = 'button' and @class = 'button-1 new-address-next-step-button' and @title = 'Continue' and @value = 'Continue'])[2]"))
+
+WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(elem))
+
+// input[@type = 'button' and @class = 'button-1 new-address-next-step-button' and @title = 'Continue' and @value = 'Continue' and @onclick= 'Shipping.save()']
+
+// (//input[@type = 'button' and @class = 'button-1 new-address-next-step-button' and @title = 'Continue' and @value = 'Continue'])[2]
+
+//WebUI.click(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 Custom'))
+
+// Shipping Method :
+WebUI.verifyElementPresent(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Ground (0.00)_shippingop'), 10)
+
+WebUI.click(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Ground (0.00)_shippingop'))
+
+WebUI.click(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 shipping-metho'))
+
+// Payment Method Selecting Credit Card :
+WebUI.click(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Check  Money Order (5.00'))
+
+WebUI.click(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 payment-method'))
+
+WebUI.delay(5)
+
+// Payment Info :
 
 
+WebUI.selectOptionByValue(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/select_VisaMaster cardDiscover'), 'MasterCard', false)
 
+WebUI.sendKeys(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Cardholder name_Cardhold'),'John Doe')
 
+WebUI.sendKeys(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Card number_CardNumber'), '378282246310005')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/select_01020304050607080910111'),'3' ,false)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/select_20182019202020212022202'),'2020',false)
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/input_Card code_CardCode'),'111')
+
+WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-n'))
+
+WebUI.delay(5)
+
+// Confirm Order 
+
+WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-'))
+
+// Thank You Page
+
+WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/input_Click here for order det'))
 
