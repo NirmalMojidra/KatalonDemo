@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EndtoEndDemo" time="64" tests="1" failures="0" errors="0">
+   <testsuite name="EndtoEndDemo" tests="1" failures="0" errors="0" time="64" timestamp="2018-11-20 11:25:53" hostname="mojidra_n - Nirmal-M.India.XoriantCorp.com" id="Test Suites/Nirmal/EndtoEndDemo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Demo\\KatalonDemo\\Reports\\Nirmal\\EndtoEndDemo\\20181120_112552"/>
+         <property name="logFiles" value="D:\\Demo\\KatalonDemo\\Reports\\Nirmal\\EndtoEndDemo\\20181120_112552\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mojidra_n - Nirmal-M.India.XoriantCorp.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.20.4.197"/>
+         <property name="sessionId" value="8f8d470bfbf0d44a4c0afeafd4a3689d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Nirmal/TC5 - End To End Scenario" classname="Test Cases/Nirmal/TC5 - End To End Scenario" status="PASSED">
+         <system-out><![CDATA[2018-11-20 11:25:53 - [TEST_CASE][PASSED] - Test Cases/Nirmal/TC5 - End To End Scenario: Test Cases/Nirmal/TC5 - End To End Scenario
+
+2018-11-20 11:25:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-20 11:25:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-20 11:25:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demowebshop.tricentis.com/' successfully
+
+2018-11-20 11:25:59 - [MESSAGE][PASSED] - Navigate to 'http://demowebshop.tricentis.com/' successfully
+
+2018-11-20 11:25:59 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-20 11:26:00 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-20 11:26:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-20 11:26:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-20 11:26:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/End To End Senario/Page_Demo Web Shop/a_Register' is clicked on
+
+2018-11-20 11:26:05 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop/a_Register' is clicked on
+
+2018-11-20 11:26:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Gender_Gender' is clicked on
+
+2018-11-20 11:26:05 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Gender_Gender' is clicked on
+
+2018-11-20 11:26:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'Test123' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_First name_FirstName'
+
+2018-11-20 11:26:05 - [MESSAGE][PASSED] - Keys 'Test123' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_First name_FirstName'
+
+2018-11-20 11:26:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'katalon' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Last name_LastName'
+
+2018-11-20 11:26:06 - [MESSAGE][PASSED] - Keys 'katalon' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Last name_LastName'
+
+2018-11-20 11:26:06 - [TEST_STEP][PASSED] - sendKeys: Keys 'kataloon0111@yopmail.com' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Email_Email'
+
+2018-11-20 11:26:06 - [MESSAGE][PASSED] - Keys 'kataloon0111@yopmail.com' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Email_Email'
+
+2018-11-20 11:26:06 - [TEST_STEP][PASSED] - sendKeys: Keys 'password@123' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Password_Password'
+
+2018-11-20 11:26:06 - [MESSAGE][PASSED] - Keys 'password@123' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Password_Password'
+
+2018-11-20 11:26:06 - [TEST_STEP][PASSED] - sendKeys: Keys 'password@123' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Confirm password_Confirm'
+
+2018-11-20 11:26:06 - [MESSAGE][PASSED] - Keys 'password@123' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Confirm password_Confirm'
+
+2018-11-20 11:26:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input__register-button' is clicked on
+
+2018-11-20 11:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input__register-button' is clicked on
+
+2018-11-20 11:26:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Your registration comple' is clicked on
+
+2018-11-20 11:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Your registration comple' is clicked on
+
+2018-11-20 11:26:07 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-20 11:26:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-20 11:26:12 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_Demo Web Shop/a_Computers' is hovered
+
+2018-11-20 11:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Computers' is hovered
+
+2018-11-20 11:26:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Demo Web Shop/a_Desktops' is clicked on
+
+2018-11-20 11:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Desktops' is clicked on
+
+2018-11-20 11:26:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-20 11:26:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-20 11:26:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Desktops/input_Build it_button-2 produc' is clicked on
+
+2018-11-20 11:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Desktops/input_Build it_button-2 produc' is clicked on
+
+2018-11-20 11:26:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Demo Web Shop. Build your own/input_Qty_add-to-cart-button-7' is clicked on
+
+2018-11-20 11:26:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Build your own/input_Qty_add-to-cart-button-7' is clicked on
+
+2018-11-20 11:26:23 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-20 11:26:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-20 11:26:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Demo Web Shop. Build your own/span_Shopping cart' is clicked on
+
+2018-11-20 11:26:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Build your own/span_Shopping cart' is clicked on
+
+2018-11-20 11:26:29 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'India' are selected in object 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/select_Select countryUnited St' 
+
+2018-11-20 11:26:29 - [MESSAGE][PASSED] - All options with label 'India' are selected in object 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/select_Select countryUnited St' 
+
+2018-11-20 11:26:29 - [TEST_STEP][PASSED] - sendKeys: Keys '411037' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_ZipPost'
+
+2018-11-20 11:26:29 - [MESSAGE][PASSED] - Keys '411037' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_ZipPost'
+
+2018-11-20 11:26:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_estimat' is clicked on
+
+2018-11-20 11:26:30 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_estimat' is clicked on
+
+2018-11-20 11:26:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms o' is clicked on
+
+2018-11-20 11:26:30 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms o' is clicked on
+
+2018-11-20 11:26:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/button_Checkout' is clicked on
+
+2018-11-20 11:26:31 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/button_Checkout' is clicked on
+
+2018-11-20 11:26:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-20 11:26:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-20 11:26:36 - [TEST_STEP][PASSED] - setText: Text 'Electronica' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Company_BillingNewAddres'
+
+2018-11-20 11:26:36 - [MESSAGE][PASSED] - Text 'Electronica' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Company_BillingNewAddres'
+
+2018-11-20 11:26:36 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'India' are selected in object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/select_Select countryUnited St' 
+
+2018-11-20 11:26:36 - [MESSAGE][PASSED] - All options with label 'India' are selected in object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/select_Select countryUnited St' 
+
+2018-11-20 11:26:36 - [TEST_STEP][PASSED] - setText: Text 'Bombay' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_City_BillingNewAddress.C'
+
+2018-11-20 11:26:37 - [MESSAGE][PASSED] - Text 'Bombay' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_City_BillingNewAddress.C'
+
+2018-11-20 11:26:37 - [TEST_STEP][PASSED] - setText: Text 'RockStar Road RockStar Soc' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 1_BillingNewAddr'
+
+2018-11-20 11:26:37 - [MESSAGE][PASSED] - Text 'RockStar Road RockStar Soc' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 1_BillingNewAddr'
+
+2018-11-20 11:26:37 - [TEST_STEP][PASSED] - setText: Text 'Flat no 1001' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 2_BillingNewAddr'
+
+2018-11-20 11:26:37 - [MESSAGE][PASSED] - Text 'Flat no 1001' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 2_BillingNewAddr'
+
+2018-11-20 11:26:37 - [TEST_STEP][PASSED] - setText: Text '411033' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Zip  postal code_Billing'
+
+2018-11-20 11:26:37 - [MESSAGE][PASSED] - Text '411033' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Zip  postal code_Billing'
+
+2018-11-20 11:26:37 - [TEST_STEP][PASSED] - setText: Text '9922445566' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Phone number_BillingNewA'
+
+2018-11-20 11:26:37 - [MESSAGE][PASSED] - Text '9922445566' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Phone number_BillingNewA'
+
+2018-11-20 11:26:37 - [TEST_STEP][PASSED] - setText: Text '+44 161 999 8888' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Fax number_BillingNewAdd'
+
+2018-11-20 11:26:37 - [MESSAGE][PASSED] - Text '+44 161 999 8888' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Fax number_BillingNewAdd'
+
+2018-11-20 11:26:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 new-address-ne' is clicked on
+
+2018-11-20 11:26:37 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 new-address-ne' is clicked on
+
+2018-11-20 11:26:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-20 11:26:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-20 11:26:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 Custom' is present
+
+2018-11-20 11:26:42 - [MESSAGE][PASSED] - Object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 Custom' is present
+
+2018-11-20 11:26:42 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-11-20 11:26:42 - [TEST_STEP][PASSED] - Statement - elem = driver.findElement(org.openqa.selenium.By.xpath("(//input[@type = 'button' and @class = 'button-1 new-address-next-step-button' and @title = 'Continue' and @value = 'Continue'])[2]")): null
+
+2018-11-20 11:26:43 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'arguments[0].click()' successfully
+
+2018-11-20 11:26:43 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2018-11-20 11:26:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Ground (0.00)_shippingop' is present
+
+2018-11-20 11:26:43 - [MESSAGE][PASSED] - Object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Ground (0.00)_shippingop' is present
+
+2018-11-20 11:26:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Ground (0.00)_shippingop' is clicked on
+
+2018-11-20 11:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Ground (0.00)_shippingop' is clicked on
+
+2018-11-20 11:26:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 shipping-metho' is clicked on
+
+2018-11-20 11:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 shipping-metho' is clicked on
+
+2018-11-20 11:26:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Check  Money Order (5.00' is clicked on
+
+2018-11-20 11:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Check  Money Order (5.00' is clicked on
+
+2018-11-20 11:26:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 payment-method' is clicked on
+
+2018-11-20 11:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 payment-method' is clicked on
+
+2018-11-20 11:26:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-20 11:26:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-20 11:26:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'MasterCard' are selected in object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/select_VisaMaster cardDiscover' 
+
+2018-11-20 11:26:49 - [MESSAGE][PASSED] - All options with value 'MasterCard' are selected in object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/select_VisaMaster cardDiscover' 
+
+2018-11-20 11:26:49 - [TEST_STEP][PASSED] - sendKeys: Keys 'John Doe' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Cardholder name_Cardhold'
+
+2018-11-20 11:26:49 - [MESSAGE][PASSED] - Keys 'John Doe' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Cardholder name_Cardhold'
+
+2018-11-20 11:26:49 - [TEST_STEP][PASSED] - sendKeys: Keys '378282246310005' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Card number_CardNumber'
+
+2018-11-20 11:26:49 - [MESSAGE][PASSED] - Keys '378282246310005' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Card number_CardNumber'
+
+2018-11-20 11:26:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/Page_Demo Web Shop. Checkout/select_01020304050607080910111' 
+
+2018-11-20 11:26:50 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Page_Demo Web Shop. Checkout/select_01020304050607080910111' 
+
+2018-11-20 11:26:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2020' are selected in object 'Object Repository/Page_Demo Web Shop. Checkout/select_20182019202020212022202' 
+
+2018-11-20 11:26:50 - [MESSAGE][PASSED] - All options with value '2020' are selected in object 'Object Repository/Page_Demo Web Shop. Checkout/select_20182019202020212022202' 
+
+2018-11-20 11:26:50 - [TEST_STEP][PASSED] - sendKeys: Keys '111' sent to object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Card code_CardCode'
+
+2018-11-20 11:26:50 - [MESSAGE][PASSED] - Keys '111' sent to object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Card code_CardCode'
+
+2018-11-20 11:26:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-n' is clicked on
+
+2018-11-20 11:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-n' is clicked on
+
+2018-11-20 11:26:50 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-20 11:26:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-20 11:26:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-' is clicked on
+
+2018-11-20 11:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-' is clicked on
+
+2018-11-20 11:26:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Click here for order det' is clicked on
+
+2018-11-20 11:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Click here for order det' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-20 11:25:53 - [TEST_SUITE][PASSED] - EndtoEndDemo: Test Cases/Nirmal/TC5 - End To End Scenario]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
