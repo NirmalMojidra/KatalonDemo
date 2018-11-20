@@ -32,9 +32,9 @@ WebUI.click(findTestObject('Object Repository/End To End Senario/Page_Demo Web S
 
 WebUI.click(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Gender_Gender'))
 
-WebUI.sendKeys(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_First name_FirstName'), 'test123')
+WebUI.sendKeys(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_First name_FirstName'), First_name)
 
-WebUI.sendKeys(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Last name_LastName'), 'katalon')
+WebUI.sendKeys(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Last name_LastName'), Last_name)
 
 WebUI.sendKeys(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Email_Email'),GlobalVariable.Email)
 
@@ -67,7 +67,7 @@ WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop. Build your own
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/select_Select countryUnited St'),'India', false)
 
-WebUI.sendKeys(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_ZipPost'),'411037')
+WebUI.sendKeys(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_ZipPost'),Zip_postal_code)
 
 WebUI.click(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_estimat'))
 
@@ -81,21 +81,21 @@ WebUI.delay(5)
 
 // Billing Address :
 
-WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Company_BillingNewAddres'),'Electronica')
+WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Company_BillingNewAddres'), Company)
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/select_Select countryUnited St'), 'India', false)
 
-WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_City_BillingNewAddress.C'), 'Bombay')
+WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_City_BillingNewAddress.C'), City)
 
-WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 1_BillingNewAddr'), 'RockStar Road RockStar Soc')
+WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 1_BillingNewAddr'), Address_1)
 
-WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 2_BillingNewAddr'), 'Flat no 1001')
+WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 2_BillingNewAddr'), Address_2)
 
-WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Zip  postal code_Billing'), '411033')
+WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Zip  postal code_Billing'), Zip_postal_code_1)
 
-WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Phone number_BillingNewA'), '9922445566')
+WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Phone number_BillingNewA'), Phone_number)
 
-WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Fax number_BillingNewAdd'), '+44 161 999 8888')
+WebUI.setText(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Fax number_BillingNewAdd'), Fax_number)
 
 WebUI.click(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 new-address-ne'))
 
@@ -136,15 +136,15 @@ WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/select_VisaMaster cardDiscover'), 'MasterCard', false)
 
-WebUI.sendKeys(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Cardholder name_Cardhold'),'John Doe')
+WebUI.sendKeys(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Cardholder name_Cardhold'),Cardholder_name)
 
-WebUI.sendKeys(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Card number_CardNumber'), '378282246310005')
+WebUI.sendKeys(findTestObject('Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Card number_CardNumber'), Card_number)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/select_01020304050607080910111'),'3' ,false)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/select_20182019202020212022202'),'2020',false)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/input_Card code_CardCode'),'111')
+WebUI.sendKeys(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/input_Card code_CardCode'), Card_code)
 
 WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-n'))
 
