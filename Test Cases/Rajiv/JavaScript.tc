@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is the sample JavaScript Project.</description>
+   <name>JavaScript</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>625cde0f-f910-4ae8-a120-a14358fe877b</testCaseGuid>
+   <variable>
+      <defaultValue>'Admin12'</defaultValue>
+      <description></description>
+      <id>1773148e-6f4f-4c8b-b33c-22a2f51f631f</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin12'</defaultValue>
+      <description></description>
+      <id>4adc6f87-e010-4448-89f1-7efa4f3ab7d8</id>
+      <masked>false</masked>
+      <name>variable_0</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d8f530be-e4fd-431b-ae90-815b8afdad8e</id>
+      <masked>false</masked>
+      <name>variable_1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>32d35183-5b2c-4d74-9983-7ada1fc17e6f</id>
+      <masked>false</masked>
+      <name>variable_2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4e89b1bc-567c-4af1-a23f-397c8611b497</id>
+      <masked>false</masked>
+      <name>variable_3</name>
+   </variable>
+</TestCaseEntity>
