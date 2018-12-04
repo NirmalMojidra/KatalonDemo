@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>phpTravels</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c1ff66c-c720-4f90-981a-66d4ef8e57fc</testCaseGuid>
+   <variable>
+      <defaultValue>'Pun'</defaultValue>
+      <description></description>
+      <id>096cc0ce-0960-4ec1-86a6-ad57e9526c88</id>
+      <masked>false</masked>
+      <name>City_To_From</name>
+   </variable>
+   <variable>
+      <defaultValue>'30'</defaultValue>
+      <description></description>
+      <id>c58b610a-a2f9-4de2-8e2e-bd6dbf284d41</id>
+      <masked>false</masked>
+      <name>Travel_Date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Firstname'</defaultValue>
+      <description></description>
+      <id>be955333-11e8-4d53-9ad9-3ef3fbc62e14</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Lastname'</defaultValue>
+      <description></description>
+      <id>34e7119a-2860-42d6-948f-3523ddbd8bd3</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'demo@demo.com'</defaultValue>
+      <description></description>
+      <id>d1922335-24ce-4aed-94a0-de1b69706017</id>
+      <masked>false</masked>
+      <name>Email_ID</name>
+   </variable>
+   <variable>
+      <defaultValue>'9874563201'</defaultValue>
+      <description></description>
+      <id>65f3704f-92b6-4fbf-ba1d-9c346c8a0c7f</id>
+      <masked>false</masked>
+      <name>Phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dummy Address'</defaultValue>
+      <description></description>
+      <id>72149dc5-98cd-4685-ab3d-af68fbe63a49</id>
+      <masked>false</masked>
+      <name>Address</name>
+   </variable>
+</TestCaseEntity>
