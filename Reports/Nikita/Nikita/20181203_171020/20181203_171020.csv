@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Nikita,Chrome 70.0.3538.110,,2018-12-03 17:10:25,2018-12-03 17:10:36,11.868s,PASSED
+,,,,,,
+Test Cases/Nikita/Orange HRM/Login_Excel_testdata,Chrome 70.0.3538.110,,2018-12-03 17:10:25,2018-12-03 17:10:35,10.312s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-03 17:10:26,2018-12-03 17:10:31,4.497s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 70.0.3538.110,,2018-12-03 17:10:31,2018-12-03 17:10:35,4.080s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Username""))",Chrome 70.0.3538.110,,2018-12-03 17:10:35,2018-12-03 17:10:35,0.212s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), Username)",Chrome 70.0.3538.110,,2018-12-03 17:10:35,2018-12-03 17:10:35,0.211s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), Password)",Chrome 70.0.3538.110,,2018-12-03 17:10:35,2018-12-03 17:10:35,0.178s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 70.0.3538.110,,2018-12-03 17:10:35,2018-12-03 17:10:35,0.193s,PASSED
