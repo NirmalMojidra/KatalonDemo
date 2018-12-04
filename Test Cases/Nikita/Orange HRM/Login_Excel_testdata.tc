@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_Excel_testdata</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>24694d59-4b0a-4a8a-bda3-ead9dbc5bc78</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>be6a24c8-1a61-4df5-b4a7-2012a9ee3d4e</id>
+      <masked>true</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1f8acacc-7460-49e8-9203-a21511ff9efe</id>
+      <masked>true</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Nikita" time="52" tests="1" failures="0" errors="0">
+   <testsuite name="Nikita" tests="1" failures="0" errors="0" time="52" timestamp="2018-11-26 12:44:01" hostname="goswami_n - Nikita-G.India.XoriantCorp.com" id="Test Suites/Nikita/Nikita">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\goswami_n\\git\\KatalonDemo\\Reports\\Nikita\\Nikita\\20181126_124356"/>
+         <property name="logFiles" value="C:\\Users\\goswami_n\\git\\KatalonDemo\\Reports\\Nikita\\Nikita\\20181126_124356\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="goswami_n - Nikita-G.India.XoriantCorp.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.20.3.71"/>
+         <property name="sessionId" value="981ef0beeeae58c7b0025091492f0d87"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Nikita/Orange HRM/Login_Excel_testdata" classname="Test Cases/Nikita/Orange HRM/Login_Excel_testdata" status="PASSED">
+         <system-out><![CDATA[2018-11-26 12:44:02 - [TEST_CASE][PASSED] - Test Cases/Nikita/Orange HRM/Login_Excel_testdata: Test Cases/Nikita/Orange HRM/Login_Excel_testdata
+
+2018-11-26 12:44:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-26 12:44:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 12:44:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-11-26 12:44:50 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-11-26 12:44:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-11-26 12:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-11-26 12:44:52 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2018-11-26 12:44:52 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2018-11-26 12:44:52 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2018-11-26 12:44:52 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2018-11-26 12:44:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2018-11-26 12:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2018-11-26 12:44:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-26 12:44:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-26 12:44:01 - [TEST_SUITE][PASSED] - Nikita: Test Cases/Nikita/Orange HRM/Login_Excel_testdata]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
