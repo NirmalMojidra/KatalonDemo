@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case 2 with more features added in the system</description>
+   <name>Test Case ToolsQA 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f7511d8-3017-4321-954e-dcaab8983600</testCaseGuid>
+</TestCaseEntity>
