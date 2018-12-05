@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Basic Test Case for SGS Automation script</description>
+   <name>Basic Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5e1ae83-b253-42f5-8e93-c9d832d384ba</testCaseGuid>
+</TestCaseEntity>
