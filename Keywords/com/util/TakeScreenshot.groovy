@@ -25,7 +25,7 @@ import internal.GlobalVariable
 public class TakeScreenshot {
 	@Keyword
 	public void takeScreenshotOfWebPage(String fileName){
-		
+
 		String path=System.getProperty("user.dir") + "\\Snapshots"+ "\\"+fileName+".PNG"
 		WebUI.takeScreenshot(path)
 	}
