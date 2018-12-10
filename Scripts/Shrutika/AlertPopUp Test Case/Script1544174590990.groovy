@@ -51,3 +51,5 @@ import internal.GlobalVariable as GlobalVariable
 		
 	WebUI.switchToDefaultContent()
 	WebUI.closeBrowser()
+	
+	
