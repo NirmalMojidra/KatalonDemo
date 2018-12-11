@@ -20,6 +20,7 @@ println("Readinf from excel")
 List<Object> li = CustomKeywords.'shrutika.dnd.ReadAndWrite.readData'("D://Shrutika Stuff//KetalonDemo//TestExcel.xlsx",2,2)
 println (li)
 
+
 println ("printing on excel")
-CustomKeywords.'shrutika.dnd.ReadAndWrite.writeData'("D://Shrutika Stuff//KetalonDemo//TestExcel1.xlsx",li)
+CustomKeywords.'shrutika.dnd.ReadAndWrite.writeData'("D://Shrutika Stuff//KetalonDemo//TestExcel.xlsx",li)
 println ("Reading and writing is done")
