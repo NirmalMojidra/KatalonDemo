@@ -43,7 +43,7 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 
 class JavaScriptExecutor {
-	
+
 	@Keyword
 	def alertGenerator(String value) {
 		WebUI.executeJavaScript("alert('"+value+ "');", null)
@@ -51,24 +51,20 @@ class JavaScriptExecutor {
 	}
 
 	@Keyword
-	def jsType(def ele, def wb )
-	{
+	def jsType(def ele, def wb ) {
 		WebUI.executeJavaScript("arguments[0].style.border='3px solid blue'", Arrays.asList(wb))
 		WebUI.delay(2)
 		WebUI.executeJavaScript("arguments[0].value='"+ele+ "'", Arrays.asList(wb))
-				
 	}
 
 	@Keyword
-	def jsClick(def wb)
-	{
+	def jsClick(def wb) {
 		WebUI.executeJavaScript("arguments[0].style.border='3px solid green'", Arrays.asList(wb))
 		WebUI.delay(2)
 		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(wb))
-		
 	}
 }
-	
-	
-	
-	
+
+
+
+

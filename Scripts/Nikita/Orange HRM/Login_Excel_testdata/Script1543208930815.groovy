@@ -25,13 +25,3 @@ WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_tx
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
 
-
-//if(WebUI.getText(findTestObject('Object Repository/Page_OrangeHRM/Logged_in'))=='Dashboard')
-//println "Test case Passed"
-
-//else
-//println "Test case failed"
-
-
-
-

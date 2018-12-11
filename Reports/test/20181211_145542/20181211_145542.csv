@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,Chrome 70.0.3538.110,,2018-12-11 14:55:46,2018-12-11 14:56:08,22.111s,ERROR
+,,,,,,
+Test Cases/Nikita.A/Basiclogin,Chrome 70.0.3538.110,,2018-12-11 14:55:47,2018-12-11 14:56:00,13.175s,ERROR
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-11 14:55:48,2018-12-11 14:55:53,5.168s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 70.0.3538.110,,2018-12-11 14:55:53,2018-12-11 14:55:56,2.888s,PASSED
+"click(findTestObject(""Object Repository/Basiclogin/span_Username (1)""))",Chrome 70.0.3538.110,,2018-12-11 14:55:56,2018-12-11 14:55:56,0.249s,PASSED
+"setText(findTestObject(""Object Repository/Basiclogin/input_LOGIN Panel_txtUsername (1)""), Username)",Chrome 70.0.3538.110,,2018-12-11 14:55:56,2018-12-11 14:55:56,0.262s,PASSED
+"setText(findTestObject(""Object Repository/Basiclogin/input_Username_txtPassword""), Password)",Chrome 70.0.3538.110,,2018-12-11 14:55:56,2018-12-11 14:55:56,0.190s,PASSED
+"click(findTestObject(""Object Repository/Basiclogin/input_Password_Submit (1)""))",Chrome 70.0.3538.110,,2018-12-11 14:55:56,2018-12-11 14:56:00,3.413s,PASSED
+"nikitas.a.Sample.checkelement(findTestObject(""Object Repository/Basiclogin/img""))",Chrome 70.0.3538.110,,2018-12-11 14:56:00,2018-12-11 14:56:00,0.030s,ERROR
+,,,,,,
+Test Cases/Nikita.A/Basiclogin,Chrome 70.0.3538.110,,2018-12-11 14:56:00,2018-12-11 14:56:08,7.739s,ERROR
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-11 14:56:00,2018-12-11 14:56:03,3.581s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 70.0.3538.110,,2018-12-11 14:56:03,2018-12-11 14:56:06,2.943s,PASSED
+"click(findTestObject(""Object Repository/Basiclogin/span_Username (1)""))",Chrome 70.0.3538.110,,2018-12-11 14:56:06,2018-12-11 14:56:07,0.117s,PASSED
+"setText(findTestObject(""Object Repository/Basiclogin/input_LOGIN Panel_txtUsername (1)""), Username)",Chrome 70.0.3538.110,,2018-12-11 14:56:07,2018-12-11 14:56:07,0.168s,PASSED
+"setText(findTestObject(""Object Repository/Basiclogin/input_Username_txtPassword""), Password)",Chrome 70.0.3538.110,,2018-12-11 14:56:07,2018-12-11 14:56:07,0.144s,PASSED
+"click(findTestObject(""Object Repository/Basiclogin/input_Password_Submit (1)""))",Chrome 70.0.3538.110,,2018-12-11 14:56:07,2018-12-11 14:56:08,0.689s,PASSED
+"nikitas.a.Sample.checkelement(findTestObject(""Object Repository/Basiclogin/img""))",Chrome 70.0.3538.110,,2018-12-11 14:56:08,2018-12-11 14:56:08,0.014s,ERROR

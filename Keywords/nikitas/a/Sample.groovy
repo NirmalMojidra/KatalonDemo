@@ -1,11 +1,9 @@
-package com.util
+package nikitas.a
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import org.apache.commons.io.FileUtils
 
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
@@ -17,16 +15,28 @@ import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
-
 
 import internal.GlobalVariable
 
-public class TakeScreenshot {
+public class Sample {
+	
 	@Keyword
-	public void takeScreenshotOfWebPage(String fileName){
+	public void checkelement( TestObject testObject){
+		try{
 
-		String path=System.getProperty("user.dir") + "\\Snapshots"+ "\\"+fileName+".PNG"
-		WebUI.takeScreenshot(path)
+
+			boolean b = WebUI.verifyElementPresent(testObject, 5)
+			if(b==true)
+				println("Element exists")
+			else
+				println("Element does not exists")
+		}
+		catch(Exception e) {
+			e.printStackTrace()
+		}
+		finally{
+			println("Test case Execution completed")
+		}
 	}
 }
+

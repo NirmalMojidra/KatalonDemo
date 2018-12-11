@@ -21,29 +21,13 @@ WebUI.setText(findTestObject('Shrutika/Page_CURA Healthcare Service/input_Userna
 WebUI.setText(findTestObject('Shrutika/Page_CURA Healthcare Service/input_Password_password'), 'ThisIsNotAPassword')
 WebUI.click(findTestObject('Shrutika/Page_CURA Healthcare Service/button_Login'))
 
-int range = WebUI.getNumberOfTotalOption(findTestObject('Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'))
-
-for(int i: (0..range-1))
-{
-	WebUI.selectOptionByIndex(findTestObject('Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'), i)
-	println(WebUI.getAttribute(findTestObject('Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'), 'value'))
-}
-
-for(int i: (0..2))
-{
-	//if(!WebUI.check(findTestObject('Shrutika/Page_CURA Healthcare Service/input_Medicare_programs')))
-	if(WebUI.check(findTestObject('Shrutika/Page_CURA Healthcare Service/input_Medicare_programs')))
-	{
-		//WebUI.click(findTestObject('Shrutika/Page_CURA Healthcare Service/input_Medicare_programs'))
-		println("Medicare is already checked thus return")
-		return true;	
-	}
-	else{
+try {
 		WebUI.click(findTestObject('Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs'))
 		println("Medicaid is already checked thus cotinue")
-	//	continue;
-	}
-	println("Inside the loop count : "+i)
+		throw new com.kms.katalon.core.exception.KatalonRuntimeException("test error mwssage")
+} catch (Exception e) {
+	e.printStackTrace()
+	this.println("General issue occur")
+} finally{
+	WebUI.closeBrowser();
 }
-
-WebUI.closeBrowser();
