@@ -19,6 +19,7 @@ WebUI.openBrowser(null)
 
 WebUI.maximizeWindow()
 
+
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test')
 
 WebUI.waitForPageLoad(10)
