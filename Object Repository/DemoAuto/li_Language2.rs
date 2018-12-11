@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Language2</name>
+   <tag></tag>
+   <elementGuidId>be370d9a-56d3-4e8d-8a3a-55ac7db67d03</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//multi-select/div/ul/li/a[text()='Spanish']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//multi-select/div/ul/li/a[text()='Spanish']</value>
+   </webElementProperties>
+</WebElementEntity>
