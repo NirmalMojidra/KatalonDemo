@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>test</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-12-11T14:55:42</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>007f27f0-cef3-4ece-a8c5-afed296faba1</testSuiteGuid>
+   <testCaseLink>
+      <guid>1b676f1d-a2e3-41ec-80c9-43afd4bd8157</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Nikita.A/Basiclogin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>623b4a4e-04ab-4b9f-bacd-962cad196aa1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Basiclogin</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>623b4a4e-04ab-4b9f-bacd-962cad196aa1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>12ab0784-f35a-4001-b3a7-f75e759d2cb6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>623b4a4e-04ab-4b9f-bacd-962cad196aa1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>9b521fef-9a58-401d-869e-f4f436300ac3</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
