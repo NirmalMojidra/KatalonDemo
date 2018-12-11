@@ -17,10 +17,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mohit/Drag_Drop</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>9bf30489-855b-4c2b-8aa1-1abce1bf5935</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Mohit/File Upload_Sekuli</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>
