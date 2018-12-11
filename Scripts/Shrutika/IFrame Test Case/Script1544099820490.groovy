@@ -15,27 +15,27 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser("http://toolsqa.com/iframe-practice-page/")
 WebUI.maximizeWindow()
-WebUI.scrollToElement(findTestObject('Object Repository/Page_TOOLSQA  Free QA Automation To/iframe_1'), 1)
-WebUI.switchToFrame(findTestObject('Object Repository/Page_TOOLSQA  Free QA Automation To/iframe_1'), 2)
+WebUI.scrollToElement(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/iframe_1'), 1)
+WebUI.switchToFrame(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/iframe_1'), 2)
 
-if(!WebUI.verifyElementPresent(findTestObject('Object Repository/Page_TOOLSQA  Free QA Automation To/input_First name_firstname'), 1))
+if(!WebUI.verifyElementPresent(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/input_First name_firstname'), 1))
 {
 	WebUI.refresh()
 }
-WebUI.scrollToElement(findTestObject('Object Repository/Page_TOOLSQA  Free QA Automation To/input_First name_firstname'),1)
-WebUI.setText(findTestObject('Object Repository/Page_TOOLSQA  Free QA Automation To/input_First name_firstname'), 'Shrutika')
+WebUI.scrollToElement(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/input_First name_firstname'),1)
+WebUI.setText(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/input_First name_firstname'), 'Shrutika')
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page_TOOLSQA  Free QA Automation To/input_Last name_lastname'),1)
-WebUI.setText(findTestObject('Object Repository/Page_TOOLSQA  Free QA Automation To/input_Last name_lastname'), 'Gupta')
+WebUI.scrollToElement(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/input_Last name_lastname'),1)
+WebUI.setText(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/input_Last name_lastname'), 'Gupta')
 
 WebUI.delay(5)
 WebUI.switchToDefaultContent()
 
 WebUI.delay(5)
-WebUI.switchToFrame(findTestObject('Object Repository/Page_TOOLSQA  Free QA Automation To/iframe_2'), 1)
+WebUI.switchToFrame(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/iframe_2'), 1)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page_TOOLSQA  Free QA Automation To/button_Button'),2)
-println(WebUI.getText(findTestObject('Object Repository/Page_TOOLSQA  Free QA Automation To/h2_Hello world')))
+WebUI.scrollToElement(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/button_Button'),2)
+println(WebUI.getText(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/h2_Hello world')))
 
 WebUI.closeBrowser()
 

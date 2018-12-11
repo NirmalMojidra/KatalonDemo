@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ReadExcelData Test Case</description>
+   <name>ReadExcelData Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba7cdbe5-c29c-45ce-aeec-dd67cbc2ebf1</testCaseGuid>
+</TestCaseEntity>

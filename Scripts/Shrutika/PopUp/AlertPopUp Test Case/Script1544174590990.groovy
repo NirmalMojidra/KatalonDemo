@@ -16,8 +16,8 @@ import internal.GlobalVariable as GlobalVariable
 	WebUI.openBrowser("http://toolsqa.com/handling-alerts-using-selenium-webdriver/")
 	WebUI.maximizeWindow()
 	WebUI.delay(5)
-	WebUI.scrollToElement(findTestObject('Object Repository/Page_TOOLSQA  Free QA Automation To/Simple Alert Pop up text'), 2)
-	WebUI.click(findTestObject('Object Repository/Page_TOOLSQA  Free QA Automation To/button_Simple Alert'))
+	WebUI.scrollToElement(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/Simple Alert Pop up text'), 2)
+	WebUI.click(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/button_Simple Alert'))
 	WebUI.delay(2)
 	if(WebUI.waitForAlert(5))
 	{
@@ -25,10 +25,17 @@ import internal.GlobalVariable as GlobalVariable
 		WebUI.acceptAlert()
 	}
 	
+	/***********
+	 * 
+	 * 	WebDriver driver = DriverFactory.getWebDriver()
+ 		String AlertText = driver.switchTo().alert().getText()
+	 * 
+	 * ***/
+	
 	
 	WebUI.delay(2)
 	WebUI.switchToDefaultContent()
-	WebUI.click(findTestObject('Object Repository/Page_TOOLSQA  Free QA Automation To/button_Confirm Pop up'))
+	WebUI.click(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/button_Confirm Pop up'))
 	WebUI.delay(2)
 	if(WebUI.waitForAlert(5))
 	{
@@ -38,7 +45,7 @@ import internal.GlobalVariable as GlobalVariable
 
 	WebUI.delay(2)
 	WebUI.switchToDefaultContent()
-	WebUI.click(findTestObject('Object Repository/Page_TOOLSQA  Free QA Automation To/button_Prompt Pop up'))
+	WebUI.click(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/button_Prompt Pop up'))
 	WebUI.delay(2)
 	if(WebUI.waitForAlert(5))
 	{
