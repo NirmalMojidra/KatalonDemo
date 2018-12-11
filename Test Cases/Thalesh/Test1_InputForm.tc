@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test includes following interactions-
+Enter text in text box
+Select the value from Drop down list
+Click on radio button
+Click on button</description>
+   <name>Test1_InputForm</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>accb4659-0de2-4769-88ee-466a224145ab</testCaseGuid>
+   <variable>
+      <defaultValue>'&quot;&quot;'</defaultValue>
+      <description></description>
+      <id>b4f9853b-7cd0-41ce-86b9-e931133487ff</id>
+      <masked>false</masked>
+      <name>x</name>
+   </variable>
+</TestCaseEntity>

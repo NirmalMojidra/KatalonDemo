@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite 1,,,2018-12-11 12:29:04,2018-12-11 12:29:07,3.075s,INCOMPLETE
+,,,,,,
+Test Cases/Mohit/DemoSite/phpTravels,,,2018-12-11 12:29:05,2018-12-11 12:29:07,2.075s,INCOMPLETE
+Start listener action : sampleBeforeTestCase,,,2018-12-11 12:29:05,2018-12-11 12:29:06,0.030s,PASSED
+"openBrowser(""https://www.phptravels.net/"")",,,2018-12-11 12:29:06,2018-12-11 12:29:07,0.969s,INCOMPLETE

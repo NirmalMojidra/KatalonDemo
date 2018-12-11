@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Language1</name>
+   <tag></tag>
+   <elementGuidId>e179af98-d08e-47a4-88a0-304a538e0b52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//multi-select/div/ul/li/a[text()='Hindi']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//multi-select/div/ul/li/a[text()='Hindi']</value>
+   </webElementProperties>
+</WebElementEntity>
