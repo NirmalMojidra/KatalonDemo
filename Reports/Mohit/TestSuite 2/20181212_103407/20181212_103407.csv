@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite 2,,,2018-12-12 10:34:15,2018-12-12 10:34:17,2.376s,FAILED
+,,,,,,
+Test Cases/Mohit/Drag_Drop,,,2018-12-12 10:34:16,2018-12-12 10:34:17,1.536s,FAILED
+Start listener action : sampleBeforeTestCase,,,2018-12-12 10:34:16,2018-12-12 10:34:16,0.156s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-12-12 10:34:16,2018-12-12 10:34:16,0.008s,PASSED
+"imgDir = getProjectDir() + ""/Include/img/""",,,2018-12-12 10:34:16,2018-12-12 10:34:16,0.003s,PASSED
+"openBrowser(""https://html5demos.com/drag/"")",,,2018-12-12 10:34:16,2018-12-12 10:34:17,1.148s,FAILED
+Start listener action : sampleAfterTestCase,,,2018-12-12 10:34:17,2018-12-12 10:34:17,0.004s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-12-12 10:34:17,2018-12-12 10:34:17,0.003s,PASSED
