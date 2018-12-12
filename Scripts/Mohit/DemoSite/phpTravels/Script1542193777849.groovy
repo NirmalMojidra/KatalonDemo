@@ -7,16 +7,19 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-WebUI.openBrowser("https://www.phptravels.net/")
+WebUI.openBrowser('https://www.phptravels.net/')
 
 WebUI.maximizeWindow()
+
 //Initializing Selenium WebDriver
 WebDriver driver = DriverFactory.getWebDriver()
 
 for (int i = 0; i < 1000; i++) {
     try {
         driver.findElement(By.className('text-center')).isDisplayed()
-		Thread.sleep(1000)
+
+        Thread.sleep(1000)
+
         break
     }
     catch (Exception e) {
@@ -25,12 +28,14 @@ for (int i = 0; i < 1000; i++) {
 }
 
 List<WebElement> elements = driver.findElements(By.className('text-center'))
+
 //Click on Flights Tab
 for (WebElement webElement : elements) {
     String Title = webElement.getAttribute('title')
 
     if (Title.equals('Flights')) {
         webElement.click()
+
         break
     }
 }
@@ -51,6 +56,7 @@ for (int i = 0; i < 1000; i++) {
 Actions action = new Actions(driver)
 
 elements = driver.findElements(By.className('select2-chosen'))
+
 //Populating data in Source and destination field
 for (WebElement webElement : elements) {
     Point loc = webElement.getLocation()
@@ -73,22 +79,25 @@ for (WebElement webElement : elements) {
 
     driver.findElements(By.className('select2-result')).get(0).click()
 }
+
 //Populating journey date
 driver.findElement(By.name('departure')).click()
 
 Thread.sleep(1000)
 
-elements = driver.findElements(By.className('day'))
+driver.findElement(By.name('departure')).sendKeys('2019-12-30')
 
-for (WebElement webElement : elements) {
-    if (webElement.getText().equals(Travel_Date)) {
-        webElement.click()
-
-        Thread.sleep(500)
-
-        break
-    }
-}
+//elements = driver.findElements(By.className('day'))
+//
+//for (WebElement webElement : elements) {
+//    if (webElement.getText().equals(Travel_Date)) {
+//        webElement.click()
+//
+//        Thread.sleep(500)
+//
+//        break
+//    }
+//}
 //Click on Search Button
 elements = driver.findElements(By.className('pfb0'))
 
@@ -99,6 +108,7 @@ for (WebElement webElement : elements) {
         webElement.click()
     }
 }
+
 //wait for page to load
 for (int i = 0; i < 1000; i++) {
     try {
@@ -112,6 +122,7 @@ for (int i = 0; i < 1000; i++) {
         Thread.sleep(1000)
     } 
 }
+
 //Click on Book now Button
 driver.findElements(By.id('bookbtn')).get(0).click()
 
@@ -127,6 +138,7 @@ for (int i = 0; i < 1000; i++) {
         Thread.sleep(1000)
     } 
 }
+
 //Enter passenger details
 driver.findElement(By.name('firstname')).sendKeys('Firstname')
 
@@ -141,6 +153,7 @@ driver.findElement(By.name('phone')).sendKeys('9874563201')
 driver.findElement(By.name('address')).sendKeys('Dummy Address')
 
 elements = driver.findElements(By.className('btn-success'))
+
 //Click on Confirm button
 for (WebElement webElement : elements) {
     if (webElement.getText().equals('CONFIRM THIS BOOKING')) {
@@ -160,6 +173,7 @@ for (int i = 0; i < 1000; i++) {
         Thread.sleep(1000)
     } 
 }
+
 //Click on pop up
 driver.findElement(By.className('arrivalpay')).click()
 
