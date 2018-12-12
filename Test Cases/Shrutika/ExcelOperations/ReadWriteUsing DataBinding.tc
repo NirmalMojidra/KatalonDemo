@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ReadWriteUsing DataBinding</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e31dae31-d10c-4da2-9617-64657cb236b2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7de41798-72b7-4586-a8bc-ae1bc4b0b801</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>f4e17716-294c-4f6c-ae72-27ddae848acb</id>
+      <masked>false</masked>
+      <name>EmpId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5605e44e-5d4b-4360-81a6-01f1c5d686ec</id>
+      <masked>false</masked>
+      <name>Project</name>
+   </variable>
+</TestCaseEntity>
