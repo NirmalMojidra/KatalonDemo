@@ -36,7 +36,6 @@ WebUI.switchToDefaultContent()
 WebUI.delay(5)
 WebUI.switchToFrame(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/iframe_2'), 1)
 
-WebUI.scrollToElement(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/button_Button'),2)
 println(WebUI.getText(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/h2_Hello world')))
 
 WebUI.closeBrowser()

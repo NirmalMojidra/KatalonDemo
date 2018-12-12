@@ -21,4 +21,6 @@ draggable = WebUI.getText(findTestObject('Shrutika/DragAndDrop JQueryPage/drop')
 
 WebUI.verifyEqual(draggable, "Dropped!");
 
+WebUI.takeScreenshot("D:\\screenShot\\"+getClass()+".png")
+
 WebUI.closeBrowser();

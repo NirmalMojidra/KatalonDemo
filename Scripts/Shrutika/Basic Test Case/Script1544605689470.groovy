@@ -17,6 +17,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Shrutika/Page_CURA Healthcare Service/a_Make Appointment'))
 
 WebUI.setText(findTestObject('Shrutika/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')

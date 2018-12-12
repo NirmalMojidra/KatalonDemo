@@ -28,7 +28,7 @@ WebUI.setText(findTestObject('Shrutika/Page_CURA Healthcare Service/input_Passwo
 
 WebUI.click(findTestObject('Shrutika/Page_CURA Healthcare Service/button_Login'))
 
-int option = 4;
+int option = 2;
 
 switch (option) {
     case 1:
