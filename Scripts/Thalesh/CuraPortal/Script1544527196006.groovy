@@ -21,13 +21,12 @@ WebUI.click(findTestObject('Thalesh/Page_CURA/a_MakeAppointment'))
 
 WebUI.setText(findTestObject('Thalesh/Page_CURA/input_Username'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Thalesh/Page_CURA/input_Password'), 
-    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('Thalesh/Page_CURA/input_Password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
 WebUI.click(findTestObject('Thalesh/Page_CURA/button_Login'))
 
-WebUI.selectOptionByValue(findTestObject('Thalesh/Page_CURA/select_CURAHealthcare'), 
-    'Hongkong CURA Healthcare Center', true)
+WebUI.selectOptionByValue(findTestObject('Thalesh/Page_CURA/select_CURAHealthcare'), 'Hongkong CURA Healthcare Center', 
+    true)
 
 WebUI.click(findTestObject('Thalesh/Page_CURA/input_ApplyHospitalReadm'))
 
@@ -37,7 +36,7 @@ WebUI.setText(findTestObject('Thalesh/Page_CURA/textarea_Comment'), 'Please book
 
 WebUI.click(findTestObject('Thalesh/Page_CURA/button_BookAppointment'))
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Thalesh/Page_CURA/p_Facility'), 'innertext', 'Hongkong CURA Healthcare Center', 5)
+WebUI.verifyElementText(findTestObject('Object Repository/Thalesh/Page_CURA/p_Facility'), 'Hongkong CURA Healthcare Center')
 
 WebUI.closeBrowser()
 
