@@ -1,5 +1,7 @@
 package shrutika.dnd
 
+import org.apache.poi.ss.usermodel.Cell
+import org.apache.poi.ss.usermodel.FormulaEvaluator
 import org.apache.poi.xssf.usermodel.XSSFSheet
 import org.apache.poi.xssf.usermodel.XSSFWorkbook
 
@@ -17,10 +19,25 @@ public class ReadAndWrite {
 			fis = new FileInputStream(new File(path))
 			XSSFWorkbook wb = new XSSFWorkbook(fis)
 			XSSFSheet sh = wb.getSheetAt(0)
+			FormulaEvaluator eval = wb.getCreationHelper().createFormulaEvaluator()
 			List<String> list = new ArrayList<String>()
-			for(def j:(0..colUpTo)) {
-				String cell = sh.getRow(rowToFetchData).getCell(j).getStringCellValue();
-				list.add(cell)
+			
+			for(def col:(0..colUpTo-1)) {
+				Cell cell= sh.getRow(rowToFetchData).getCell(col)
+				println(cell)
+				switch(eval.evaluateInCell(cell).getCellType()){
+					
+				case 0:
+					Object a = sh.getRow(rowToFetchData).getCell(col).getNumericCellValue()
+					list.add(a)
+					break
+				case 1:
+					Object a = sh.getRow(rowToFetchData).getCell(col).getStringCellValue()
+					list.add(a)
+					break
+				default:
+					break
+				}
 			}
 			fis.close()
 			return list;

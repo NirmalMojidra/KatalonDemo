@@ -16,11 +16,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-println("Readinf from excel")
-List<Object> li = CustomKeywords.'shrutika.dnd.ReadAndWrite.readData'("D://Shrutika Stuff//KetalonDemo//TestExcel.xlsx",2,2)
+println("Reading from excel")
+List<Object> li = CustomKeywords.'shrutika.dnd.ReadAndWrite.readData'("D://Shrutika Stuff//KetalonDemo//TestExcel.xlsx",2,3)
 println (li)
 
 
 println ("printing on excel")
-CustomKeywords.'shrutika.dnd.ReadAndWrite.writeData'("D://Shrutika Stuff//KetalonDemo//TestExcel.xlsx",li)
+CustomKeywords.'shrutika.dnd.ReadAndWrite.writeData'("D://Shrutika Stuff//KetalonDemo//TestExcel.xlsx",li,3)
+
 println ("Reading and writing is done")

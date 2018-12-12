@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DataReadWrite DataBinding" time="1" tests="3" failures="0" errors="0">
+   <testsuite name="DataReadWrite DataBinding" tests="3" failures="0" errors="0" time="1" timestamp="2018-12-12 14:11:17" hostname="Gupta_shr - Shrutika-GT.India.XoriantCorp.com" id="Test Suites/Shrutika/DataReadWrite DataBinding">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\gupta_shr\\git\\KatalonDemo\\Reports\\Shrutika\\DataReadWrite DataBinding\\20181212_141114"/>
+         <property name="logFiles" value="C:\\Users\\gupta_shr\\git\\KatalonDemo\\Reports\\Shrutika\\DataReadWrite DataBinding\\20181212_141114\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gupta_shr - Shrutika-GT.India.XoriantCorp.com"/>
+         <property name="hostAddress" value="10.20.3.151"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+      </properties>
+      <testcase name="Test Cases/Shrutika/ExcelOperations/ReadWriteUsing DataBinding" classname="Test Cases/Shrutika/ExcelOperations/ReadWriteUsing DataBinding" status="PASSED">
+         <system-out><![CDATA[2018-12-12 14:11:18 - [TEST_CASE][PASSED] - Test Cases/Shrutika/ExcelOperations/ReadWriteUsing DataBinding: Test Cases/Shrutika/ExcelOperations/ReadWriteUsing DataBinding
+
+2018-12-12 14:11:18 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 14:11:18 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 14:11:18 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 14:11:18 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 14:11:18 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 14:11:18 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println("Reading from an Excel through Dat Binding"): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - count = 3: null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - while (count > 0): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Name): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(EmpId): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Project): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - (count--): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Name): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(EmpId): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Project): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - (count--): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Name): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(EmpId): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Project): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - (count--): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shrutika/ExcelOperations/ReadWriteUsing DataBinding" classname="Test Cases/Shrutika/ExcelOperations/ReadWriteUsing DataBinding" status="PASSED">
+         <system-out><![CDATA[2018-12-12 14:11:19 - [TEST_CASE][PASSED] - Test Cases/Shrutika/ExcelOperations/ReadWriteUsing DataBinding: Test Cases/Shrutika/ExcelOperations/ReadWriteUsing DataBinding
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println("Reading from an Excel through Dat Binding"): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - count = 3: null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - while (count > 0): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Name): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(EmpId): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Project): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - (count--): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Name): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(EmpId): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Project): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - (count--): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Name): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(EmpId): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Project): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - (count--): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shrutika/ExcelOperations/ReadWriteUsing DataBinding" classname="Test Cases/Shrutika/ExcelOperations/ReadWriteUsing DataBinding" status="PASSED">
+         <system-out><![CDATA[2018-12-12 14:11:19 - [TEST_CASE][PASSED] - Test Cases/Shrutika/ExcelOperations/ReadWriteUsing DataBinding: Test Cases/Shrutika/ExcelOperations/ReadWriteUsing DataBinding
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println("Reading from an Excel through Dat Binding"): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - count = 3: null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - while (count > 0): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Name): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(EmpId): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Project): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - (count--): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Name): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(EmpId): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Project): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - (count--): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Name): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(EmpId): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(Project): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - (count--): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 14:11:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-12 14:11:17 - [TEST_SUITE][PASSED] - DataReadWrite DataBinding: Test Cases/Shrutika/ExcelOperations/ReadWriteUsing DataBinding]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

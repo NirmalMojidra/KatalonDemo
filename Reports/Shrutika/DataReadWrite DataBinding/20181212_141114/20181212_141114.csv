@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DataReadWrite DataBinding,,,2018-12-12 14:11:17,2018-12-12 14:11:19,1.582s,PASSED
+,,,,,,
+Test Cases/Shrutika/ExcelOperations/ReadWriteUsing DataBinding,,,2018-12-12 14:11:18,2018-12-12 14:11:19,0.645s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-12-12 14:11:18,2018-12-12 14:11:18,0.130s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-12-12 14:11:18,2018-12-12 14:11:18,0.000s,PASSED
+"println(""Reading from an Excel through Dat Binding"")",,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.032s,PASSED
+count = 3,,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.004s,PASSED
+while (count > 0),,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.033s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.015s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.000s,PASSED
+,,,,,,
+Test Cases/Shrutika/ExcelOperations/ReadWriteUsing DataBinding,,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.063s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.016s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.000s,PASSED
+"println(""Reading from an Excel through Dat Binding"")",,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.000s,PASSED
+count = 3,,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.000s,PASSED
+while (count > 0),,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.031s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.000s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.016s,PASSED
+,,,,,,
+Test Cases/Shrutika/ExcelOperations/ReadWriteUsing DataBinding,,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.039s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.022s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.000s,PASSED
+"println(""Reading from an Excel through Dat Binding"")",,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.000s,PASSED
+count = 3,,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.000s,PASSED
+while (count > 0),,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.017s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.000s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-12-12 14:11:19,2018-12-12 14:11:19,0.000s,PASSED

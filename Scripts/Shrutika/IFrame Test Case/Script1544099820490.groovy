@@ -28,6 +28,8 @@ WebUI.setText(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/input
 WebUI.scrollToElement(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/input_Last name_lastname'),1)
 WebUI.setText(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/input_Last name_lastname'), 'Gupta')
 
+WebUI.takeScreenshot("D://Shrutika Stuff//KetalonDemo//"+getClass()+".png")
+
 WebUI.delay(5)
 WebUI.switchToDefaultContent()
 
