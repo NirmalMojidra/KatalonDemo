@@ -125,6 +125,18 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
+			<id>1544597766481</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1544597766497</id>
+=======
 			<id>1544597734808</id>
 			<name></name>
 			<type>10</type>
@@ -153,6 +165,7 @@
 		</filter>
 		<filter>
 			<id>1544605168479</id>
+>>>>>>> branch 'master' of https://github.com/NirmalMojidra/KatalonDemo.git
 			<name></name>
 			<type>6</type>
 			<matcher>
