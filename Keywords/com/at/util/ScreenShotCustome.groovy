@@ -39,7 +39,7 @@ public class ScreenShotCustome {
 		WebDriver driver =  DriverFactory.getWebDriver()
 
 		Screenshot screenshot = new AShot().takeScreenshot(driver, element)
-		ImageIO.write(screenshot.getImage(),"PNG", new File("D:\\Demo\\KatalonDemo\\img\\Example.png"))
+		ImageIO.write(screenshot.getImage(),"PNG", new File(System.getProperty("user.dir")+"/Include/img/Result.png"))
 	}
 
 	@Keyword
@@ -47,7 +47,7 @@ public class ScreenShotCustome {
 		WebElement element = WebUiCommonHelper.findWebElement(object, 10)
 		WebDriver driver =  DriverFactory.getWebDriver()
 
-		BufferedImage expectedimage = ImageIO.read(new File("D:\\Demo\\KatalonDemo\\img\\Example.png"))
+		BufferedImage expectedimage = ImageIO.read(new File(System.getProperty("user.dir")+"/Include/img/Example.png"))
 		Screenshot logoimagescreenshot = new AShot().takeScreenshot(driver, element)
 		BufferedImage actualimage = logoimagescreenshot.getImage()
 

@@ -30,37 +30,47 @@ import java.lang.String
 public class writeExcelSheet {
 	@Keyword
 	public void excelWrite(String element_list){
+		try{
+			FileInputStream file = new FileInputStream (new File(System.getProperty("user.dir")+"/Include/TestData/Excel_Write_Testdata.xlsx"))
+			XSSFWorkbook workbook = new XSSFWorkbook(file);
+			XSSFSheet sheet = workbook.getSheet("Sheet1");
+			int a = sheet.getLastRowNum()
+			//'Read data from excel'
+			//String Data_fromCell=sheet.getRow(1).getCell(1).getStringCellValue();
 
-		FileInputStream file = new FileInputStream (new File(System.getProperty("user.dir")+"/Include/TestData/Excel_Write_Testdata.xlsx"))
-		XSSFWorkbook workbook = new XSSFWorkbook(file);
-		XSSFSheet sheet = workbook.getSheet("Sheet1");
-		int a = sheet.getLastRowNum()
-		//'Read data from excel'
-		//String Data_fromCell=sheet.getRow(1).getCell(1).getStringCellValue();
+			//'Write data to excel'
+			sheet.createRow(a+1).createCell(0).setCellValue(element_list);
 
-		//'Write data to excel'
-		sheet.createRow(a+1).createCell(0).setCellValue(element_list);
+			file.close();
+			FileOutputStream outFile =new FileOutputStream(new File(System.getProperty("user.dir")+"/Include/TestData/Excel_Write_Testdata.xlsx"))
+			workbook.write(outFile);
+			outFile.close();
+		}
+		catch(Exception e) {
+			println e
+		}
+	}
 
-		file.close();
-		FileOutputStream outFile =new FileOutputStream(new File(System.getProperty("user.dir")+"/Include/TestData/Excel_Write_Testdata.xlsx"))
-		workbook.write(outFile);
-		outFile.close();}
 	@Keyword
 	public void excelWrite(){
+		try {
+			FileInputStream file = new FileInputStream (new File(System.getProperty("user.dir")+"/Include/TestData/Excel_Write_Testdata.xlsx"))
+			XSSFWorkbook workbook = new XSSFWorkbook(file);
+			XSSFSheet sheet = workbook.getSheet("Sheet1");
+			int a = sheet.getLastRowNum()
+			//'Read data from excel'
+			//String Data_fromCell=sheet.getRow(1).getCell(1).getStringCellValue();
 
-		FileInputStream file = new FileInputStream (new File(System.getProperty("user.dir")+"/Include/TestData/Excel_Write_Testdata.xlsx"))
-		XSSFWorkbook workbook = new XSSFWorkbook(file);
-		XSSFSheet sheet = workbook.getSheet("Sheet1");
-		int a = sheet.getLastRowNum()
-		//'Read data from excel'
-		//String Data_fromCell=sheet.getRow(1).getCell(1).getStringCellValue();
+			//'Write data to excel'
+			sheet.createRow(a+1).createCell(0).setCellValue("Nikita");
 
-		//'Write data to excel'
-		sheet.createRow(a+1).createCell(0).setCellValue("Nikita");
-
-		file.close();
-		FileOutputStream outFile =new FileOutputStream(new File(System.getProperty("user.dir")+"/Include/TestData/Excel_Write_Testdata.xlsx"))
-		workbook.write(outFile);
-		outFile.close();
+			file.close();
+			FileOutputStream outFile =new FileOutputStream(new File(System.getProperty("user.dir")+"/Include/TestData/Excel_Write_Testdata.xlsx"))
+			workbook.write(outFile);
+			outFile.close();
+		}
+		catch(Exception e) {
+			println e
+		}
 	}
 }

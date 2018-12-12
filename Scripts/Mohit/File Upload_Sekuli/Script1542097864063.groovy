@@ -18,8 +18,10 @@ WebUI.click(findTestObject('Object Repository/Page_Sample File Upload Form/input
 Screen scr = new Screen()
 
 Pattern open = new Pattern(imgDir + 'Open.png')
+println open
 
 Pattern fileName = new Pattern(imgDir + 'FileName.png')
+println fileName
 
 Thread.sleep(2000)
 
