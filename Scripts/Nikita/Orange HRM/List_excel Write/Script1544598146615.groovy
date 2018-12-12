@@ -13,15 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
+WebUI.openBrowser("https://www.w3schools.com/")
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_Username'))
+List<WebElement> wb = WebUiCommonHelper.findWebElements( findTestObject('Object Repository/List'), 30)
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), Username)
-
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), Password)
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
-
+for(WebElement wa:wb)
+{
+	String element_list= wa.getText()
+	println element_list
+	CustomKeywords.'com.poi.writeExcelSheet.excelWrite'(element_list)
+}

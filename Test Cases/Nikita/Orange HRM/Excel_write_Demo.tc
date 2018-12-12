@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Write_data_Excel Sheet</name>
+   <name>Excel_write_Demo</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c4927069-4566-4c0b-a328-ebe1453f3370</testCaseGuid>
+   <testCaseGuid>0e7ecb11-16e1-4b2e-b9ef-c30810eddc75</testCaseGuid>
 </TestCaseEntity>
