@@ -34,6 +34,9 @@ WebUI.setText(findTestObject('Object Repository/Basiclogin/input_Username_txtPas
 
 WebUI.click(findTestObject('Object Repository/Basiclogin/input_Password_Submit (1)'))
 
+CustomKeywords.'nikitas.a.Sample.checkelement'(findTestObject('Object Repository/Basiclogin/a_Welcome Admin'))
+
+
 CustomKeywords.'nikitas.a.Sample.checkelement'(findTestObject('Object Repository/Basiclogin/img'))
 
 WebUI.click(findTestObject('Basiclogin/img'))
