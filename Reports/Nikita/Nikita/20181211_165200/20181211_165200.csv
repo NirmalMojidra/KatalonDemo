@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Nikita,Chrome 70.0.3538.110,,2018-12-11 16:52:05,2018-12-11 16:52:29,23.397s,PASSED
+,,,,,,
+Test Cases/Nikita/Orange HRM/List_excel Write,Chrome 70.0.3538.110,,2018-12-11 16:52:06,2018-12-11 16:52:27,21.601s,PASSED
+"openBrowser(""https://www.w3schools.com/"")",Chrome 70.0.3538.110,,2018-12-11 16:52:07,2018-12-11 16:52:19,12.531s,PASSED
+"wb = findWebElements(findTestObject(""Object Repository/List""), 30)",Chrome 70.0.3538.110,,2018-12-11 16:52:19,2018-12-11 16:52:19,0.281s,PASSED
+for (org.openqa.selenium.WebElement wa : wb),Chrome 70.0.3538.110,,2018-12-11 16:52:19,2018-12-11 16:52:27,7.977s,PASSED
+,,,,,,
+Test Cases/Nikita/Orange HRM/Excel_write_Demo,Chrome 70.0.3538.110,,2018-12-11 16:52:27,2018-12-11 16:52:28,0.373s,PASSED
+com.poi.writeExcelSheet.excelWrite(),Chrome 70.0.3538.110,,2018-12-11 16:52:28,2018-12-11 16:52:28,0.073s,PASSED
+"println(""Test passed"")",Chrome 70.0.3538.110,,2018-12-11 16:52:28,2018-12-11 16:52:28,0.002s,PASSED

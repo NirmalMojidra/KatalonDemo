@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Nikita,,,2018-12-07 16:31:15,2018-12-07 16:31:18,2.709s,FAILED
+,,,,,,
+Test Cases/Nikita/Orange HRM/Login_Excel_testdata,,,2018-12-07 16:31:15,2018-12-07 16:31:18,2.080s,FAILED
+"openBrowser("""")",,,2018-12-07 16:31:16,2018-12-07 16:31:18,1.329s,FAILED
+,,,,,,
+Test Cases/Nikita/Orange HRM/Login_Excel_testdata,,,2018-12-07 16:31:18,2018-12-07 16:31:18,0.099s,FAILED
+"openBrowser("""")",,,2018-12-07 16:31:18,2018-12-07 16:31:18,0.033s,FAILED

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Nikita,Chrome 70.0.3538.110,,2018-12-07 16:51:03,2018-12-07 16:52:15,1m - 11.896s,PASSED
+,,,,,,
+Test Cases/Nikita/Orange HRM/Login_Excel_testdata,Chrome 70.0.3538.110,,2018-12-07 16:51:04,2018-12-07 16:52:03,59.627s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-07 16:51:05,2018-12-07 16:51:35,30.877s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 70.0.3538.110,,2018-12-07 16:51:35,2018-12-07 16:51:49,13.427s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Username""))",Chrome 70.0.3538.110,,2018-12-07 16:51:49,2018-12-07 16:51:53,4.416s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), Username)",Chrome 70.0.3538.110,,2018-12-07 16:51:53,2018-12-07 16:51:54,1.151s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), Password)",Chrome 70.0.3538.110,,2018-12-07 16:51:54,2018-12-07 16:51:55,0.200s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 70.0.3538.110,,2018-12-07 16:51:55,2018-12-07 16:52:03,8.807s,PASSED
+,,,,,,
+Test Cases/Nikita/Orange HRM/Login_Excel_testdata,Chrome 70.0.3538.110,,2018-12-07 16:52:03,2018-12-07 16:52:14,10.805s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-07 16:52:04,2018-12-07 16:52:09,5.841s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 70.0.3538.110,,2018-12-07 16:52:09,2018-12-07 16:52:13,3.376s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Username""))",Chrome 70.0.3538.110,,2018-12-07 16:52:13,2018-12-07 16:52:13,0.155s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), Username)",Chrome 70.0.3538.110,,2018-12-07 16:52:13,2018-12-07 16:52:13,0.244s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), Password)",Chrome 70.0.3538.110,,2018-12-07 16:52:13,2018-12-07 16:52:13,0.158s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 70.0.3538.110,,2018-12-07 16:52:13,2018-12-07 16:52:14,0.957s,PASSED

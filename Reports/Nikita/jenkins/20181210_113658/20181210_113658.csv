@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+jenkins,,,2018-12-10 11:37:05,2018-12-10 11:37:09,3.979s,FAILED
+,,,,,,
+Test Cases/Rajiv/JavaScript,,This is the sample JavaScript Project.,2018-12-10 11:37:05,2018-12-10 11:37:08,3.300s,FAILED
+"openBrowser("""")",,,2018-12-10 11:37:06,2018-12-10 11:37:08,2.331s,FAILED
