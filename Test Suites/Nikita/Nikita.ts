@@ -12,30 +12,39 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>b0f65a7e-04ad-4c33-b1da-d35c611f1257</testSuiteGuid>
    <testCaseLink>
-      <guid>3a023508-a064-4676-ae9f-6e2abda97da9</guid>
+      <guid>90f243a7-b6c4-4f5f-a807-6554345d0e53</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Nikita/Orange HRM/Login_Excel_testdata</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>4ecee51c-7f7a-4896-9195-f5ff127f338e</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/excel_read</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/Nikita/Orange HRM/Excel_write_Demo</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>98e1e554-4985-479c-87ee-dc44ab714f9b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Nikita/Orange HRM/List_excel Write</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ae80c0b9-d4c6-4859-b7ac-3a5e817cd6df</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Nikita/Orange HRM/Login_Excel_Read_testdata</testCaseId>
       <variableLink>
-         <testDataLinkId>4ecee51c-7f7a-4896-9195-f5ff127f338e</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Username</value>
-         <variableId>be6a24c8-1a61-4df5-b4a7-2012a9ee3d4e</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1254cc2e-f6c2-4409-a983-b340aef65c6b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>4ecee51c-7f7a-4896-9195-f5ff127f338e</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Password</value>
-         <variableId>1f8acacc-7460-49e8-9203-a21511ff9efe</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>66f91d16-547c-46c1-a0ac-94d5278feda4</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2d344c3a-0793-47b5-8c83-873c9e19f609</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Nikita/Orange HRM/Write_data_Excel Sheet</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

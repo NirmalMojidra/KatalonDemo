@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DragAndDrop Javascript Test Case</name>
+   <name>Excel_write_Demo</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>620be0e6-baab-459f-b204-9f6c5f935da7</testCaseGuid>
+   <testCaseGuid>0e7ecb11-16e1-4b2e-b9ef-c30810eddc75</testCaseGuid>
 </TestCaseEntity>
