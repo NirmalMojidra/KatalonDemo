@@ -1,0 +1,79 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite_1,Chrome 71.0.3578.80,TestSuite_1,2018-12-12 15:37:37,2018-12-12 15:38:53,1m - 16.389s,PASSED
+,,,,,,
+Test Cases/Shrutika/Control Statements/DecisionMaking TestCase,Chrome 71.0.3578.80,DecisionMaking Test Cases if-else if-else,2018-12-12 15:37:38,2018-12-12 15:37:57,19.013s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.80,,2018-12-12 15:37:38,2018-12-12 15:37:38,0.024s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.80,,2018-12-12 15:37:38,2018-12-12 15:37:38,0.008s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 71.0.3578.80,,2018-12-12 15:37:38,2018-12-12 15:37:44,6.240s,PASSED
+maximizeWindow(),Chrome 71.0.3578.80,,2018-12-12 15:37:44,2018-12-12 15:37:54,9.236s,PASSED
+"click(findTestObject(""Shrutika/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 71.0.3578.80,,2018-12-12 15:37:54,2018-12-12 15:37:54,0.838s,PASSED
+"setText(findTestObject(""Shrutika/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 71.0.3578.80,,2018-12-12 15:37:54,2018-12-12 15:37:55,0.242s,PASSED
+"setText(findTestObject(""Shrutika/Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 71.0.3578.80,,2018-12-12 15:37:55,2018-12-12 15:37:55,0.218s,PASSED
+"click(findTestObject(""Shrutika/Page_CURA Healthcare Service/button_Login""))",Chrome 71.0.3578.80,,2018-12-12 15:37:55,2018-12-12 15:37:55,0.619s,PASSED
+"if (check(findTestObject(""Shrutika/Page_CURA Healthcare Service/input_Medicare_programs"")))",Chrome 71.0.3578.80,,2018-12-12 15:37:55,2018-12-12 15:37:56,0.231s,PASSED
+"else if (!(check(findTestObject(""Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs""))))",Chrome 71.0.3578.80,,2018-12-12 15:37:56,2018-12-12 15:37:56,0.193s,PASSED
+closeBrowser(),Chrome 71.0.3578.80,,2018-12-12 15:37:56,2018-12-12 15:37:57,0.787s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.80,,2018-12-12 15:37:57,2018-12-12 15:37:57,0.006s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.80,,2018-12-12 15:37:57,2018-12-12 15:37:57,0.017s,PASSED
+,,,,,,
+Test Cases/Shrutika/Control Statements/ExceptionHandling Test Case,Chrome 71.0.3578.80,ExceptionHandling Test Case,2018-12-12 15:37:57,2018-12-12 15:38:06,8.814s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.80,,2018-12-12 15:37:57,2018-12-12 15:37:57,0.016s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.80,,2018-12-12 15:37:57,2018-12-12 15:37:57,0.006s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 71.0.3578.80,,2018-12-12 15:37:57,2018-12-12 15:38:02,4.638s,PASSED
+maximizeWindow(),Chrome 71.0.3578.80,,2018-12-12 15:38:02,2018-12-12 15:38:03,1.174s,PASSED
+"click(findTestObject(""Shrutika/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 71.0.3578.80,,2018-12-12 15:38:03,2018-12-12 15:38:03,0.565s,PASSED
+"setText(findTestObject(""Shrutika/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 71.0.3578.80,,2018-12-12 15:38:03,2018-12-12 15:38:04,0.239s,PASSED
+"setText(findTestObject(""Shrutika/Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 71.0.3578.80,,2018-12-12 15:38:04,2018-12-12 15:38:04,0.267s,PASSED
+"click(findTestObject(""Shrutika/Page_CURA Healthcare Service/button_Login""))",Chrome 71.0.3578.80,,2018-12-12 15:38:04,2018-12-12 15:38:05,0.628s,PASSED
+try,Chrome 71.0.3578.80,,2018-12-12 15:38:05,2018-12-12 15:38:05,0.175s,PASSED
+catch (Exception e),Chrome 71.0.3578.80,,2018-12-12 15:38:05,2018-12-12 15:38:05,0.007s,PASSED
+Finally,Chrome 71.0.3578.80,,2018-12-12 15:38:05,2018-12-12 15:38:05,0.812s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.80,,2018-12-12 15:38:05,2018-12-12 15:38:06,0.010s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.80,,2018-12-12 15:38:06,2018-12-12 15:38:06,0.000s,PASSED
+,,,,,,
+Test Cases/Shrutika/Control Statements/For Loop Test Case,Chrome 71.0.3578.80,For Loop Test Case,2018-12-12 15:38:06,2018-12-12 15:38:19,13.652s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.80,,2018-12-12 15:38:06,2018-12-12 15:38:06,0.000s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.80,,2018-12-12 15:38:06,2018-12-12 15:38:06,0.016s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 71.0.3578.80,,2018-12-12 15:38:06,2018-12-12 15:38:11,4.809s,PASSED
+maximizeWindow(),Chrome 71.0.3578.80,,2018-12-12 15:38:11,2018-12-12 15:38:12,1.151s,PASSED
+"click(findTestObject(""Shrutika/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 71.0.3578.80,,2018-12-12 15:38:12,2018-12-12 15:38:16,4.202s,PASSED
+"setText(findTestObject(""Shrutika/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 71.0.3578.80,,2018-12-12 15:38:16,2018-12-12 15:38:16,0.221s,PASSED
+"setText(findTestObject(""Shrutika/Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 71.0.3578.80,,2018-12-12 15:38:16,2018-12-12 15:38:17,0.243s,PASSED
+"click(findTestObject(""Shrutika/Page_CURA Healthcare Service/button_Login""))",Chrome 71.0.3578.80,,2018-12-12 15:38:17,2018-12-12 15:38:17,0.633s,PASSED
+"range = getNumberOfTotalOption(findTestObject(""Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C""))",Chrome 71.0.3578.80,,2018-12-12 15:38:17,2018-12-12 15:38:17,0.142s,PASSED
+for (int i : (0..(range - 1))),Chrome 71.0.3578.80,,2018-12-12 15:38:17,2018-12-12 15:38:18,0.583s,PASSED
+for (int i : (0..2)),Chrome 71.0.3578.80,,2018-12-12 15:38:18,2018-12-12 15:38:18,0.548s,PASSED
+closeBrowser(),Chrome 71.0.3578.80,,2018-12-12 15:38:18,2018-12-12 15:38:19,0.752s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.80,,2018-12-12 15:38:19,2018-12-12 15:38:19,0.008s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.80,,2018-12-12 15:38:19,2018-12-12 15:38:19,0.000s,PASSED
+,,,,,,
+Test Cases/Shrutika/Control Statements/Switch TestCase,Chrome 71.0.3578.80,Switch TestCase,2018-12-12 15:38:19,2018-12-12 15:38:40,21.203s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.80,,2018-12-12 15:38:19,2018-12-12 15:38:19,0.016s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.80,,2018-12-12 15:38:19,2018-12-12 15:38:19,0.000s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 71.0.3578.80,,2018-12-12 15:38:19,2018-12-12 15:38:33,13.642s,PASSED
+maximizeWindow(),Chrome 71.0.3578.80,,2018-12-12 15:38:33,2018-12-12 15:38:34,1.182s,PASSED
+"click(findTestObject(""Shrutika/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 71.0.3578.80,,2018-12-12 15:38:34,2018-12-12 15:38:38,4.158s,PASSED
+"setText(findTestObject(""Shrutika/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 71.0.3578.80,,2018-12-12 15:38:38,2018-12-12 15:38:39,0.144s,PASSED
+"setText(findTestObject(""Shrutika/Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 71.0.3578.80,,2018-12-12 15:38:39,2018-12-12 15:38:39,0.184s,PASSED
+"click(findTestObject(""Shrutika/Page_CURA Healthcare Service/button_Login""))",Chrome 71.0.3578.80,,2018-12-12 15:38:39,2018-12-12 15:38:39,0.625s,PASSED
+option = 2,Chrome 71.0.3578.80,,2018-12-12 15:38:39,2018-12-12 15:38:39,0.001s,PASSED
+switch (option),Chrome 71.0.3578.80,,2018-12-12 15:38:39,2018-12-12 15:38:40,0.210s,PASSED
+closeBrowser(),Chrome 71.0.3578.80,,2018-12-12 15:38:40,2018-12-12 15:38:40,0.761s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.80,,2018-12-12 15:38:40,2018-12-12 15:38:40,0.010s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.80,,2018-12-12 15:38:40,2018-12-12 15:38:40,0.000s,PASSED
+,,,,,,
+Test Cases/Shrutika/Control Statements/While Test Case,Chrome 71.0.3578.80,While Test Case,2018-12-12 15:38:40,2018-12-12 15:38:53,12.816s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.80,,2018-12-12 15:38:40,2018-12-12 15:38:40,0.000s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.80,,2018-12-12 15:38:40,2018-12-12 15:38:40,0.000s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 71.0.3578.80,,2018-12-12 15:38:41,2018-12-12 15:38:46,4.760s,PASSED
+maximizeWindow(),Chrome 71.0.3578.80,,2018-12-12 15:38:46,2018-12-12 15:38:47,1.124s,PASSED
+"click(findTestObject(""Shrutika/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 71.0.3578.80,,2018-12-12 15:38:47,2018-12-12 15:38:51,4.157s,PASSED
+"setText(findTestObject(""Shrutika/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 71.0.3578.80,,2018-12-12 15:38:51,2018-12-12 15:38:51,0.216s,PASSED
+"setText(findTestObject(""Shrutika/Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 71.0.3578.80,,2018-12-12 15:38:51,2018-12-12 15:38:51,0.226s,PASSED
+"click(findTestObject(""Shrutika/Page_CURA Healthcare Service/button_Login""))",Chrome 71.0.3578.80,,2018-12-12 15:38:51,2018-12-12 15:38:52,0.627s,PASSED
+"range = getNumberOfTotalOption(findTestObject(""Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C""))",Chrome 71.0.3578.80,,2018-12-12 15:38:52,2018-12-12 15:38:52,0.112s,PASSED
+println(range),Chrome 71.0.3578.80,,2018-12-12 15:38:52,2018-12-12 15:38:52,0.001s,PASSED
+while (range - 1 >= 0),Chrome 71.0.3578.80,,2018-12-12 15:38:52,2018-12-12 15:38:53,0.494s,PASSED
+closeBrowser(),Chrome 71.0.3578.80,,2018-12-12 15:38:53,2018-12-12 15:38:53,0.725s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.80,,2018-12-12 15:38:53,2018-12-12 15:38:53,0.006s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.80,,2018-12-12 15:38:53,2018-12-12 15:38:53,0.000s,PASSED

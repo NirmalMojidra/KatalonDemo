@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_1" time="61" tests="5" failures="0" errors="0">
+   <testsuite name="TestSuite_1" tests="5" failures="0" errors="0" time="61" timestamp="2018-12-12 15:48:44" hostname="Gupta_shr - Shrutika-GT.India.XoriantCorp.com" id="Test Suites/Shrutika/TestSuite_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\gupta_shr\\git\\KatalonDemo\\Reports\\Shrutika\\TestSuite_1\\20181212_154840"/>
+         <property name="logFiles" value="C:\\Users\\gupta_shr\\git\\KatalonDemo\\Reports\\Shrutika\\TestSuite_1\\20181212_154840\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gupta_shr - Shrutika-GT.India.XoriantCorp.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.80"/>
+         <property name="hostAddress" value="10.20.3.151"/>
+         <property name="sessionId" value="d2c00e6f1a12ac1d2f090ae3590f06bd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Shrutika/Control Statements/DecisionMaking TestCase" classname="Test Cases/Shrutika/Control Statements/DecisionMaking TestCase" status="PASSED">
+         <system-out><![CDATA[2018-12-12 15:48:45 - [TEST_CASE][PASSED] - Test Cases/Shrutika/Control Statements/DecisionMaking TestCase: Test Cases/Shrutika/Control Statements/DecisionMaking TestCase
+
+2018-12-12 15:48:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 15:48:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:48:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 15:48:45 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-12 15:48:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 15:48:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:48:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 15:48:45 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2018-12-12 15:48:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-12 15:48:45 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-12 15:48:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2018-12-12 15:48:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-12 15:48:56 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-12 15:48:56 - [TEST_STEP][PASSED] - click(findTestObject("Shrutika/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-12 15:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-12 15:49:03 - [TEST_STEP][PASSED] - setText(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-12 15:49:04 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-12 15:49:04 - [TEST_STEP][PASSED] - setText(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-12 15:49:04 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-12 15:49:04 - [TEST_STEP][PASSED] - click(findTestObject("Shrutika/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-12 15:49:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-12 15:49:04 - [TEST_STEP][PASSED] - if (check(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Medicare_programs"))): Object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is checked
+
+2018-12-12 15:49:04 - [MESSAGE][PASSED] - Object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicare_programs' is checked
+
+2018-12-12 15:49:04 - [MESSAGE][PASSED] - Object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is checked
+
+2018-12-12 15:49:04 - [TEST_STEP][PASSED] - else if (!(check(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs")))): Object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is checked
+
+2018-12-12 15:49:04 - [TEST_STEP][PASSED] - println("Medicaid"): null
+
+2018-12-12 15:49:04 - [TEST_STEP][PASSED] - click(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2018-12-12 15:49:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2018-12-12 15:49:05 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs"), 10): Object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is checked
+
+2018-12-12 15:49:05 - [MESSAGE][PASSED] - Object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is checked
+
+2018-12-12 15:49:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-12 15:49:05 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-12 15:49:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 15:49:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-12 15:49:05 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-12 15:49:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 15:49:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shrutika/Control Statements/ExceptionHandling Test Case" classname="Test Cases/Shrutika/Control Statements/ExceptionHandling Test Case" status="PASSED">
+         <system-out><![CDATA[2018-12-12 15:49:05 - [TEST_CASE][PASSED] - Test Cases/Shrutika/Control Statements/ExceptionHandling Test Case: Test Cases/Shrutika/Control Statements/ExceptionHandling Test Case
+
+2018-12-12 15:49:05 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 15:49:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 15:49:05 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-12 15:49:05 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 15:49:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 15:49:06 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2018-12-12 15:49:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-12 15:49:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2018-12-12 15:49:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-12 15:49:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-12 15:49:12 - [TEST_STEP][PASSED] - click(findTestObject("Shrutika/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-12 15:49:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-12 15:49:12 - [TEST_STEP][PASSED] - setText(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-12 15:49:12 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-12 15:49:12 - [TEST_STEP][PASSED] - setText(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-12 15:49:13 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-12 15:49:13 - [TEST_STEP][PASSED] - click(findTestObject("Shrutika/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-12 15:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-12 15:49:13 - [TEST_STEP][PASSED] - try: null
+
+2018-12-12 15:49:13 - [TEST_STEP][PASSED] - click(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2018-12-12 15:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2018-12-12 15:49:13 - [TEST_STEP][PASSED] - println("Medicaid is already checked thus cotinue"): null
+
+2018-12-12 15:49:13 - [TEST_STEP][PASSED] - throw new com.kms.katalon.core.exception.KatalonRuntimeException(test error mwssage): null
+
+2018-12-12 15:49:13 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2018-12-12 15:49:13 - [TEST_STEP][PASSED] - e.printStackTrace(): null
+
+2018-12-12 15:49:13 - [TEST_STEP][PASSED] - println("General issue occur"): null
+
+2018-12-12 15:49:13 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+2018-12-12 15:49:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-12 15:49:14 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-12 15:49:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 15:49:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-12 15:49:14 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-12 15:49:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 15:49:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shrutika/Control Statements/For Loop Test Case" classname="Test Cases/Shrutika/Control Statements/For Loop Test Case" status="PASSED">
+         <system-out><![CDATA[2018-12-12 15:49:14 - [TEST_CASE][PASSED] - Test Cases/Shrutika/Control Statements/For Loop Test Case: Test Cases/Shrutika/Control Statements/For Loop Test Case
+
+2018-12-12 15:49:14 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 15:49:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 15:49:14 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-12 15:49:14 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 15:49:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 15:49:14 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2018-12-12 15:49:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-12 15:49:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2018-12-12 15:49:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-12 15:49:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-12 15:49:20 - [TEST_STEP][PASSED] - click(findTestObject("Shrutika/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-12 15:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-12 15:49:21 - [TEST_STEP][PASSED] - setText(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-12 15:49:21 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-12 15:49:21 - [TEST_STEP][PASSED] - setText(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-12 15:49:21 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-12 15:49:21 - [TEST_STEP][PASSED] - click(findTestObject("Shrutika/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-12 15:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-12 15:49:22 - [TEST_STEP][PASSED] - range = getNumberOfTotalOption(findTestObject("Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C")): 3 options of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' counted
+
+2018-12-12 15:49:22 - [MESSAGE][PASSED] - 3 options of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' counted
+
+2018-12-12 15:49:22 - [TEST_STEP][PASSED] - for (int i : (0..(range - 1))): Attribute 'value' of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' is: 'Seoul CURA Healthcare Center'
+
+2018-12-12 15:49:22 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C"), i): All options with index in [0] are selected on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'
+
+2018-12-12 15:49:22 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'
+
+2018-12-12 15:49:22 - [TEST_STEP][PASSED] - println(getAttribute(findTestObject("Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C"), "value")): Attribute 'value' of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' is: 'Tokyo CURA Healthcare Center'
+
+2018-12-12 15:49:22 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' is: 'Tokyo CURA Healthcare Center'
+
+2018-12-12 15:49:22 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C"), i): All options with index in [1] are selected on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'
+
+2018-12-12 15:49:23 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - println(getAttribute(findTestObject("Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C"), "value")): Attribute 'value' of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' is: 'Hongkong CURA Healthcare Center'
+
+2018-12-12 15:49:23 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' is: 'Hongkong CURA Healthcare Center'
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C"), i): All options with index in [2] are selected on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'
+
+2018-12-12 15:49:23 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - println(getAttribute(findTestObject("Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C"), "value")): Attribute 'value' of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' is: 'Seoul CURA Healthcare Center'
+
+2018-12-12 15:49:23 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' is: 'Seoul CURA Healthcare Center'
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - for (int i : (0..2)): null
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - if (check(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Medicare_programs"))): Object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicare_programs' is checked
+
+2018-12-12 15:49:23 - [MESSAGE][PASSED] - Object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicare_programs' is checked
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - else: null
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - click(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2018-12-12 15:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - println("Medicaid is already checked thus cotinue"): null
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - println("Inside the loop count : " + i): null
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - if (check(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Medicare_programs"))): Object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicare_programs' is checked
+
+2018-12-12 15:49:23 - [MESSAGE][PASSED] - Object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicare_programs' is checked
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - else: null
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - click(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2018-12-12 15:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - println("Medicaid is already checked thus cotinue"): null
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - println("Inside the loop count : " + i): null
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - if (check(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Medicare_programs"))): Object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicare_programs' is checked
+
+2018-12-12 15:49:23 - [MESSAGE][PASSED] - Object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicare_programs' is checked
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - else: null
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - click(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2018-12-12 15:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - println("Medicaid is already checked thus cotinue"): null
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - println("Inside the loop count : " + i): null
+
+2018-12-12 15:49:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-12 15:49:24 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-12 15:49:24 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 15:49:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-12 15:49:24 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-12 15:49:24 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 15:49:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shrutika/Control Statements/Switch TestCase" classname="Test Cases/Shrutika/Control Statements/Switch TestCase" status="PASSED">
+         <system-out><![CDATA[2018-12-12 15:49:24 - [TEST_CASE][PASSED] - Test Cases/Shrutika/Control Statements/Switch TestCase: Test Cases/Shrutika/Control Statements/Switch TestCase
+
+2018-12-12 15:49:24 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 15:49:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 15:49:24 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-12 15:49:24 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 15:49:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 15:49:24 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2018-12-12 15:49:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-12 15:49:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2018-12-12 15:49:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-12 15:49:30 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-12 15:49:30 - [TEST_STEP][PASSED] - click(findTestObject("Shrutika/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-12 15:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-12 15:49:31 - [TEST_STEP][PASSED] - setText(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-12 15:49:31 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-12 15:49:31 - [TEST_STEP][PASSED] - setText(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-12 15:49:31 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-12 15:49:31 - [TEST_STEP][PASSED] - click(findTestObject("Shrutika/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-12 15:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-12 15:49:32 - [TEST_STEP][PASSED] - option = 2: null
+
+2018-12-12 15:49:32 - [TEST_STEP][PASSED] - switch (option): null
+
+2018-12-12 15:49:32 - [TEST_STEP][PASSED] - case 2:: null
+
+2018-12-12 15:49:32 - [TEST_STEP][PASSED] - println("Medicaid"): null
+
+2018-12-12 15:49:32 - [TEST_STEP][PASSED] - click(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2018-12-12 15:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2018-12-12 15:49:32 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs"), 10): Object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is checked
+
+2018-12-12 15:49:32 - [MESSAGE][PASSED] - Object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs' is checked
+
+2018-12-12 15:49:32 - [TEST_STEP][PASSED] - break: null
+
+2018-12-12 15:49:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-12 15:49:33 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-12 15:49:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 15:49:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-12 15:49:33 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-12 15:49:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 15:49:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shrutika/Control Statements/While Test Case" classname="Test Cases/Shrutika/Control Statements/While Test Case" status="PASSED">
+         <system-out><![CDATA[2018-12-12 15:49:33 - [TEST_CASE][PASSED] - Test Cases/Shrutika/Control Statements/While Test Case: Test Cases/Shrutika/Control Statements/While Test Case
+
+2018-12-12 15:49:33 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 15:49:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 15:49:33 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-12 15:49:33 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 15:49:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 15:49:33 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2018-12-12 15:49:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-12 15:49:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2018-12-12 15:49:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-12 15:49:42 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-12 15:49:42 - [TEST_STEP][PASSED] - click(findTestObject("Shrutika/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-12 15:49:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-12 15:49:43 - [TEST_STEP][PASSED] - setText(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-12 15:49:43 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-12 15:49:43 - [TEST_STEP][PASSED] - setText(findTestObject("Shrutika/Page_CURA Healthcare Service/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-12 15:49:43 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-12 15:49:43 - [TEST_STEP][PASSED] - click(findTestObject("Shrutika/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-12 15:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-12 15:49:44 - [TEST_STEP][PASSED] - range = getNumberOfTotalOption(findTestObject("Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C")): 3 options of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' counted
+
+2018-12-12 15:49:44 - [MESSAGE][PASSED] - 3 options of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' counted
+
+2018-12-12 15:49:44 - [TEST_STEP][PASSED] - println(range): null
+
+2018-12-12 15:49:44 - [TEST_STEP][PASSED] - while (range - 1 >= 0): null
+
+2018-12-12 15:49:44 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C"), range - 1): All options with index in [2] are selected on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'
+
+2018-12-12 15:49:44 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'
+
+2018-12-12 15:49:44 - [TEST_STEP][PASSED] - println(getAttribute(findTestObject("Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C"), "value")): Attribute 'value' of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' is: 'Seoul CURA Healthcare Center'
+
+2018-12-12 15:49:44 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' is: 'Seoul CURA Healthcare Center'
+
+2018-12-12 15:49:44 - [TEST_STEP][PASSED] - (range--): null
+
+2018-12-12 15:49:44 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C"), range - 1): All options with index in [1] are selected on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'
+
+2018-12-12 15:49:45 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'
+
+2018-12-12 15:49:45 - [TEST_STEP][PASSED] - println(getAttribute(findTestObject("Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C"), "value")): Attribute 'value' of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' is: 'Hongkong CURA Healthcare Center'
+
+2018-12-12 15:49:45 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' is: 'Hongkong CURA Healthcare Center'
+
+2018-12-12 15:49:45 - [TEST_STEP][PASSED] - (range--): null
+
+2018-12-12 15:49:45 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C"), range - 1): All options with index in [0] are selected on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'
+
+2018-12-12 15:49:45 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'
+
+2018-12-12 15:49:45 - [TEST_STEP][PASSED] - println(getAttribute(findTestObject("Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C"), "value")): Attribute 'value' of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' is: 'Tokyo CURA Healthcare Center'
+
+2018-12-12 15:49:45 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Shrutika/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C' is: 'Tokyo CURA Healthcare Center'
+
+2018-12-12 15:49:45 - [TEST_STEP][PASSED] - (range--): null
+
+2018-12-12 15:49:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-12 15:49:46 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-12 15:49:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 15:49:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-12 15:49:46 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-12 15:49:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 15:49:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 15:49:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-12 15:48:44 - [TEST_SUITE][PASSED] - TestSuite_1: Test Cases/Shrutika/Control Statements/While Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
