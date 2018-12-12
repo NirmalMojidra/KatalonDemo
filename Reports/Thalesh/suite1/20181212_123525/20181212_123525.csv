@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+suite1,Firefox 63.0,,2018-12-12 12:35:42,2018-12-12 12:38:23,2m - 41.630s,PASSED
+,,,,,,
+Test Cases/Thalesh/AutomationDemoSite,Firefox 63.0,,2018-12-12 12:35:45,2018-12-12 12:36:57,1m - 12.019s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 63.0,,2018-12-12 12:35:46,2018-12-12 12:35:46,0.021s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 63.0,,2018-12-12 12:35:46,2018-12-12 12:35:46,0.004s,PASSED
+openBrowser(null),Firefox 63.0,,2018-12-12 12:35:46,2018-12-12 12:36:21,35.015s,PASSED
+"navigateToUrl(""http://demo.automationtesting.in/Register.html"")",Firefox 63.0,,2018-12-12 12:36:21,2018-12-12 12:36:33,11.822s,PASSED
+"setText(findTestObject(""DemoAuto/input_FirstName""), ""thalesh"")",Firefox 63.0,,2018-12-12 12:36:33,2018-12-12 12:36:33,0.379s,PASSED
+"setText(findTestObject(""DemoAuto/input_LastName""), ""sharma"")",Firefox 63.0,,2018-12-12 12:36:33,2018-12-12 12:36:34,0.309s,PASSED
+"setText(findTestObject(""DemoAuto/textarea_Address""), ""test text area"")",Firefox 63.0,,2018-12-12 12:36:34,2018-12-12 12:36:34,0.125s,PASSED
+"setText(findTestObject(""DemoAuto/input_EmailAddress""), ""thalesh.s@gmail.com"")",Firefox 63.0,,2018-12-12 12:36:34,2018-12-12 12:36:34,0.478s,PASSED
+"setText(findTestObject(""Object Repository/DemoAuto/input_Phone""), ""1234567890"")",Firefox 63.0,,2018-12-12 12:36:34,2018-12-12 12:36:35,0.299s,PASSED
+"click(findTestObject(""DemoAuto/input_GenderRadioOptions""))",Firefox 63.0,,2018-12-12 12:36:35,2018-12-12 12:36:35,0.337s,PASSED
+"click(findTestObject(""DemoAuto/input_HobbiesCheckbox""))",Firefox 63.0,,2018-12-12 12:36:35,2018-12-12 12:36:35,0.251s,PASSED
+"scrollToElement(findTestObject(""DemoAuto/select_Skills""), 5)",Firefox 63.0,,2018-12-12 12:36:35,2018-12-12 12:36:35,0.044s,PASSED
+"click(findTestObject(""DemoAuto/select_Skills""))",Firefox 63.0,,2018-12-12 12:36:35,2018-12-12 12:36:36,0.314s,PASSED
+"selectOptionByValue(findTestObject(""DemoAuto/select_Skills""), ""Java"", true)",Firefox 63.0,,2018-12-12 12:36:36,2018-12-12 12:36:38,2.263s,PASSED
+"click(findTestObject(""DemoAuto/select_Country""))",Firefox 63.0,,2018-12-12 12:36:38,2018-12-12 12:36:38,0.262s,PASSED
+"selectOptionByValue(findTestObject(""DemoAuto/select_Country""), ""United Kingdom"", true)",Firefox 63.0,,2018-12-12 12:36:38,2018-12-12 12:36:46,7.403s,PASSED
+"click(findTestObject(""DemoAuto/li_Country0""))",Firefox 63.0,,2018-12-12 12:36:46,2018-12-12 12:36:46,0.299s,PASSED
+obj = new com.kms.katalon.core.testobject.TestObject(TheObjectName),Firefox 63.0,,2018-12-12 12:36:46,2018-12-12 12:36:46,0.010s,PASSED
+"obj.addProperty(""xpath"", EQUALS, ""//ul[@id='select2-country-results']/li[text()='India']"")",Firefox 63.0,,2018-12-12 12:36:46,2018-12-12 12:36:46,0.007s,PASSED
+click(obj),Firefox 63.0,,2018-12-12 12:36:46,2018-12-12 12:36:47,0.747s,PASSED
+"selectOptionByValue(findTestObject(""DemoAuto/select_Year""), ""1990"", true)",Firefox 63.0,,2018-12-12 12:36:47,2018-12-12 12:36:50,3.074s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/DemoAuto/select_Month""), ""January"", true)",Firefox 63.0,,2018-12-12 12:36:50,2018-12-12 12:36:50,0.532s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/DemoAuto/select_Day""), ""1"", true)",Firefox 63.0,,2018-12-12 12:36:50,2018-12-12 12:36:51,0.921s,PASSED
+"setText(findTestObject(""DemoAuto/input_FirstPassword""), ""Tt123456"")",Firefox 63.0,,2018-12-12 12:36:51,2018-12-12 12:36:51,0.084s,PASSED
+"setText(findTestObject(""DemoAuto/input_ConfirmPassword""), ""Tt123456"")",Firefox 63.0,,2018-12-12 12:36:51,2018-12-12 12:36:51,0.084s,PASSED
+"click(findTestObject(""Object Repository/DemoAuto/button_Submit""))",Firefox 63.0,,2018-12-12 12:36:51,2018-12-12 12:36:52,0.282s,PASSED
+closeBrowser(),Firefox 63.0,,2018-12-12 12:36:52,2018-12-12 12:36:57,5.888s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 63.0,,2018-12-12 12:36:57,2018-12-12 12:36:57,0.003s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 63.0,,2018-12-12 12:36:57,2018-12-12 12:36:57,0.003s,PASSED
+,,,,,,
+Test Cases/Thalesh/CuraPortal,Firefox 63.0,,2018-12-12 12:36:57,2018-12-12 12:37:44,46.885s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 63.0,,2018-12-12 12:36:57,2018-12-12 12:36:57,0.001s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 63.0,,2018-12-12 12:36:58,2018-12-12 12:36:58,0.002s,PASSED
+"openBrowser("""")",Firefox 63.0,,2018-12-12 12:36:58,2018-12-12 12:37:25,27.089s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 63.0,,2018-12-12 12:37:25,2018-12-12 12:37:29,3.916s,PASSED
+"click(findTestObject(""Thalesh/Page_CURA/a_MakeAppointment""))",Firefox 63.0,,2018-12-12 12:37:29,2018-12-12 12:37:30,1.017s,PASSED
+"setText(findTestObject(""Thalesh/Page_CURA/input_Username""), ""John Doe"")",Firefox 63.0,,2018-12-12 12:37:30,2018-12-12 12:37:30,0.123s,PASSED
+"setEncryptedText(findTestObject(""Thalesh/Page_CURA/input_Password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 63.0,,2018-12-12 12:37:30,2018-12-12 12:37:31,0.466s,PASSED
+"click(findTestObject(""Thalesh/Page_CURA/button_Login""))",Firefox 63.0,,2018-12-12 12:37:31,2018-12-12 12:37:32,1.069s,PASSED
+"selectOptionByValue(findTestObject(""Thalesh/Page_CURA/select_CURAHealthcare""), ""Hongkong CURA Healthcare Center"", true)",Firefox 63.0,,2018-12-12 12:37:32,2018-12-12 12:37:32,0.453s,PASSED
+"click(findTestObject(""Thalesh/Page_CURA/input_ApplyHospitalReadm""))",Firefox 63.0,,2018-12-12 12:37:32,2018-12-12 12:37:32,0.252s,PASSED
+"setText(findTestObject(""Thalesh/Page_CURA/input_VisitDate""), ""01/01/2019"")",Firefox 63.0,,2018-12-12 12:37:32,2018-12-12 12:37:33,0.477s,PASSED
+"setText(findTestObject(""Thalesh/Page_CURA/textarea_Comment""), ""Please book a appointment for me"")",Firefox 63.0,,2018-12-12 12:37:33,2018-12-12 12:37:33,0.199s,PASSED
+"click(findTestObject(""Thalesh/Page_CURA/button_BookAppointment""))",Firefox 63.0,,2018-12-12 12:37:33,2018-12-12 12:37:34,0.798s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Thalesh/Page_CURA/p_Facility""), ""Hongkong CURA Healthcare Center"")",Firefox 63.0,,2018-12-12 12:37:34,2018-12-12 12:37:34,0.055s,PASSED
+closeBrowser(),Firefox 63.0,,2018-12-12 12:37:34,2018-12-12 12:37:44,10.499s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 63.0,,2018-12-12 12:37:44,2018-12-12 12:37:44,0.004s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 63.0,,2018-12-12 12:37:44,2018-12-12 12:37:44,0.006s,PASSED
+,,,,,,
+Test Cases/Thalesh/Test1_InputForm,Firefox 63.0,"This test includes following interactions-
+Enter text in text box
+Select the value from Drop down list
+Click on radio button
+Click on button",2018-12-12 12:37:44,2018-12-12 12:38:22,37.280s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 63.0,,2018-12-12 12:37:45,2018-12-12 12:37:45,0.004s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 63.0,,2018-12-12 12:37:45,2018-12-12 12:37:45,0.003s,PASSED
+openBrowser(null),Firefox 63.0,,2018-12-12 12:37:45,2018-12-12 12:38:16,30.632s,PASSED
+maximizeWindow(),Firefox 63.0,,2018-12-12 12:38:16,2018-12-12 12:38:16,0.058s,PASSED
+"navigateToUrl(""https://www.seleniumeasy.com/test"")",Firefox 63.0,,2018-12-12 12:38:16,2018-12-12 12:38:19,3.208s,PASSED
+waitForPageLoad(10),Firefox 63.0,,2018-12-12 12:38:19,2018-12-12 12:38:19,0.055s,PASSED
+"waitForElementPresent(findTestObject(""Page_Home/li_All Examples""), 10)",Firefox 63.0,,2018-12-12 12:38:19,2018-12-12 12:38:19,0.022s,PASSED
+"scrollToElement(findTestObject(""Page_Home/li_All Examples""), 5)",Firefox 63.0,,2018-12-12 12:38:19,2018-12-12 12:38:19,0.017s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Input Forms""))",Firefox 63.0,,2018-12-12 12:38:19,2018-12-12 12:38:20,0.258s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_InputFormSubmit""))",Firefox 63.0,,2018-12-12 12:38:20,2018-12-12 12:38:20,0.411s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_FirstName""), ""thalesh"")",Firefox 63.0,,2018-12-12 12:38:20,2018-12-12 12:38:20,0.067s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_LastName""), ""Sharma"")",Firefox 63.0,,2018-12-12 12:38:20,2018-12-12 12:38:20,0.092s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_EMail""), ""thalesh@gmail.com"")",Firefox 63.0,,2018-12-12 12:38:20,2018-12-12 12:38:20,0.079s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_Phone""), ""1234567890"")",Firefox 63.0,,2018-12-12 12:38:20,2018-12-12 12:38:20,0.072s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_Address""), ""Baner, Pune"")",Firefox 63.0,,2018-12-12 12:38:20,2018-12-12 12:38:20,0.061s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_City""), ""Pune"")",Firefox 63.0,,2018-12-12 12:38:20,2018-12-12 12:38:21,0.072s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Page_Home/select_State""), ""California"", false)",Firefox 63.0,,2018-12-12 12:38:21,2018-12-12 12:38:21,0.286s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_ZipCode""), ""EJ08 2EX"")",Firefox 63.0,,2018-12-12 12:38:21,2018-12-12 12:38:21,0.046s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_Website""), ""www.facebook.com"")",Firefox 63.0,,2018-12-12 12:38:21,2018-12-12 12:38:21,0.059s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/input_hosting""))",Firefox 63.0,,2018-12-12 12:38:21,2018-12-12 12:38:21,0.244s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/Project Description""), ""test"")",Firefox 63.0,,2018-12-12 12:38:21,2018-12-12 12:38:21,0.039s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/button_Send""))",Firefox 63.0,,2018-12-12 12:38:21,2018-12-12 12:38:22,0.419s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 63.0,,2018-12-12 12:38:22,2018-12-12 12:38:22,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 63.0,,2018-12-12 12:38:22,2018-12-12 12:38:22,0.002s,PASSED

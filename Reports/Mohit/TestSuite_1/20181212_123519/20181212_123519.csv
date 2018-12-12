@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite_1,Chrome 71.0.3578.80,,2018-12-12 12:35:39,2018-12-12 12:37:57,2m - 18.306s,ERROR
+,,,,,,
+Test Cases/Mohit/Drag_Drop,Chrome 71.0.3578.80,,2018-12-12 12:35:41,2018-12-12 12:36:34,52.603s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.80,,2018-12-12 12:35:42,2018-12-12 12:35:42,0.183s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.80,,2018-12-12 12:35:42,2018-12-12 12:35:42,0.009s,PASSED
+"imgDir = getProjectDir() + ""/Include/img/""",Chrome 71.0.3578.80,,2018-12-12 12:35:42,2018-12-12 12:35:42,0.049s,PASSED
+"openBrowser(""https://html5demos.com/drag/"")",Chrome 71.0.3578.80,,2018-12-12 12:35:42,2018-12-12 12:36:18,35.338s,PASSED
+maximizeWindow(),Chrome 71.0.3578.80,,2018-12-12 12:36:18,2018-12-12 12:36:19,1.224s,PASSED
+Thread.sleep(500),Chrome 71.0.3578.80,,2018-12-12 12:36:19,2018-12-12 12:36:19,0.514s,PASSED
+screen = new org.sikuli.script.Screen(),Chrome 71.0.3578.80,,2018-12-12 12:36:19,2018-12-12 12:36:23,3.943s,PASSED
+one = new org.sikuli.script.Pattern((imgDir + one.png)),Chrome 71.0.3578.80,,2018-12-12 12:36:23,2018-12-12 12:36:29,5.838s,PASSED
+drop = new org.sikuli.script.Pattern((imgDir + drop.png)),Chrome 71.0.3578.80,,2018-12-12 12:36:29,2018-12-12 12:36:29,0.035s,PASSED
+Thread.sleep(500),Chrome 71.0.3578.80,,2018-12-12 12:36:29,2018-12-12 12:36:30,0.505s,PASSED
+"screen.dragDrop(one, drop)",Chrome 71.0.3578.80,,2018-12-12 12:36:30,2018-12-12 12:36:34,4.101s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.80,,2018-12-12 12:36:34,2018-12-12 12:36:34,0.006s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.80,,2018-12-12 12:36:34,2018-12-12 12:36:34,0.009s,PASSED
+,,,,,,
+Test Cases/Mohit/DemoSite/phpTravels,Chrome 71.0.3578.80,,2018-12-12 12:36:34,2018-12-12 12:37:54,1m - 20.046s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.80,,2018-12-12 12:36:34,2018-12-12 12:36:34,0.007s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.80,,2018-12-12 12:36:34,2018-12-12 12:36:34,0.003s,PASSED
+"openBrowser(""https://www.phptravels.net/"")",Chrome 71.0.3578.80,,2018-12-12 12:36:35,2018-12-12 12:37:15,40.184s,PASSED
+maximizeWindow(),Chrome 71.0.3578.80,,2018-12-12 12:37:15,2018-12-12 12:37:17,1.155s,PASSED
+driver = getWebDriver(),Chrome 71.0.3578.80,,2018-12-12 12:37:17,2018-12-12 12:37:17,0.019s,PASSED
+"for ([i = 0, i < 1000, (i++)])",Chrome 71.0.3578.80,,2018-12-12 12:37:17,2018-12-12 12:37:18,1.296s,PASSED
+"elements = driver.findElements(By.className(""text-center""))",Chrome 71.0.3578.80,,2018-12-12 12:37:18,2018-12-12 12:37:18,0.062s,PASSED
+for (org.openqa.selenium.WebElement webElement : elements),Chrome 71.0.3578.80,,2018-12-12 12:37:18,2018-12-12 12:37:21,2.788s,PASSED
+"for ([i = 0, i < 1000, (i++)])",Chrome 71.0.3578.80,,2018-12-12 12:37:21,2018-12-12 12:37:23,1.802s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),Chrome 71.0.3578.80,,2018-12-12 12:37:23,2018-12-12 12:37:23,0.037s,PASSED
+"elements = driver.findElements(By.className(""select2-chosen""))",Chrome 71.0.3578.80,,2018-12-12 12:37:23,2018-12-12 12:37:23,0.260s,PASSED
+for (org.openqa.selenium.WebElement webElement : elements),Chrome 71.0.3578.80,,2018-12-12 12:37:23,2018-12-12 12:37:33,10.013s,PASSED
+"name(""departure"")).click()",Chrome 71.0.3578.80,,2018-12-12 12:37:33,2018-12-12 12:37:33,0.658s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.80,,2018-12-12 12:37:33,2018-12-12 12:37:34,1.004s,PASSED
+"name(""departure"")).sendKeys(""2019-12-30"")",Chrome 71.0.3578.80,,2018-12-12 12:37:34,2018-12-12 12:37:35,0.969s,PASSED
+"elements = driver.findElements(By.className(""pfb0""))",Chrome 71.0.3578.80,,2018-12-12 12:37:35,2018-12-12 12:37:36,0.081s,PASSED
+for (org.openqa.selenium.WebElement webElement : elements),Chrome 71.0.3578.80,,2018-12-12 12:37:36,2018-12-12 12:37:39,3.102s,PASSED
+"for ([i = 0, i < 1000, (i++)])",Chrome 71.0.3578.80,,2018-12-12 12:37:39,2018-12-12 12:37:39,0.731s,PASSED
+get(0).click(),Chrome 71.0.3578.80,,2018-12-12 12:37:39,2018-12-12 12:37:41,1.911s,PASSED
+"for ([i = 0, i < 1000, (i++)])",Chrome 71.0.3578.80,,2018-12-12 12:37:41,2018-12-12 12:37:42,0.720s,PASSED
+"name(""firstname"")).sendKeys(""Firstname"")",Chrome 71.0.3578.80,,2018-12-12 12:37:42,2018-12-12 12:37:42,0.295s,PASSED
+"name(""lastname"")).sendKeys(""LastName"")",Chrome 71.0.3578.80,,2018-12-12 12:37:42,2018-12-12 12:37:42,0.213s,PASSED
+"name(""email"")).sendKeys(""dummyemail@email.com"")",Chrome 71.0.3578.80,,2018-12-12 12:37:43,2018-12-12 12:37:43,0.264s,PASSED
+"name(""confirmemail"")).sendKeys(""dummyemail@email.com"")",Chrome 71.0.3578.80,,2018-12-12 12:37:43,2018-12-12 12:37:43,0.296s,PASSED
+"name(""phone"")).sendKeys(""9874563201"")",Chrome 71.0.3578.80,,2018-12-12 12:37:43,2018-12-12 12:37:43,0.349s,PASSED
+"name(""address"")).sendKeys(""Dummy Address"")",Chrome 71.0.3578.80,,2018-12-12 12:37:43,2018-12-12 12:37:44,0.711s,PASSED
+"elements = driver.findElements(By.className(""btn-success""))",Chrome 71.0.3578.80,,2018-12-12 12:37:44,2018-12-12 12:37:44,0.081s,PASSED
+for (org.openqa.selenium.WebElement webElement : elements),Chrome 71.0.3578.80,,2018-12-12 12:37:44,2018-12-12 12:37:45,0.632s,PASSED
+"for ([i = 0, i < 1000, (i++)])",Chrome 71.0.3578.80,,2018-12-12 12:37:45,2018-12-12 12:37:53,7.852s,PASSED
+"className(""arrivalpay"")).click()",Chrome 71.0.3578.80,,2018-12-12 12:37:53,2018-12-12 12:37:53,0.193s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.80,,2018-12-12 12:37:53,2018-12-12 12:37:54,1.001s,PASSED
+alert().accept(),Chrome 71.0.3578.80,,2018-12-12 12:37:54,2018-12-12 12:37:54,0.128s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.80,,2018-12-12 12:37:54,2018-12-12 12:37:54,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.80,,2018-12-12 12:37:54,2018-12-12 12:37:54,0.002s,PASSED

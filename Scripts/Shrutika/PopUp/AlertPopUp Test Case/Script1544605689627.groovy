@@ -15,10 +15,10 @@ import internal.GlobalVariable as GlobalVariable
 
 	WebUI.openBrowser("http://toolsqa.com/handling-alerts-using-selenium-webdriver/")
 	WebUI.maximizeWindow()
-	WebUI.delay(5)
+	WebUI.delay(1)
 	WebUI.scrollToElement(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/Simple Alert Pop up text'), 2)
 	WebUI.click(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/button_Simple Alert'))
-	WebUI.delay(2)
+	WebUI.delay(1)
 	if(WebUI.waitForAlert(5))
 	{
 		WebUI.switchToWindowIndex(0)
@@ -33,11 +33,11 @@ import internal.GlobalVariable as GlobalVariable
 	 * ***/
 	
 	
-	WebUI.delay(2)
+	WebUI.delay(1)
 	WebUI.switchToDefaultContent()
 	WebUI.click(findTestObject('Shrutika/Page_TOOLSQA  Free QA Automation To/button_Confirm Pop up'))
-	WebUI.delay(2)
-	if(WebUI.waitForAlert(5))
+	WebUI.delay(1)
+	if(WebUI.waitForAlert(2))
 	{
 		WebUI.switchToWindowIndex(0)
 		WebUI.dismissAlert()

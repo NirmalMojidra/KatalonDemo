@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="suite1" time="156" tests="3" failures="0" errors="0">
+   <testsuite name="suite1" tests="3" failures="0" errors="0" time="156" timestamp="2018-12-12 12:35:41" hostname="C5281054 - INLN56580283A.apj.global.corp.sap" id="Test Suites/Thalesh/suite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\Thalesh\\suite1\\20181212_123524"/>
+         <property name="logFiles" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\Thalesh\\suite1\\20181212_123524\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="C5281054 - INLN56580283A.apj.global.corp.sap"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.80"/>
+         <property name="hostAddress" value="192.168.242.1"/>
+         <property name="sessionId" value="5961915e73b6982f4c5862852bffd116"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Thalesh/AutomationDemoSite" classname="Test Cases/Thalesh/AutomationDemoSite" status="PASSED">
+         <system-out><![CDATA[2018-12-12 12:35:44 - [TEST_CASE][PASSED] - Test Cases/Thalesh/AutomationDemoSite: Test Cases/Thalesh/AutomationDemoSite
+
+2018-12-12 12:35:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 12:35:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 12:35:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 12:35:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 12:35:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 12:35:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 12:35:46 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+2018-12-12 12:35:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-12 12:35:47 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-12 12:36:18 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-12-12 12:36:18 - [TEST_STEP][PASSED] - navigateToUrl("http://demo.automationtesting.in/Register.html"): Navigate to 'http://demo.automationtesting.in/Register.html' successfully
+
+2018-12-12 12:36:25 - [MESSAGE][PASSED] - Navigate to 'http://demo.automationtesting.in/Register.html' successfully
+
+2018-12-12 12:36:25 - [TEST_STEP][PASSED] - setText(findTestObject("DemoAuto/input_FirstName"), "thalesh"): Text 'thalesh' is set on object 'Object Repository/DemoAuto/input_FirstName'
+
+2018-12-12 12:36:25 - [MESSAGE][PASSED] - Text 'thalesh' is set on object 'Object Repository/DemoAuto/input_FirstName'
+
+2018-12-12 12:36:25 - [TEST_STEP][PASSED] - setText(findTestObject("DemoAuto/input_LastName"), "sharma"): Text 'sharma' is set on object 'Object Repository/DemoAuto/input_LastName'
+
+2018-12-12 12:36:25 - [MESSAGE][PASSED] - Text 'sharma' is set on object 'Object Repository/DemoAuto/input_LastName'
+
+2018-12-12 12:36:25 - [TEST_STEP][PASSED] - setText(findTestObject("DemoAuto/textarea_Address"), "test text area"): Text 'test text area' is set on object 'Object Repository/DemoAuto/textarea_Address'
+
+2018-12-12 12:36:26 - [MESSAGE][PASSED] - Text 'test text area' is set on object 'Object Repository/DemoAuto/textarea_Address'
+
+2018-12-12 12:36:26 - [TEST_STEP][PASSED] - setText(findTestObject("DemoAuto/input_EmailAddress"), "thalesh.s@gmail.com"): Text 'thalesh.s@gmail.com' is set on object 'Object Repository/DemoAuto/input_EmailAddress'
+
+2018-12-12 12:36:26 - [MESSAGE][PASSED] - Text 'thalesh.s@gmail.com' is set on object 'Object Repository/DemoAuto/input_EmailAddress'
+
+2018-12-12 12:36:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DemoAuto/input_Phone"), "1234567890"): Text '1234567890' is set on object 'Object Repository/DemoAuto/input_Phone'
+
+2018-12-12 12:36:26 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/DemoAuto/input_Phone'
+
+2018-12-12 12:36:26 - [TEST_STEP][PASSED] - click(findTestObject("DemoAuto/input_GenderRadioOptions")): Object: 'Object Repository/DemoAuto/input_GenderRadioOptions' is clicked on
+
+2018-12-12 12:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoAuto/input_GenderRadioOptions' is clicked on
+
+2018-12-12 12:36:27 - [TEST_STEP][PASSED] - click(findTestObject("DemoAuto/input_HobbiesCheckbox")): Object: 'Object Repository/DemoAuto/input_HobbiesCheckbox' is clicked on
+
+2018-12-12 12:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoAuto/input_HobbiesCheckbox' is clicked on
+
+2018-12-12 12:36:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("DemoAuto/select_Skills"), 5): Scroll to object 'Object Repository/DemoAuto/select_Skills' successfully
+
+2018-12-12 12:36:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/DemoAuto/select_Skills' successfully
+
+2018-12-12 12:36:27 - [TEST_STEP][PASSED] - click(findTestObject("DemoAuto/select_Skills")): Object: 'Object Repository/DemoAuto/select_Skills' is clicked on
+
+2018-12-12 12:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoAuto/select_Skills' is clicked on
+
+2018-12-12 12:36:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("DemoAuto/select_Skills"), "Java", true): All options with value 'Java' are selected in object 'Object Repository/DemoAuto/select_Skills'  using regular expression
+
+2018-12-12 12:36:30 - [MESSAGE][PASSED] - All options with value 'Java' are selected in object 'Object Repository/DemoAuto/select_Skills'  using regular expression
+
+2018-12-12 12:36:30 - [TEST_STEP][PASSED] - click(findTestObject("DemoAuto/select_Country")): Object: 'Object Repository/DemoAuto/select_Country' is clicked on
+
+2018-12-12 12:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoAuto/select_Country' is clicked on
+
+2018-12-12 12:36:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("DemoAuto/select_Country"), "United Kingdom", true): All options with value 'United Kingdom' are selected in object 'Object Repository/DemoAuto/select_Country'  using regular expression
+
+2018-12-12 12:36:45 - [MESSAGE][PASSED] - All options with value 'United Kingdom' are selected in object 'Object Repository/DemoAuto/select_Country'  using regular expression
+
+2018-12-12 12:36:45 - [TEST_STEP][PASSED] - click(findTestObject("DemoAuto/li_Country0")): Object: 'Object Repository/DemoAuto/li_Country0' is clicked on
+
+2018-12-12 12:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoAuto/li_Country0' is clicked on
+
+2018-12-12 12:36:45 - [TEST_STEP][PASSED] - obj = new com.kms.katalon.core.testobject.TestObject(TheObjectName): null
+
+2018-12-12 12:36:45 - [TEST_STEP][PASSED] - obj.addProperty("xpath", EQUALS, "//ul[@id='select2-country-results']/li[text()='India']"): null
+
+2018-12-12 12:36:45 - [TEST_STEP][PASSED] - click(obj): Object: 'TheObjectName' is clicked on
+
+2018-12-12 12:36:45 - [MESSAGE][PASSED] - Object: 'TheObjectName' is clicked on
+
+2018-12-12 12:36:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("DemoAuto/select_Year"), "1990", true): All options with value '1990' are selected in object 'Object Repository/DemoAuto/select_Year'  using regular expression
+
+2018-12-12 12:36:49 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/DemoAuto/select_Year'  using regular expression
+
+2018-12-12 12:36:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/DemoAuto/select_Month"), "January", true): All options with value 'January' are selected in object 'Object Repository/DemoAuto/select_Month'  using regular expression
+
+2018-12-12 12:36:49 - [MESSAGE][PASSED] - All options with value 'January' are selected in object 'Object Repository/DemoAuto/select_Month'  using regular expression
+
+2018-12-12 12:36:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/DemoAuto/select_Day"), "1", true): All options with value '1' are selected in object 'Object Repository/DemoAuto/select_Day'  using regular expression
+
+2018-12-12 12:36:50 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/DemoAuto/select_Day'  using regular expression
+
+2018-12-12 12:36:50 - [TEST_STEP][PASSED] - setText(findTestObject("DemoAuto/input_FirstPassword"), "Tt123456"): Text 'Tt123456' is set on object 'Object Repository/DemoAuto/input_FirstPassword'
+
+2018-12-12 12:36:50 - [MESSAGE][PASSED] - Text 'Tt123456' is set on object 'Object Repository/DemoAuto/input_FirstPassword'
+
+2018-12-12 12:36:50 - [TEST_STEP][PASSED] - setText(findTestObject("DemoAuto/input_ConfirmPassword"), "Tt123456"): Text 'Tt123456' is set on object 'Object Repository/DemoAuto/input_ConfirmPassword'
+
+2018-12-12 12:36:51 - [MESSAGE][PASSED] - Text 'Tt123456' is set on object 'Object Repository/DemoAuto/input_ConfirmPassword'
+
+2018-12-12 12:36:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DemoAuto/button_Submit")): Object: 'Object Repository/DemoAuto/button_Submit' is clicked on
+
+2018-12-12 12:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/DemoAuto/button_Submit' is clicked on
+
+2018-12-12 12:36:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-12 12:36:54 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-12 12:36:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 12:36:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 12:36:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-12 12:36:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 12:36:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 12:36:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Thalesh/CuraPortal" classname="Test Cases/Thalesh/CuraPortal" status="PASSED">
+         <system-out><![CDATA[2018-12-12 12:36:54 - [TEST_CASE][PASSED] - Test Cases/Thalesh/CuraPortal: Test Cases/Thalesh/CuraPortal
+
+2018-12-12 12:36:54 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 12:36:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 12:36:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 12:36:54 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 12:36:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 12:36:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 12:36:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-12 12:36:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-12 12:37:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-12 12:37:21 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-12-12 12:37:25 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-12-12 12:37:25 - [TEST_STEP][PASSED] - click(findTestObject("Thalesh/Page_CURA/a_MakeAppointment")): Object: 'Object Repository/Thalesh/Page_CURA/a_MakeAppointment' is clicked on
+
+2018-12-12 12:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Thalesh/Page_CURA/a_MakeAppointment' is clicked on
+
+2018-12-12 12:37:26 - [TEST_STEP][PASSED] - setText(findTestObject("Thalesh/Page_CURA/input_Username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Thalesh/Page_CURA/input_Username'
+
+2018-12-12 12:37:28 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Thalesh/Page_CURA/input_Username'
+
+2018-12-12 12:37:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Thalesh/Page_CURA/input_Password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Thalesh/Page_CURA/input_Password'
+
+2018-12-12 12:37:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Thalesh/Page_CURA/input_Password'
+
+2018-12-12 12:37:31 - [TEST_STEP][PASSED] - click(findTestObject("Thalesh/Page_CURA/button_Login")): Object: 'Object Repository/Thalesh/Page_CURA/button_Login' is clicked on
+
+2018-12-12 12:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Thalesh/Page_CURA/button_Login' is clicked on
+
+2018-12-12 12:37:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Thalesh/Page_CURA/select_CURAHealthcare"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Thalesh/Page_CURA/select_CURAHealthcare'  using regular expression
+
+2018-12-12 12:37:33 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Thalesh/Page_CURA/select_CURAHealthcare'  using regular expression
+
+2018-12-12 12:37:33 - [TEST_STEP][PASSED] - click(findTestObject("Thalesh/Page_CURA/input_ApplyHospitalReadm")): Object: 'Object Repository/Thalesh/Page_CURA/input_ApplyHospitalReadm' is clicked on
+
+2018-12-12 12:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Thalesh/Page_CURA/input_ApplyHospitalReadm' is clicked on
+
+2018-12-12 12:37:34 - [TEST_STEP][PASSED] - setText(findTestObject("Thalesh/Page_CURA/input_VisitDate"), "01/01/2019"): Text '01/01/2019' is set on object 'Object Repository/Thalesh/Page_CURA/input_VisitDate'
+
+2018-12-12 12:37:36 - [MESSAGE][PASSED] - Text '01/01/2019' is set on object 'Object Repository/Thalesh/Page_CURA/input_VisitDate'
+
+2018-12-12 12:37:36 - [TEST_STEP][PASSED] - setText(findTestObject("Thalesh/Page_CURA/textarea_Comment"), "Please book a appointment for me"): Text 'Please book a appointment for me' is set on object 'Object Repository/Thalesh/Page_CURA/textarea_Comment'
+
+2018-12-12 12:37:37 - [MESSAGE][PASSED] - Text 'Please book a appointment for me' is set on object 'Object Repository/Thalesh/Page_CURA/textarea_Comment'
+
+2018-12-12 12:37:37 - [TEST_STEP][PASSED] - click(findTestObject("Thalesh/Page_CURA/button_BookAppointment")): Object: 'Object Repository/Thalesh/Page_CURA/button_BookAppointment' is clicked on
+
+2018-12-12 12:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Thalesh/Page_CURA/button_BookAppointment' is clicked on
+
+2018-12-12 12:37:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Thalesh/Page_CURA/p_Facility"), "Hongkong CURA Healthcare Center"): Actual text and expected text of test object 'Object Repository/Thalesh/Page_CURA/p_Facility' are matched.
+
+2018-12-12 12:37:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Thalesh/Page_CURA/p_Facility' are matched.
+
+2018-12-12 12:37:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-12 12:37:41 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-12 12:37:41 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 12:37:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 12:37:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-12 12:37:41 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 12:37:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 12:37:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Thalesh/Test1_InputForm" classname="Test Cases/Thalesh/Test1_InputForm" status="PASSED">
+         <system-out><![CDATA[2018-12-12 12:37:41 - [TEST_CASE][PASSED] - Test Cases/Thalesh/Test1_InputForm: Test Cases/Thalesh/Test1_InputForm
+
+2018-12-12 12:37:41 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 12:37:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 12:37:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 12:37:41 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-12 12:37:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 12:37:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-12 12:37:42 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+2018-12-12 12:37:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-12 12:38:09 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-12-12 12:38:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-12 12:38:10 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-12 12:38:10 - [TEST_STEP][PASSED] - navigateToUrl("https://www.seleniumeasy.com/test"): Navigate to 'https://www.seleniumeasy.com/test' successfully
+
+2018-12-12 12:38:13 - [MESSAGE][PASSED] - Navigate to 'https://www.seleniumeasy.com/test' successfully
+
+2018-12-12 12:38:13 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2018-12-12 12:38:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-12 12:38:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Home/li_All Examples"), 10): Object 'Object Repository/Page_Home/li_All Examples' is present
+
+2018-12-12 12:38:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Home/li_All Examples' is present
+
+2018-12-12 12:38:14 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Home/li_All Examples"), 5): Scroll to object 'Object Repository/Page_Home/li_All Examples' successfully
+
+2018-12-12 12:38:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Home/li_All Examples' successfully
+
+2018-12-12 12:38:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Input Forms")): Object: 'Object Repository/Page_Home/a_Input Forms' is clicked on
+
+2018-12-12 12:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Input Forms' is clicked on
+
+2018-12-12 12:38:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_InputFormSubmit")): Object: 'Object Repository/Page_Home/a_InputFormSubmit' is clicked on
+
+2018-12-12 12:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_InputFormSubmit' is clicked on
+
+2018-12-12 12:38:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Home/input_FirstName"), "thalesh"): Text 'thalesh' is set on object 'Object Repository/Page_Home/input_FirstName'
+
+2018-12-12 12:38:14 - [MESSAGE][PASSED] - Text 'thalesh' is set on object 'Object Repository/Page_Home/input_FirstName'
+
+2018-12-12 12:38:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Home/input_LastName"), "Sharma"): Text 'Sharma' is set on object 'Object Repository/Page_Home/input_LastName'
+
+2018-12-12 12:38:14 - [MESSAGE][PASSED] - Text 'Sharma' is set on object 'Object Repository/Page_Home/input_LastName'
+
+2018-12-12 12:38:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Home/input_EMail"), "thalesh@gmail.com"): Text 'thalesh@gmail.com' is set on object 'Object Repository/Page_Home/input_EMail'
+
+2018-12-12 12:38:15 - [MESSAGE][PASSED] - Text 'thalesh@gmail.com' is set on object 'Object Repository/Page_Home/input_EMail'
+
+2018-12-12 12:38:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Home/input_Phone"), "1234567890"): Text '1234567890' is set on object 'Object Repository/Page_Home/input_Phone'
+
+2018-12-12 12:38:15 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Page_Home/input_Phone'
+
+2018-12-12 12:38:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Home/input_Address"), "Baner, Pune"): Text 'Baner, Pune' is set on object 'Object Repository/Page_Home/input_Address'
+
+2018-12-12 12:38:15 - [MESSAGE][PASSED] - Text 'Baner, Pune' is set on object 'Object Repository/Page_Home/input_Address'
+
+2018-12-12 12:38:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Home/input_City"), "Pune"): Text 'Pune' is set on object 'Object Repository/Page_Home/input_City'
+
+2018-12-12 12:38:15 - [MESSAGE][PASSED] - Text 'Pune' is set on object 'Object Repository/Page_Home/input_City'
+
+2018-12-12 12:38:15 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Page_Home/select_State"), "California", false): All options with label 'California' are selected in object 'Object Repository/Page_Home/select_State' 
+
+2018-12-12 12:38:15 - [MESSAGE][PASSED] - All options with label 'California' are selected in object 'Object Repository/Page_Home/select_State' 
+
+2018-12-12 12:38:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Home/input_ZipCode"), "EJ08 2EX"): Text 'EJ08 2EX' is set on object 'Object Repository/Page_Home/input_ZipCode'
+
+2018-12-12 12:38:15 - [MESSAGE][PASSED] - Text 'EJ08 2EX' is set on object 'Object Repository/Page_Home/input_ZipCode'
+
+2018-12-12 12:38:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Home/input_Website"), "www.facebook.com"): Text 'www.facebook.com' is set on object 'Object Repository/Page_Home/input_Website'
+
+2018-12-12 12:38:16 - [MESSAGE][PASSED] - Text 'www.facebook.com' is set on object 'Object Repository/Page_Home/input_Website'
+
+2018-12-12 12:38:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/input_hosting")): Object: 'Object Repository/Page_Home/input_hosting' is clicked on
+
+2018-12-12 12:38:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/input_hosting' is clicked on
+
+2018-12-12 12:38:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Home/Project Description"), "test"): Text 'test' is set on object 'Object Repository/Page_Home/Project Description'
+
+2018-12-12 12:38:16 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Home/Project Description'
+
+2018-12-12 12:38:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/button_Send")): Object: 'Object Repository/Page_Home/button_Send' is clicked on
+
+2018-12-12 12:38:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/button_Send' is clicked on
+
+2018-12-12 12:38:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 12:38:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 12:38:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-12 12:38:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-12 12:38:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-12 12:38:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-12 12:35:41 - [TEST_SUITE][PASSED] - suite1: Test Cases/Thalesh/Test1_InputForm]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

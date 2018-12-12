@@ -9,7 +9,7 @@
       <defaultValue>'Pun'</defaultValue>
       <description></description>
       <id>096cc0ce-0960-4ec1-86a6-ad57e9526c88</id>
-      <masked>false</masked>
+      <masked>true</masked>
       <name>City_To_From</name>
    </variable>
    <variable>

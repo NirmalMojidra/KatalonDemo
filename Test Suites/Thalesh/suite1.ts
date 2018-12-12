@@ -4,6 +4,7 @@
    <name>suite1</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-12-12T12:35:25</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
