@@ -13,20 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import com.kms.katalon.core.webui.common.WebUiCommonHelper
+WebUI.openBrowser("https://www.google.co.in/")
 
-WebUI.openBrowser("")
-WebUI.navigateToUrl("https://www.w3schools.com/")
-
-List<WebElement> wb = WebUiCommonHelper.findWebElements(findTestObject('Object Repository/Excel_List/List'), 30)
-
-for(WebElement wa:wb)
-{
-	String element_list= wa.getText()
-	println element_list
-	CustomKeywords.'com.poi.writeExcelSheet.excelWrite'(element_list)
-}
+title = WebUI.getWindowTitle()
