@@ -12,7 +12,11 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
+<<<<<<< HEAD
+         <testSuiteEntity>Test Suites/Mohit/TestSuite 1</testSuiteEntity>
+=======
          <testSuiteEntity>Test Suites/Mohit/TestSuite_1</testSuiteEntity>
+>>>>>>> branch 'master' of https://github.com/NirmalMojidra/KatalonDemo.git
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>

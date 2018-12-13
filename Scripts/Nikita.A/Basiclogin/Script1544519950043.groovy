@@ -34,6 +34,15 @@ WebUI.setText(findTestObject('Object Repository/Basiclogin/input_Username_txtPas
 
 WebUI.click(findTestObject('Object Repository/Basiclogin/input_Password_Submit (1)'))
 
+CustomKeywords.'nikitas.a.Sample.checkelement'(findTestObject('Object Repository/Basiclogin/a_Welcome Admin'))
+
+Text = WebUI.getText(findTestObject('Object Repository/Basiclogin/span_Assign Leave'))
+
+WebUI.verifyEqual(Text, "Assign123", FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyEqual(Text, "Assigned Leave")
+
+
 CustomKeywords.'nikitas.a.Sample.checkelement'(findTestObject('Object Repository/Basiclogin/img'))
 
 WebUI.click(findTestObject('Basiclogin/img'))

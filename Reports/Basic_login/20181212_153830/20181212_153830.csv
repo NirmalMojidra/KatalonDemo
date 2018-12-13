@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Basic_login,Chrome 70.0.3538.110,,2018-12-12 15:38:34,2018-12-12 15:38:55,20.434s,FAILED
+,,,,,,
+Test Cases/Nikita.A/Basiclogin,Chrome 70.0.3538.110,,2018-12-12 15:38:35,2018-12-12 15:38:54,18.701s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.110,,2018-12-12 15:38:35,2018-12-12 15:38:35,0.170s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.110,,2018-12-12 15:38:35,2018-12-12 15:38:35,0.016s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-12 15:38:36,2018-12-12 15:38:40,4.549s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 70.0.3538.110,,2018-12-12 15:38:40,2018-12-12 15:38:44,3.561s,PASSED
+"click(findTestObject(""Object Repository/Basiclogin/span_Username (1)""))",Chrome 70.0.3538.110,,2018-12-12 15:38:44,2018-12-12 15:38:44,0.175s,PASSED
+"setText(findTestObject(""Object Repository/Basiclogin/input_LOGIN Panel_txtUsername (1)""), Username)",Chrome 70.0.3538.110,,2018-12-12 15:38:44,2018-12-12 15:38:44,0.201s,PASSED
+"setText(findTestObject(""Object Repository/Basiclogin/input_Username_txtPassword""), Password)",Chrome 70.0.3538.110,,2018-12-12 15:38:44,2018-12-12 15:38:45,0.176s,PASSED
+"click(findTestObject(""Object Repository/Basiclogin/input_Password_Submit (1)""))",Chrome 70.0.3538.110,,2018-12-12 15:38:45,2018-12-12 15:38:46,1.877s,PASSED
+"nikitas.a.Sample.checkelement(findTestObject(""Object Repository/Basiclogin/a_Welcome Admin""))",Chrome 70.0.3538.110,,2018-12-12 15:38:46,2018-12-12 15:38:53,7.069s,PASSED
+"Text = getText(findTestObject(""Object Repository/Basiclogin/span_Assign Leave""))",Chrome 70.0.3538.110,,2018-12-12 15:38:53,2018-12-12 15:38:54,0.134s,PASSED
+"verifyEqual(Text, ""Assign123"", CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-12 15:38:54,2018-12-12 15:38:54,0.033s,FAILED
+"verifyEqual(Text, ""Assigned Leave"")",Chrome 70.0.3538.110,,2018-12-12 15:38:54,2018-12-12 15:38:54,0.133s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 70.0.3538.110,,2018-12-12 15:38:54,2018-12-12 15:38:54,0.005s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 70.0.3538.110,,2018-12-12 15:38:54,2018-12-12 15:38:54,0.003s,PASSED

@@ -31,6 +31,7 @@ class ComonListeners {
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables()
+		println testCaseContext.getMessage()
 	}
 
 	/**
@@ -41,6 +42,7 @@ class ComonListeners {
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseStatus()
+		println testCaseContext.getMessage()
 	}
 
 	/**
