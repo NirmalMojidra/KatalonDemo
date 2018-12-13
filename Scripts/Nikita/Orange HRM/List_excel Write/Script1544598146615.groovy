@@ -21,7 +21,7 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper
 
 WebUI.openBrowser("https://www.w3schools.com/")
 
-List<WebElement> wb = WebUiCommonHelper.findWebElements( findTestObject('Object Repository/List'), 30)
+List<WebElement> wb = WebUiCommonHelper.findWebElements(findTestObject('Object Repository/Excel_List/List'), 30)
 
 for(WebElement wa:wb)
 {

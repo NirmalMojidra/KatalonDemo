@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="grouping" time="64" tests="2" failures="0" errors="0">
+   <testsuite name="grouping" tests="2" failures="0" errors="0" time="64" timestamp="2018-12-13 16:28:26" hostname="C5281054 - INLN56580283A.apj.global.corp.sap" id="Test Suites/Akshata/grouping">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\Akshata\\grouping\\20181213_162115"/>
+         <property name="logFiles" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\Akshata\\grouping\\20181213_162115\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="C5281054 - INLN56580283A.apj.global.corp.sap"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.242.1"/>
+         <property name="sessionId" value="36fded3b34ab775e8d03e81016aad55f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Akshata/TC4 - grouping" classname="Test Cases/Akshata/TC4 - grouping" status="PASSED">
+         <system-out><![CDATA[2018-12-13 16:28:27 - [TEST_CASE][PASSED] - Test Cases/Akshata/TC4 - grouping: Test Cases/Akshata/TC4 - grouping
+
+2018-12-13 16:28:27 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-13 16:28:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-13 16:28:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-13 16:28:28 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-13 16:28:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-13 16:28:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-13 16:28:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-13 16:28:28 - [TEST_STEP][PASSED] - title = callTestCase(findTestCase("Akshata/TC5 - grouping"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Akshata/TC5 - grouping' successfully
+
+2018-12-13 16:28:28 - [TEST_CASE][PASSED] - Test Cases/Akshata/TC5 - grouping: Test Cases/Akshata/TC5 - grouping
+
+2018-12-13 16:28:29 - [TEST_STEP][PASSED] - openBrowser("https://www.google.co.in/"): Browser is opened with url: 'https://www.google.co.in/'
+
+2018-12-13 16:28:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-13 16:28:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-13 16:29:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.co.in/'
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'Google'
+
+2018-12-13 16:29:00 - [MESSAGE][PASSED] - Current window's title is: 'Google'
+
+2018-12-13 16:29:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Akshata/TC5 - grouping' successfully
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - println(title): null
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Akshata/TC5 - grouping" classname="Test Cases/Akshata/TC5 - grouping" status="PASSED">
+         <system-out><![CDATA[2018-12-13 16:29:00 - [TEST_CASE][PASSED] - Test Cases/Akshata/TC5 - grouping: Test Cases/Akshata/TC5 - grouping
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-13 16:29:00 - [TEST_STEP][PASSED] - openBrowser("https://www.google.co.in/"): Browser is opened with url: 'https://www.google.co.in/'
+
+2018-12-13 16:29:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-13 16:29:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-13 16:29:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.co.in/'
+
+2018-12-13 16:29:29 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'Google'
+
+2018-12-13 16:29:29 - [MESSAGE][PASSED] - Current window's title is: 'Google'
+
+2018-12-13 16:29:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-13 16:29:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-13 16:29:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-13 16:29:29 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-13 16:29:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-13 16:29:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-13 16:29:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-13 16:28:26 - [TEST_SUITE][PASSED] - grouping: Test Cases/Akshata/TC5 - grouping]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+EndtoEndDemo,Chrome 71.0.3578.98,,2018-12-13 16:29:42,2018-12-13 16:31:54,2m - 12.336s,PASSED
+,,,,,,
+Test Cases/Nirmal/TC5 - End To End Scenario,Chrome 71.0.3578.98,,2018-12-13 16:29:43,2018-12-13 16:31:52,2m - 9.430s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-13 16:29:43,2018-12-13 16:29:43,0.228s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-13 16:29:43,2018-12-13 16:29:43,0.007s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-13 16:29:44,2018-12-13 16:30:11,27.227s,PASSED
+"navigateToUrl(""http://demowebshop.tricentis.com/"")",Chrome 71.0.3578.98,,2018-12-13 16:30:11,2018-12-13 16:30:19,7.620s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-13 16:30:19,2018-12-13 16:30:20,1.285s,PASSED
+delay(5),Chrome 71.0.3578.98,,2018-12-13 16:30:20,2018-12-13 16:30:25,5.108s,PASSED
+"click(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop/a_Register""))",Chrome 71.0.3578.98,,2018-12-13 16:30:25,2018-12-13 16:30:27,1.153s,PASSED
+"click(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Gender_Gender""))",Chrome 71.0.3578.98,,2018-12-13 16:30:27,2018-12-13 16:30:27,0.211s,PASSED
+"sendKeys(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_First name_FirstName""), First_name)",Chrome 71.0.3578.98,,2018-12-13 16:30:27,2018-12-13 16:30:27,0.235s,PASSED
+"sendKeys(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Last name_LastName""), Last_name)",Chrome 71.0.3578.98,,2018-12-13 16:30:27,2018-12-13 16:30:27,0.168s,PASSED
+"sendKeys(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Email_Email""), Email)",Chrome 71.0.3578.98,,2018-12-13 16:30:27,2018-12-13 16:30:27,0.319s,PASSED
+"sendKeys(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Password_Password""), Password)",Chrome 71.0.3578.98,,2018-12-13 16:30:27,2018-12-13 16:30:28,0.259s,PASSED
+"sendKeys(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Confirm password_Confirm""), Password)",Chrome 71.0.3578.98,,2018-12-13 16:30:28,2018-12-13 16:30:28,0.212s,PASSED
+"click(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Register/input__register-button""))",Chrome 71.0.3578.98,,2018-12-13 16:30:28,2018-12-13 16:30:29,1.314s,PASSED
+"click(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Your registration comple""))",Chrome 71.0.3578.98,,2018-12-13 16:30:29,2018-12-13 16:30:57,27.533s,PASSED
+delay(5),Chrome 71.0.3578.98,,2018-12-13 16:30:57,2018-12-13 16:31:02,5.009s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_Demo Web Shop/a_Computers""))",Chrome 71.0.3578.98,,2018-12-13 16:31:02,2018-12-13 16:31:02,0.281s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Desktops""))",Chrome 71.0.3578.98,,2018-12-13 16:31:02,2018-12-13 16:31:03,1.165s,PASSED
+delay(5),Chrome 71.0.3578.98,,2018-12-13 16:31:03,2018-12-13 16:31:08,5.005s,PASSED
+"click(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Desktops/input_Build it_button-2 produc""))",Chrome 71.0.3578.98,,2018-12-13 16:31:08,2018-12-13 16:31:09,0.319s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Build your own/input_Qty_add-to-cart-button-7""))",Chrome 71.0.3578.98,,2018-12-13 16:31:09,2018-12-13 16:31:13,4.234s,PASSED
+delay(5),Chrome 71.0.3578.98,,2018-12-13 16:31:13,2018-12-13 16:31:18,5.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Build your own/span_Shopping cart""))",Chrome 71.0.3578.98,,2018-12-13 16:31:18,2018-12-13 16:31:19,1.121s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/select_Select countryUnited St""), ""India"", false)",Chrome 71.0.3578.98,,2018-12-13 16:31:19,2018-12-13 16:31:19,0.226s,PASSED
+"sendKeys(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_ZipPost""), Zip_postal_code)",Chrome 71.0.3578.98,,2018-12-13 16:31:19,2018-12-13 16:31:19,0.241s,PASSED
+"click(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_estimat""))",Chrome 71.0.3578.98,,2018-12-13 16:31:19,2018-12-13 16:31:21,1.149s,PASSED
+"click(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms o""))",Chrome 71.0.3578.98,,2018-12-13 16:31:21,2018-12-13 16:31:21,0.293s,PASSED
+"click(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/button_Checkout""))",Chrome 71.0.3578.98,,2018-12-13 16:31:21,2018-12-13 16:31:23,2.197s,PASSED
+delay(5),Chrome 71.0.3578.98,,2018-12-13 16:31:23,2018-12-13 16:31:28,5.006s,PASSED
+"setText(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Company_BillingNewAddres""), Company)",Chrome 71.0.3578.98,,2018-12-13 16:31:28,2018-12-13 16:31:28,0.438s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/select_Select countryUnited St""), ""India"", false)",Chrome 71.0.3578.98,,2018-12-13 16:31:28,2018-12-13 16:31:29,0.195s,PASSED
+"setText(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_City_BillingNewAddress.C""), City)",Chrome 71.0.3578.98,,2018-12-13 16:31:29,2018-12-13 16:31:29,0.267s,PASSED
+"setText(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 1_BillingNewAddr""), Address_1)",Chrome 71.0.3578.98,,2018-12-13 16:31:29,2018-12-13 16:31:29,0.495s,PASSED
+"setText(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 2_BillingNewAddr""), Address_2)",Chrome 71.0.3578.98,,2018-12-13 16:31:29,2018-12-13 16:31:30,0.286s,PASSED
+"setText(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Zip  postal code_Billing""), Zip_postal_code_1)",Chrome 71.0.3578.98,,2018-12-13 16:31:30,2018-12-13 16:31:30,0.234s,PASSED
+"setText(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Phone number_BillingNewA""), Phone_number)",Chrome 71.0.3578.98,,2018-12-13 16:31:30,2018-12-13 16:31:30,0.269s,PASSED
+"setText(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Fax number_BillingNewAdd""), Fax_number)",Chrome 71.0.3578.98,,2018-12-13 16:31:30,2018-12-13 16:31:31,0.352s,PASSED
+"click(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 new-address-ne""))",Chrome 71.0.3578.98,,2018-12-13 16:31:31,2018-12-13 16:31:31,0.139s,PASSED
+delay(5),Chrome 71.0.3578.98,,2018-12-13 16:31:31,2018-12-13 16:31:36,5.003s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 Custom""), 10)",Chrome 71.0.3578.98,,2018-12-13 16:31:36,2018-12-13 16:31:36,0.173s,PASSED
+driver = getWebDriver(),Chrome 71.0.3578.98,,2018-12-13 16:31:36,2018-12-13 16:31:36,0.015s,PASSED
+"elem = driver.findElement(By.xpath(""(//input[@type = 'button' and @class = 'button-1 new-address-next-step-button' and @title = 'Continue' and @value = 'Continue'])[2]""))",Chrome 71.0.3578.98,,2018-12-13 16:31:36,2018-12-13 16:31:36,0.069s,PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(elem))",Chrome 71.0.3578.98,,2018-12-13 16:31:36,2018-12-13 16:31:36,0.061s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Ground (0.00)_shippingop""), 10)",Chrome 71.0.3578.98,,2018-12-13 16:31:36,2018-12-13 16:31:37,0.645s,PASSED
+"click(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Ground (0.00)_shippingop""))",Chrome 71.0.3578.98,,2018-12-13 16:31:37,2018-12-13 16:31:37,0.194s,PASSED
+"click(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 shipping-metho""))",Chrome 71.0.3578.98,,2018-12-13 16:31:37,2018-12-13 16:31:37,0.125s,PASSED
+"click(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Check  Money Order (5.00""))",Chrome 71.0.3578.98,,2018-12-13 16:31:37,2018-12-13 16:31:38,0.850s,PASSED
+"click(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 payment-method""))",Chrome 71.0.3578.98,,2018-12-13 16:31:38,2018-12-13 16:31:38,0.151s,PASSED
+delay(5),Chrome 71.0.3578.98,,2018-12-13 16:31:38,2018-12-13 16:31:43,5.003s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/select_VisaMaster cardDiscover""), ""MasterCard"", false)",Chrome 71.0.3578.98,,2018-12-13 16:31:43,2018-12-13 16:31:43,0.420s,PASSED
+"sendKeys(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Cardholder name_Cardhold""), Cardholder_name)",Chrome 71.0.3578.98,,2018-12-13 16:31:43,2018-12-13 16:31:44,0.367s,PASSED
+"sendKeys(findTestObject(""Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Card number_CardNumber""), Card_number)",Chrome 71.0.3578.98,,2018-12-13 16:31:44,2018-12-13 16:31:44,0.168s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Demo Web Shop. Checkout/select_01020304050607080910111""), ""3"", false)",Chrome 71.0.3578.98,,2018-12-13 16:31:44,2018-12-13 16:31:44,0.189s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Demo Web Shop. Checkout/select_20182019202020212022202""), ""2020"", false)",Chrome 71.0.3578.98,,2018-12-13 16:31:44,2018-12-13 16:31:44,0.211s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Demo Web Shop. Checkout/input_Card code_CardCode""), Card_code)",Chrome 71.0.3578.98,,2018-12-13 16:31:44,2018-12-13 16:31:44,0.138s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-n""))",Chrome 71.0.3578.98,,2018-12-13 16:31:44,2018-12-13 16:31:45,0.158s,PASSED
+delay(5),Chrome 71.0.3578.98,,2018-12-13 16:31:45,2018-12-13 16:31:50,5.005s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-""))",Chrome 71.0.3578.98,,2018-12-13 16:31:50,2018-12-13 16:31:50,0.242s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Checkout/input_Click here for order det""))",Chrome 71.0.3578.98,,2018-12-13 16:31:50,2018-12-13 16:31:52,2.192s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-13 16:31:52,2018-12-13 16:31:52,0.005s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-13 16:31:52,2018-12-13 16:31:52,0.002s,PASSED
