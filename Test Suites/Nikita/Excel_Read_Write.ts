@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Nikita</name>
+   <name>Excel_Read_Write</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-03T18:01:45</lastRun>
+   <lastRun>2018-12-13T16:21:16</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -40,11 +40,5 @@
          <value></value>
          <variableId>66f91d16-547c-46c1-a0ac-94d5278feda4</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2d344c3a-0793-47b5-8c83-873c9e19f609</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Nikita/Orange HRM/Write_data_Excel Sheet</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
