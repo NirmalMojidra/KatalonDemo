@@ -20,11 +20,17 @@ WebUI.click(findTestObject('Shrutika/Page_CURA Healthcare Service/a_Make Appoint
 WebUI.setText(findTestObject('Shrutika/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 WebUI.setText(findTestObject('Shrutika/Page_CURA Healthcare Service/input_Password_password'), 'ThisIsNotAPassword')
 WebUI.click(findTestObject('Shrutika/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs'))
+WebUI.click(findTestObject('Shrutika/Page_CURA Healthcare Service/input_Medicttaid_programs'), FailureHandling.CONTINUE_ON_FAILURE)
+
 
 try {
+	    
 		WebUI.click(findTestObject('Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs'))
 		println("Medicaid is already checked thus cotinue")
-		throw new com.kms.katalon.core.exception.KatalonRuntimeException("test error mwssage")
+		println (System.getProperty("user.dir"))
+	WebUI.takeScreenshot(System.getProperty("user.dir")+"//Include/Snapshots/"+getClass()+".png")
+		throw new com.kms.katalon.core.exception.KatalonRuntimeException("This is Katalon run time exception")
 } catch (Exception e) {
 	e.printStackTrace()
 	this.println("General issue occur")

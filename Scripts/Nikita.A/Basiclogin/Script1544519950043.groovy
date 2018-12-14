@@ -27,23 +27,34 @@ WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
 WebUI.click(findTestObject('Object Repository/Basiclogin/span_Username (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Basiclogin/input_LOGIN Panel_txtUsername (1)'), Username)
+WebUI.setText(findTestObject('Object Repository/Basiclogin/input_LOGIN Panel_txtUsername (1)'), "Admin")
 //WebUI.click(findTestObject('Object Repository/Basiclogin/input_Username_txtPassword'))
 
-WebUI.setText(findTestObject('Object Repository/Basiclogin/input_Username_txtPassword'), Password)
+WebUI.setText(findTestObject('Object Repository/Basiclogin/input_Username_txtPassword'), "")
 
 WebUI.click(findTestObject('Object Repository/Basiclogin/input_Password_Submit (1)'))
 
-CustomKeywords.'nikitas.a.Sample.checkelement'(findTestObject('Object Repository/Basiclogin/a_Welcome Admin'))
+
+//CustomKeywords.'nikitas.a.Sample.checkelement'(findTestObject('Object Repository/Basiclogin/a_Welcome Admin'))
 
 Text = WebUI.getText(findTestObject('Object Repository/Basiclogin/span_Assign Leave'))
 
 WebUI.verifyEqual(Text, "Assign123", FailureHandling.CONTINUE_ON_FAILURE)
 
+
+try{
 WebUI.verifyEqual(Text, "Assigned Leave")
+throw new IOException()
+}
+catch(Exception e){
+	println("element did not match")
+	println(e.message)
+	e.printStackTrace()
+	
+}
 
 
-CustomKeywords.'nikitas.a.Sample.checkelement'(findTestObject('Object Repository/Basiclogin/img'))
+//CustomKeywords.'nikitas.a.Sample.checkelement'(findTestObject('Object Repository/Basiclogin/img'))
 
 WebUI.click(findTestObject('Basiclogin/img'))
 

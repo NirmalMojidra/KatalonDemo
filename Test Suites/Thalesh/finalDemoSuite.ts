@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>suite1</name>
+   <name>finalDemoSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-12T12:35:25</lastRun>
+   <lastRun>2018-12-13T16:21:14</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -16,12 +16,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Thalesh/AutomationDemoSite</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>252cbfd2-6400-4162-9dad-30028525c101</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Thalesh/CuraPortal</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>92f6e985-22ee-482c-9dfc-38b71e087036</guid>

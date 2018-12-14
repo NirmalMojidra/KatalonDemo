@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite_2,Firefox 63.0,TestSuite for Iframe and Popup,2018-12-13 15:03:19,2018-12-13 15:05:29,2m - 10.141s,FAILED
+,,,,,,
+Test Cases/Shrutika/IFrame Test Case,Firefox 63.0,IFrame Test Case,2018-12-13 15:03:20,2018-12-13 15:04:12,52.390s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 63.0,,2018-12-13 15:03:20,2018-12-13 15:03:20,0.015s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 63.0,,2018-12-13 15:03:20,2018-12-13 15:03:20,0.003s,PASSED
+"openBrowser(""http://toolsqa.com/iframe-practice-page/"")",Firefox 63.0,,2018-12-13 15:03:21,2018-12-13 15:03:58,37.515s,PASSED
+maximizeWindow(),Firefox 63.0,,2018-12-13 15:03:58,2018-12-13 15:03:58,0.203s,PASSED
+"scrollToElement(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/iframe_1""), 1)",Firefox 63.0,,2018-12-13 15:03:58,2018-12-13 15:03:59,0.375s,PASSED
+"switchToFrame(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/iframe_1""), 2)",Firefox 63.0,,2018-12-13 15:03:59,2018-12-13 15:03:59,0.112s,PASSED
+"if (!(verifyElementPresent(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/input_First name_firstname""), 1)))",Firefox 63.0,,2018-12-13 15:03:59,2018-12-13 15:03:59,0.043s,PASSED
+"scrollToElement(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/input_First name_firstname""), 1)",Firefox 63.0,,2018-12-13 15:03:59,2018-12-13 15:03:59,0.291s,PASSED
+"setText(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/input_First name_firstname""), ""Shrutika"")",Firefox 63.0,,2018-12-13 15:03:59,2018-12-13 15:03:59,0.177s,FAILED
+"scrollToElement(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/input_Last name_lastname""), 1)",Firefox 63.0,,2018-12-13 15:03:59,2018-12-13 15:03:59,0.120s,PASSED
+"setText(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/input_Last name_lastname""), ""Gupta"")",Firefox 63.0,,2018-12-13 15:03:59,2018-12-13 15:04:00,0.236s,FAILED
+"takeScreenshot(""D://Shrutika Stuff//KetalonDemo//"" + getClass() + "".png"")",Firefox 63.0,,2018-12-13 15:04:00,2018-12-13 15:04:00,0.125s,FAILED
+delay(5),Firefox 63.0,,2018-12-13 15:04:00,2018-12-13 15:04:05,5.034s,PASSED
+switchToDefaultContent(),Firefox 63.0,,2018-12-13 15:04:05,2018-12-13 15:04:05,0.031s,PASSED
+delay(5),Firefox 63.0,,2018-12-13 15:04:05,2018-12-13 15:04:10,5.001s,PASSED
+"switchToFrame(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/iframe_2""), 1)",Firefox 63.0,,2018-12-13 15:04:10,2018-12-13 15:04:10,0.036s,PASSED
+"println(getText(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/h2_Hello world"")))",Firefox 63.0,,2018-12-13 15:04:10,2018-12-13 15:04:10,0.083s,PASSED
+closeBrowser(),Firefox 63.0,,2018-12-13 15:04:10,2018-12-13 15:04:12,2.303s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 63.0,,2018-12-13 15:04:12,2018-12-13 15:04:12,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 63.0,,2018-12-13 15:04:12,2018-12-13 15:04:12,0.000s,PASSED
+,,,,,,
+Test Cases/Shrutika/PopUp/AlertPopUp Test Case,Firefox 63.0,Alert Pop Up Handling Test Case,2018-12-13 15:04:12,2018-12-13 15:04:56,43.237s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 63.0,,2018-12-13 15:04:12,2018-12-13 15:04:12,0.016s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 63.0,,2018-12-13 15:04:12,2018-12-13 15:04:12,0.010s,PASSED
+"openBrowser(""http://toolsqa.com/handling-alerts-using-selenium-webdriver/"")",Firefox 63.0,,2018-12-13 15:04:13,2018-12-13 15:04:43,30.384s,PASSED
+maximizeWindow(),Firefox 63.0,,2018-12-13 15:04:43,2018-12-13 15:04:43,0.062s,PASSED
+delay(1),Firefox 63.0,,2018-12-13 15:04:43,2018-12-13 15:04:44,1.001s,PASSED
+"scrollToElement(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/Simple Alert Pop up text""), 2)",Firefox 63.0,,2018-12-13 15:04:44,2018-12-13 15:04:44,0.065s,PASSED
+"click(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/button_Simple Alert""))",Firefox 63.0,,2018-12-13 15:04:44,2018-12-13 15:04:44,0.153s,PASSED
+delay(1),Firefox 63.0,,2018-12-13 15:04:44,2018-12-13 15:04:45,1.004s,PASSED
+if (waitForAlert(5)),Firefox 63.0,,2018-12-13 15:04:45,2018-12-13 15:04:46,0.133s,PASSED
+delay(1),Firefox 63.0,,2018-12-13 15:04:46,2018-12-13 15:04:47,1.001s,PASSED
+switchToDefaultContent(),Firefox 63.0,,2018-12-13 15:04:47,2018-12-13 15:04:47,0.020s,PASSED
+"click(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/button_Confirm Pop up""))",Firefox 63.0,,2018-12-13 15:04:47,2018-12-13 15:04:47,0.069s,PASSED
+delay(1),Firefox 63.0,,2018-12-13 15:04:47,2018-12-13 15:04:48,1.002s,PASSED
+if (waitForAlert(2)),Firefox 63.0,,2018-12-13 15:04:48,2018-12-13 15:04:48,0.091s,PASSED
+delay(2),Firefox 63.0,,2018-12-13 15:04:48,2018-12-13 15:04:50,2.002s,PASSED
+switchToDefaultContent(),Firefox 63.0,,2018-12-13 15:04:50,2018-12-13 15:04:50,0.019s,PASSED
+"click(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/button_Prompt Pop up""))",Firefox 63.0,,2018-12-13 15:04:50,2018-12-13 15:04:50,0.096s,PASSED
+delay(2),Firefox 63.0,,2018-12-13 15:04:50,2018-12-13 15:04:52,2.001s,PASSED
+if (waitForAlert(5)),Firefox 63.0,,2018-12-13 15:04:52,2018-12-13 15:04:54,2.137s,PASSED
+switchToDefaultContent(),Firefox 63.0,,2018-12-13 15:04:54,2018-12-13 15:04:54,0.028s,PASSED
+closeBrowser(),Firefox 63.0,,2018-12-13 15:04:54,2018-12-13 15:04:56,1.529s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 63.0,,2018-12-13 15:04:56,2018-12-13 15:04:56,0.005s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 63.0,,2018-12-13 15:04:56,2018-12-13 15:04:56,0.002s,PASSED
+,,,,,,
+Test Cases/Shrutika/PopUp/AlertWindowPopUp Test Case,Firefox 63.0,AlertWindowPopUp Test Case,2018-12-13 15:04:56,2018-12-13 15:05:29,33.402s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 63.0,,2018-12-13 15:04:56,2018-12-13 15:04:56,0.013s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 63.0,,2018-12-13 15:04:56,2018-12-13 15:04:56,0.001s,PASSED
+"openBrowser(""https://www.elated.com/articles/javascript-tabs/"")",Firefox 63.0,,2018-12-13 15:04:56,2018-12-13 15:05:26,29.974s,PASSED
+maximizeWindow(),Firefox 63.0,,2018-12-13 15:05:26,2018-12-13 15:05:26,0.060s,PASSED
+"switchToFrame(findTestObject(""Object Repository/Shrutika/Page_JavaScript Tabs - Create Tabbe/iframe_The Document Object Mod""), 2)",Firefox 63.0,,2018-12-13 15:05:26,2018-12-13 15:05:26,0.041s,PASSED
+"click(findTestObject(""Object Repository/Shrutika/Page_JavaScript Tabs - Create Tabbe/div_id(katalon-spy_elementInfo""))",Firefox 63.0,,2018-12-13 15:05:26,2018-12-13 15:05:26,0.551s,PASSED
+"switchToWindowTitle(""Share a link on Twitter"")",Firefox 63.0,,2018-12-13 15:05:26,2018-12-13 15:05:27,0.531s,PASSED
+"setText(findTestObject(""Object Repository/Shrutika/Page_Share a link on Twitter/input_Phone email or username_""), ""Abc"")",Firefox 63.0,,2018-12-13 15:05:27,2018-12-13 15:05:27,0.130s,PASSED
+"setText(findTestObject(""Object Repository/Shrutika/Page_Share a link on Twitter/input_Password_sessionpassword""), ""Password"")",Firefox 63.0,,2018-12-13 15:05:27,2018-12-13 15:05:27,0.107s,PASSED
+"verifyTextPresent(""Share a link with your followers"", false)",Firefox 63.0,,2018-12-13 15:05:27,2018-12-13 15:05:27,0.106s,PASSED
+closeBrowser(),Firefox 63.0,,2018-12-13 15:05:27,2018-12-13 15:05:29,1.565s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 63.0,,2018-12-13 15:05:29,2018-12-13 15:05:29,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 63.0,,2018-12-13 15:05:29,2018-12-13 15:05:29,0.001s,PASSED
