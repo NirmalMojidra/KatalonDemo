@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Excel_Read_Write,Chrome 71.0.3578.98,,2018-12-13 16:50:52,2018-12-13 16:54:01,3m - 9.069s,ERROR
+,,,,,,
+Test Cases/Nikita/Orange HRM/Excel_write_Demo,Chrome 71.0.3578.98,,2018-12-13 16:50:56,2018-12-13 16:51:02,6.733s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-13 16:50:56,2018-12-13 16:50:56,0.024s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-13 16:50:56,2018-12-13 16:50:56,0.021s,PASSED
+com.poi.writeExcelSheet.excelWrite(),Chrome 71.0.3578.98,,2018-12-13 16:50:57,2018-12-13 16:51:02,4.833s,PASSED
+"println(""Test passed"")",Chrome 71.0.3578.98,,2018-12-13 16:51:02,2018-12-13 16:51:02,0.071s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-13 16:51:02,2018-12-13 16:51:02,0.009s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-13 16:51:02,2018-12-13 16:51:02,0.004s,PASSED
+,,,,,,
+Test Cases/Nikita/Orange HRM/List_excel Write,Chrome 71.0.3578.98,,2018-12-13 16:51:02,2018-12-13 16:52:06,1m - 4.024s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-13 16:51:03,2018-12-13 16:51:03,0.005s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-13 16:51:03,2018-12-13 16:51:03,0.004s,PASSED
+"openBrowser(""https://www.w3schools.com/"")",Chrome 71.0.3578.98,,2018-12-13 16:51:06,2018-12-13 16:52:06,1m - 0.044s,PASSED
+"wb = findWebElements(findTestObject(""Object Repository/List""), 30)",Chrome 71.0.3578.98,,2018-12-13 16:52:06,2018-12-13 16:52:06,0.181s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-13 16:52:06,2018-12-13 16:52:06,0.038s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-13 16:52:06,2018-12-13 16:52:06,0.004s,PASSED
+,,,,,,
+Test Cases/Nikita/Orange HRM/Login_Excel_Read_testdata,Chrome 71.0.3578.98,,2018-12-13 16:52:06,2018-12-13 16:54:01,1m - 54.119s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-13 16:52:08,2018-12-13 16:52:08,0.113s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-13 16:52:08,2018-12-13 16:52:08,0.009s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",Chrome 71.0.3578.98,,2018-12-13 16:52:11,2018-12-13 16:53:41,1m - 30.202s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Username""))",Chrome 71.0.3578.98,,2018-12-13 16:53:41,2018-12-13 16:53:43,1.089s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), Username)",Chrome 71.0.3578.98,,2018-12-13 16:53:43,2018-12-13 16:53:43,0.448s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), Password)",Chrome 71.0.3578.98,,2018-12-13 16:53:43,2018-12-13 16:53:44,0.547s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 71.0.3578.98,,2018-12-13 16:53:44,2018-12-13 16:53:44,0.233s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-13 16:53:44,2018-12-13 16:54:01,16.793s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-13 16:54:01,2018-12-13 16:54:01,0.008s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-13 16:54:01,2018-12-13 16:54:01,0.005s,PASSED

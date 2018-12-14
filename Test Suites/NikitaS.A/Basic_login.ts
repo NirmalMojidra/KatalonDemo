@@ -4,7 +4,7 @@
    <name>Basic_login</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-12T15:39:54</lastRun>
+   <lastRun>2018-12-13T16:50:05</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -18,7 +18,7 @@
       <testCaseId>Test Cases/Nikita.A/Basiclogin</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>42333ab8-b916-41ed-a8af-680d1804217d</id>
+         <id>aff31757-33ea-43d6-bedc-a57fb2016068</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -26,13 +26,13 @@
          <testDataId>Data Files/Basiclogin</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>42333ab8-b916-41ed-a8af-680d1804217d</testDataLinkId>
+         <testDataLinkId>aff31757-33ea-43d6-bedc-a57fb2016068</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Username</value>
          <variableId>12ab0784-f35a-4001-b3a7-f75e759d2cb6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>42333ab8-b916-41ed-a8af-680d1804217d</testDataLinkId>
+         <testDataLinkId>aff31757-33ea-43d6-bedc-a57fb2016068</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>9b521fef-9a58-401d-869e-f4f436300ac3</variableId>
