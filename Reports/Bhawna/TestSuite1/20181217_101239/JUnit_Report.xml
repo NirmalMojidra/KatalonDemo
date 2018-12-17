@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="77" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="2" failures="0" errors="0" time="77" timestamp="2018-12-17 10:12:49" hostname="C5281054 - INLN56580283A.apj.global.corp.sap" id="Test Suites/Bhawna/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\Bhawna\\TestSuite1\\20181217_101239"/>
+         <property name="logFiles" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\Bhawna\\TestSuite1\\20181217_101239\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Snapshots\\MainPage.PNG"/>
+         <property name="hostName" value="C5281054 - INLN56580283A.apj.global.corp.sap"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.242.1"/>
+         <property name="sessionId" value="2a8ea91b35179e0117cddc6380af2a45"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Bhawna/TC_MouseHoverAndScreenshot" classname="Test Cases/Bhawna/TC_MouseHoverAndScreenshot" status="PASSED">
+         <system-out><![CDATA[2018-12-17 10:12:50 - [TEST_CASE][PASSED] - Test Cases/Bhawna/TC_MouseHoverAndScreenshot: Test Cases/Bhawna/TC_MouseHoverAndScreenshot
+
+2018-12-17 10:12:51 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-17 10:12:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 10:12:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-17 10:12:51 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-17 10:12:51 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-17 10:12:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 10:12:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-17 10:12:51 - [TEST_STEP][PASSED] - openBrowser(Url): Browser is opened with url: 'https://siteorigin.com/'
+
+2018-12-17 10:12:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-17 10:12:52 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-17 10:13:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://siteorigin.com/'
+
+2018-12-17 10:13:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-17 10:13:24 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-17 10:13:24 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/Page_SiteOrigin - Free WordPress Th/a_Plugins"))): Object: 'Object Repository/Page_SiteOrigin - Free WordPress Th/a_Plugins' is hovered
+
+2018-12-17 10:13:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SiteOrigin - Free WordPress Th/a_Plugins' is visible
+
+2018-12-17 10:13:24 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Page_SiteOrigin - Free WordPress Th/a_Plugins")): Object: 'Object Repository/Page_SiteOrigin - Free WordPress Th/a_Plugins' is hovered
+
+2018-12-17 10:13:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SiteOrigin - Free WordPress Th/a_Plugins' is hovered
+
+2018-12-17 10:13:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-17 10:13:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-17 10:13:27 - [TEST_STEP][PASSED] - com.util.TakeScreenshot.takeScreenshotOfWebPage(filename): com.util.TakeScreenshot.takeScreenshotOfWebPage is PASSED
+
+2018-12-17 10:13:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\c5281054\\git\\KatalonDemo\\Snapshots\\MainPage.PNG]]
+
+2018-12-17 10:13:28 - [MESSAGE][PASSED] - com.util.TakeScreenshot.takeScreenshotOfWebPage is PASSED
+
+2018-12-17 10:13:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-17 10:13:29 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-17 10:13:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-17 10:13:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 10:13:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-17 10:13:29 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-17 10:13:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-17 10:13:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 10:13:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Arunava/TC1_Scroll" classname="Test Cases/Arunava/TC1_Scroll" status="PASSED">
+         <system-out><![CDATA[2018-12-17 10:13:29 - [TEST_CASE][PASSED] - Test Cases/Arunava/TC1_Scroll: Test Cases/Arunava/TC1_Scroll
+
+2018-12-17 10:13:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-17 10:13:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 10:13:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-17 10:13:29 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-17 10:13:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-17 10:13:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 10:13:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-17 10:13:30 - [TEST_STEP][PASSED] - openBrowser("http://demo.guru99.com/"): Browser is opened with url: 'http://demo.guru99.com/'
+
+2018-12-17 10:13:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-17 10:14:00 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demo.guru99.com/'
+
+2018-12-17 10:14:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-17 10:14:01 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-17 10:14:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_Guru/Page_Home Page/Lnk_NewTours")): Object: 'Object Repository/Demo_Guru/Page_Home Page/Lnk_NewTours' is clicked on
+
+2018-12-17 10:14:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_Guru/Page_Home Page/Lnk_NewTours' is clicked on
+
+2018-12-17 10:14:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Demo_Guru/Page_Welcome Mercury Tours/Img_TourTips"), 10): Scroll to object 'Object Repository/Demo_Guru/Page_Welcome Mercury Tours/Img_TourTips' successfully
+
+2018-12-17 10:14:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Demo_Guru/Page_Welcome Mercury Tours/Img_TourTips' successfully
+
+2018-12-17 10:14:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-17 10:14:06 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-17 10:14:06 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-17 10:14:06 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 10:14:06 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-17 10:14:06 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-17 10:14:06 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-17 10:14:06 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 10:14:06 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-17 10:12:49 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/Arunava/TC1_Scroll]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

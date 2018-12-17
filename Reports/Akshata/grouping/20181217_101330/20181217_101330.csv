@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+grouping,Chrome 71.0.3578.98,,2018-12-17 10:13:40,2018-12-17 10:14:42,1m - 2.040s,PASSED
+,,,,,,
+Test Cases/Akshata/TC4 - grouping,Chrome 71.0.3578.98,,2018-12-17 10:13:41,2018-12-17 10:14:12,30.913s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-17 10:13:41,2018-12-17 10:13:41,0.037s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-17 10:13:41,2018-12-17 10:13:41,0.006s,PASSED
+"title = callTestCase(findTestCase(""Akshata/TC5 - grouping""), [:], CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2018-12-17 10:13:42,2018-12-17 10:14:12,30.210s,PASSED
+println(title),Chrome 71.0.3578.98,,2018-12-17 10:14:12,2018-12-17 10:14:12,0.003s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-17 10:14:12,2018-12-17 10:14:12,0.008s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-17 10:14:12,2018-12-17 10:14:12,0.007s,PASSED
+,,,,,,
+Test Cases/Akshata/TC5 - grouping,Chrome 71.0.3578.98,,2018-12-17 10:14:12,2018-12-17 10:14:40,27.818s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-17 10:14:12,2018-12-17 10:14:12,0.008s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-17 10:14:12,2018-12-17 10:14:12,0.003s,PASSED
+"openBrowser(""https://www.google.co.in/"")",Chrome 71.0.3578.98,,2018-12-17 10:14:12,2018-12-17 10:14:40,27.718s,PASSED
+title = getWindowTitle(),Chrome 71.0.3578.98,,2018-12-17 10:14:40,2018-12-17 10:14:40,0.012s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-17 10:14:40,2018-12-17 10:14:40,0.004s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-17 10:14:40,2018-12-17 10:14:40,0.003s,PASSED
