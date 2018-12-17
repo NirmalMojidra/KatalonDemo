@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Basic_login" time="193" tests="0" failures="1" errors="0">
+   <testsuite name="Basic_login" tests="0" failures="1" errors="0" time="193" timestamp="2018-12-17 11:18:31" hostname="C5281054 - INLN56580283A.apj.global.corp.sap" id="Test Suites/NikitaS.A/Basic_login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\NikitaS.A\\Basic_login\\20181217_111100"/>
+         <property name="logFiles" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\NikitaS.A\\Basic_login\\20181217_111100\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\NikitaS.A\\Basic_login\\20181217_111100\\1545025778093.png, C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\NikitaS.A\\Basic_login\\20181217_111100\\1545025809780.png, C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\NikitaS.A\\Basic_login\\20181217_111100\\1545025841230.png, C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\NikitaS.A\\Basic_login\\20181217_111100\\1545025872260.png, C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\NikitaS.A\\Basic_login\\20181217_111100\\1545025903313.png"/>
+         <property name="hostName" value="C5281054 - INLN56580283A.apj.global.corp.sap"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.242.1"/>
+         <property name="sessionId" value="32267d7293308277330e571601010e6a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Nikita.A/Basiclogin" classname="Test Cases/Nikita.A/Basiclogin" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Nikita.A/Basiclogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Basiclogin/span_Assign Leave' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/span_Assign Leave' located by 'By.xpath: //span[(text() = 'Assign Leave' or . = 'Assign Leave')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)
+	at Basiclogin.run(Basiclogin:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545025260575.run(TempTestSuite1545025260575.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-17 11:18:32 - [TEST_CASE][FAILED] - Test Cases/Nikita.A/Basiclogin: Test Cases/Nikita.A/Basiclogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Basiclogin/span_Assign Leave' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/span_Assign Leave' located by 'By.xpath: //span[(text() = 'Assign Leave' or . = 'Assign Leave')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)
+	at Basiclogin.run(Basiclogin:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545025260575.run(TempTestSuite1545025260575.groovy:36)
+
+
+2018-12-17 11:18:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-17 11:18:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 11:18:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-17 11:18:32 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-17 11:18:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-17 11:18:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 11:18:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-17 11:18:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-17 11:18:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-17 11:18:33 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-17 11:18:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-17 11:18:59 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/"): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-12-17 11:19:06 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-12-17 11:19:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Basiclogin/span_Username (1)")): Object: 'Object Repository/Basiclogin/span_Username (1)' is clicked on
+
+2018-12-17 11:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Basiclogin/span_Username (1)' is clicked on
+
+2018-12-17 11:19:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Basiclogin/input_LOGIN Panel_txtUsername (1)"), "Admin"): Text 'Admin' is set on object 'Object Repository/Basiclogin/input_LOGIN Panel_txtUsername (1)'
+
+2018-12-17 11:19:07 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Basiclogin/input_LOGIN Panel_txtUsername (1)'
+
+2018-12-17 11:19:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Basiclogin/input_Username_txtPassword"), ""): Text '' is set on object 'Object Repository/Basiclogin/input_Username_txtPassword'
+
+2018-12-17 11:19:07 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Basiclogin/input_Username_txtPassword'
+
+2018-12-17 11:19:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Basiclogin/input_Password_Submit (1)")): Object: 'Object Repository/Basiclogin/input_Password_Submit (1)' is clicked on
+
+2018-12-17 11:19:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Basiclogin/input_Password_Submit (1)' is clicked on
+
+2018-12-17 11:19:07 - [TEST_STEP][FAILED] - Text = getText(findTestObject("Object Repository/Basiclogin/span_Assign Leave")): Unable to get text of object 'Object Repository/Basiclogin/span_Assign Leave' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/span_Assign Leave' located by 'By.xpath: //span[(text() = 'Assign Leave' or . = 'Assign Leave')]' not found)
+
+2018-12-17 11:19:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[(text() = 'Assign Leave' or . = 'Assign Leave')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-17 11:19:38 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Basiclogin/span_Assign Leave' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/span_Assign Leave' located by 'By.xpath: //span[(text() = 'Assign Leave' or . = 'Assign Leave')]' not found)
+[[ATTACHMENT|C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\NikitaS.A\\Basic_login\\20181217_111100\\1545025778093.png]]
+
+2018-12-17 11:19:38 - [TEST_STEP][FAILED] - verifyEqual(Text, "Assign123", CONTINUE_ON_FAILURE): Unable to verify equal between actual object 'null' and expected object 'Assign123' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'null' and expected object 'Assign123' are not equal)
+
+2018-12-17 11:19:38 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'null' and expected object 'Assign123' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'null' and expected object 'Assign123' are not equal)
+
+2018-12-17 11:19:38 - [TEST_STEP][FAILED] - try: null
+
+2018-12-17 11:19:38 - [TEST_STEP][FAILED] - verifyEqual(Text, "Assigned Leave"): Unable to verify equal between actual object 'null' and expected object 'Assigned Leave' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'null' and expected object 'Assigned Leave' are not equal)
+
+2018-12-17 11:19:38 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'null' and expected object 'Assigned Leave' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'null' and expected object 'Assigned Leave' are not equal)
+
+2018-12-17 11:19:38 - [TEST_STEP][PASSED] - throw new java.io.IOException(): null
+
+2018-12-17 11:19:38 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2018-12-17 11:19:38 - [TEST_STEP][PASSED] - println("element did not match"): null
+
+2018-12-17 11:19:38 - [TEST_STEP][PASSED] - println(message): null
+
+2018-12-17 11:19:38 - [TEST_STEP][PASSED] - e.printStackTrace(): null
+
+2018-12-17 11:19:38 - [TEST_STEP][FAILED] - click(findTestObject("Basiclogin/img")): Unable to click on object 'Object Repository/Basiclogin/img' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/img' located by 'By.xpath: //img[@src = '/webres_5acde3dbd3adc6.90334155/orangehrmTimePlugin/images/MyTimesheet.png']' not found)
+
+2018-12-17 11:20:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //img[@src = '/webres_5acde3dbd3adc6.90334155/orangehrmTimePlugin/images/MyTimesheet.png']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-17 11:20:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Basiclogin/img' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/img' located by 'By.xpath: //img[@src = '/webres_5acde3dbd3adc6.90334155/orangehrmTimePlugin/images/MyTimesheet.png']' not found)
+[[ATTACHMENT|C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\NikitaS.A\\Basic_login\\20181217_111100\\1545025809780.png]]
+
+2018-12-17 11:20:10 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Basiclogin/input__timeemployeeName"), "abc"): Unable to set text 'abc' of object 'Object Repository/Basiclogin/input__timeemployeeName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/input__timeemployeeName' located by 'By.xpath: //input[@id='employee']' not found)
+
+2018-12-17 11:20:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='employee']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-17 11:20:41 - [MESSAGE][FAILED] - Unable to set text 'abc' of object 'Object Repository/Basiclogin/input__timeemployeeName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/input__timeemployeeName' located by 'By.xpath: //input[@id='employee']' not found)
+[[ATTACHMENT|C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\NikitaS.A\\Basic_login\\20181217_111100\\1545025841230.png]]
+
+2018-12-17 11:20:41 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Basiclogin/input__btnView (1)")): Unable to click on object 'Object Repository/Basiclogin/input__btnView (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/input__btnView (1)' located by 'By.xpath: //input[@id='btnView']' not found)
+
+2018-12-17 11:21:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='btnView']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-17 11:21:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Basiclogin/input__btnView (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/input__btnView (1)' located by 'By.xpath: //input[@id='btnView']' not found)
+[[ATTACHMENT|C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\NikitaS.A\\Basic_login\\20181217_111100\\1545025872260.png]]
+
+2018-12-17 11:21:12 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Basiclogin/span_Invalid"), 0): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/span_Invalid' located by 'By.xpath: //form[@id='employeeSelectForm']/fieldset/ol/li/span' not found
+
+2018-12-17 11:21:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-17 11:21:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //form[@id='employeeSelectForm']/fieldset/ol/li/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-17 11:21:43 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/span_Invalid' located by 'By.xpath: //form[@id='employeeSelectForm']/fieldset/ol/li/span' not found
+[[ATTACHMENT|C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\NikitaS.A\\Basic_login\\20181217_111100\\1545025903313.png]]
+
+2018-12-17 11:21:43 - [TEST_STEP][FAILED] - closeBrowser(): closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Basiclogin/span_Assign Leave' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/span_Assign Leave' located by 'By.xpath: //span[(text() = 'Assign Leave' or . = 'Assign Leave')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)
+	at Basiclogin.run(Basiclogin:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545025260575.run(TempTestSuite1545025260575.groovy:36)
+
+
+2018-12-17 11:21:44 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-17 11:21:44 - [MESSAGE][FAILED] - closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Basiclogin/span_Assign Leave' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/span_Assign Leave' located by 'By.xpath: //span[(text() = 'Assign Leave' or . = 'Assign Leave')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)
+	at Basiclogin.run(Basiclogin:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545025260575.run(TempTestSuite1545025260575.groovy:36)
+
+
+2018-12-17 11:21:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-17 11:21:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 11:21:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-17 11:21:44 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-17 11:21:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-17 11:21:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 11:21:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2018-12-17 11:18:32 - [TEST_CASE][FAILED] - Test Cases/Nikita.A/Basiclogin: Test Cases/Nikita.A/Basiclogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Basiclogin/span_Assign Leave' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/span_Assign Leave' located by 'By.xpath: //span[(text() = 'Assign Leave' or . = 'Assign Leave')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)
+	at Basiclogin.run(Basiclogin:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545025260575.run(TempTestSuite1545025260575.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-17 11:18:31 - [TEST_SUITE][FAILED] - Basic_login: Test Cases/Nikita.A/Basiclogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Basiclogin/span_Assign Leave' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/span_Assign Leave' located by 'By.xpath: //span[(text() = 'Assign Leave' or . = 'Assign Leave')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)
+	at Basiclogin.run(Basiclogin:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545025260575.run(TempTestSuite1545025260575.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-17 11:18:31 - [TEST_SUITE][FAILED] - Basic_login: Test Cases/Nikita.A/Basiclogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Basiclogin/span_Assign Leave' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Basiclogin/span_Assign Leave' located by 'By.xpath: //span[(text() = 'Assign Leave' or . = 'Assign Leave')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$3.call(Unknown Source)
+	at Basiclogin.run(Basiclogin:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545025260575.run(TempTestSuite1545025260575.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
