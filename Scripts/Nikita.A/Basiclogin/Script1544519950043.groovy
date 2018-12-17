@@ -30,7 +30,7 @@ WebUI.click(findTestObject('Object Repository/Basiclogin/span_Username (1)'))
 WebUI.setText(findTestObject('Object Repository/Basiclogin/input_LOGIN Panel_txtUsername (1)'), "Admin")
 //WebUI.click(findTestObject('Object Repository/Basiclogin/input_Username_txtPassword'))
 
-WebUI.setText(findTestObject('Object Repository/Basiclogin/input_Username_txtPassword'), "")
+WebUI.setText(findTestObject('Object Repository/Basiclogin/input_Username_txtPassword'), "admin123")
 
 WebUI.click(findTestObject('Object Repository/Basiclogin/input_Password_Submit (1)'))
 
