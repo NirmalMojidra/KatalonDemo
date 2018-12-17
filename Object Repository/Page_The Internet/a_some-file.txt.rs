@@ -6,16 +6,15 @@
    <elementGuidId>2da9ce04-5076-4114-be14-ed3724bad484</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='content']/div/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>id(&quot;content&quot;)/div[@class=&quot;example&quot;]/a[1][count(. | //a[@href = 'download/some-file.txt' and (text() = 'some-file.txt' or . = 'some-file.txt')]) = count(//a[@href = 'download/some-file.txt' and (text() = 'some-file.txt' or . = 'some-file.txt')])]</value>
+         <value>//a[@href = 'download/some-file.txt' and (text() = 'some-file.txt' or . = 'some-file.txt')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -42,7 +41,7 @@
       <value>some-file.txt</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

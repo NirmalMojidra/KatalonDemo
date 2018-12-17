@@ -24,16 +24,17 @@ WebUI.maximizeWindow()
 WebUI.click(findTestObject('Object Repository/Page_The Internet/a_some-file.txt'))
 
 // Getting Total No Of Files In The Destination Folder and Verifying it 
-
-		File downloadFolder = new File("C:\\Users\\mojidra_n\\Downloads\\");
+		
+		def username = System.getProperty("user.name")
+		File downloadFolder = new File("C:\\Users\\"+username+"\\Downloads\\");
 		List<String> namesOfFiles = Arrays.asList(downloadFolder.list());
 		if (namesOfFiles.contains("some-file.txt")) 
 		{
-			println 'Success'
+			println '----- > File Uploaded Successfully <------'
 
 		} else 
 		{
-			println 'Failure'
+			println '------ > Failed To Upload File <-------'
 		}
 		
 WebUI.delay(10)
