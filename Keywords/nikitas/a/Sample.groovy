@@ -24,14 +24,14 @@ public class Sample {
 	public void checkelement( TestObject testObject){
 		try{
 
-
-			boolean b = WebUI.verifyElementPresent(testObject, 5)
-			if(b==true)
-				println("Element exists")
-			else
-				println("Element does not exists")
+			WebUI.verifyElementPresent(testObject, 5)
+			//boolean b = WebUI.verifyElementPresent(testObject, 5)
+			//if(b==true)
+			//	println("Element exists")
+			
 		}
 		catch(Exception e) {
+			println("element does not exist catch")
 			e.printStackTrace()
 		}
 		finally{

@@ -11,7 +11,8 @@
             <profileName>default</profileName>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+<<<<<<< HEAD
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Rajiv/custom keyword</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -20,7 +21,7 @@
             <profileName>default</profileName>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Thalesh/finalDemoSuite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -29,6 +30,63 @@
             <profileName>default</profileName>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Bhawna/TestSuite1</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Shrutika/alerts_and_popup</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Akshata/grouping</testSuiteEntity>
+=======
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Rajiv/custom keyword</testSuiteEntity>
+>>>>>>> branch 'master' of https://github.com/NirmalMojidra/KatalonDemo
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+<<<<<<< HEAD
+         <testSuiteEntity>Test Suites/NikitaS.A/Basic_login</testSuiteEntity>
+=======
+         <testSuiteEntity>Test Suites/Thalesh/finalDemoSuite</testSuiteEntity>
+>>>>>>> branch 'master' of https://github.com/NirmalMojidra/KatalonDemo
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+<<<<<<< HEAD
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Nirmal/EndtoEndDemo</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Nikita/Excel_Read_Write</testSuiteEntity>
+=======
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Bhawna/TestSuite1</testSuiteEntity>
       </TestSuiteRunConfiguration>
@@ -76,6 +134,16 @@
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Nikita/Excel_Read_Write</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Abhineet/API Test Suite</testSuiteEntity>
+>>>>>>> branch 'master' of https://github.com/NirmalMojidra/KatalonDemo
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

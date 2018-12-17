@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>6ebf0c62-af76-4aaa-9a0d-c9e1f1da85b9</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Admin'</defaultValue>
       <description></description>
       <id>12ab0784-f35a-4001-b3a7-f75e759d2cb6</id>
       <masked>false</masked>
       <name>Username</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'admin123'</defaultValue>
       <description></description>
       <id>9b521fef-9a58-401d-869e-f4f436300ac3</id>
       <masked>false</masked>

@@ -6,7 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>b2777fe4-9318-4114-98ee-2e29d7ac4989</dataFileGUID>
+<<<<<<< HEAD
    <dataSourceUrl>Include/TestData/newtest.xlsx</dataSourceUrl>
+=======
+   <dataSourceUrl>C:\Users\agrawal_nkt\git\KatalonDemo\Include\TestData\newtest.xlsx</dataSourceUrl>
+>>>>>>> branch 'master' of https://github.com/NirmalMojidra/KatalonDemo
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
