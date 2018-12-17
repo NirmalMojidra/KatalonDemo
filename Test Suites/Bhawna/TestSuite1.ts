@@ -29,10 +29,4 @@
          <variableId>56f49319-677c-45f4-97c6-714f2d8fccf4</variableId>
       </variableLink>
    </testCaseLink>
-   <testCaseLink>
-      <guid>435f10c0-96a0-4010-a7d6-ea9d4ea1252c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Arunava/TC1_Scroll</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>
