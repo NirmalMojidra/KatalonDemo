@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EndtoEndDemo" time="92" tests="1" failures="0" errors="0">
+   <testsuite name="EndtoEndDemo" tests="1" failures="0" errors="0" time="92" timestamp="2018-12-17 10:43:09" hostname="C5281054 - INLN56580283A.apj.global.corp.sap" id="Test Suites/Nirmal/EndtoEndDemo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\Nirmal\\EndtoEndDemo\\20181217_104301"/>
+         <property name="logFiles" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\Nirmal\\EndtoEndDemo\\20181217_104301\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="C5281054 - INLN56580283A.apj.global.corp.sap"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.242.1"/>
+         <property name="sessionId" value="60ccb7b1bc37c0a8c024ea2e6c2bc6b5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Nirmal/TC5 - End To End Scenario" classname="Test Cases/Nirmal/TC5 - End To End Scenario" status="PASSED">
+         <system-out><![CDATA[2018-12-17 10:43:10 - [TEST_CASE][PASSED] - Test Cases/Nirmal/TC5 - End To End Scenario: Test Cases/Nirmal/TC5 - End To End Scenario
+
+2018-12-17 10:43:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-17 10:43:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 10:43:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-17 10:43:10 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-17 10:43:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-17 10:43:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 10:43:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-17 10:43:11 - [TEST_STEP][PASSED] - dNow = new java.util.Date(): null
+
+2018-12-17 10:43:11 - [TEST_STEP][PASSED] - ft = new java.text.SimpleDateFormat(MM_DD_YYYY_HH_MM_SS): null
+
+2018-12-17 10:43:11 - [TEST_STEP][PASSED] - println(ft.format(dNow)): null
+
+2018-12-17 10:43:11 - [TEST_STEP][PASSED] - Email = "Katalon_Demo_" + ft.format(dNow) + "@gmail.com": null
+
+2018-12-17 10:43:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-17 10:43:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-17 10:43:12 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-17 10:43:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-17 10:43:37 - [TEST_STEP][PASSED] - navigateToUrl("http://demowebshop.tricentis.com/"): Navigate to 'http://demowebshop.tricentis.com/' successfully
+
+2018-12-17 10:43:42 - [MESSAGE][PASSED] - Navigate to 'http://demowebshop.tricentis.com/' successfully
+
+2018-12-17 10:43:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-17 10:43:43 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-17 10:43:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-17 10:43:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-17 10:43:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop/a_Register")): Object: 'Object Repository/End To End Senario/Page_Demo Web Shop/a_Register' is clicked on
+
+2018-12-17 10:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop/a_Register' is clicked on
+
+2018-12-17 10:43:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Gender_Gender")): Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Gender_Gender' is clicked on
+
+2018-12-17 10:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Gender_Gender' is clicked on
+
+2018-12-17 10:43:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_First name_FirstName"), First_name): Keys 'Test123' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_First name_FirstName'
+
+2018-12-17 10:43:49 - [MESSAGE][PASSED] - Keys 'Test123' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_First name_FirstName'
+
+2018-12-17 10:43:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Last name_LastName"), Last_name): Keys 'katalon' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Last name_LastName'
+
+2018-12-17 10:43:49 - [MESSAGE][PASSED] - Keys 'katalon' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Last name_LastName'
+
+2018-12-17 10:43:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Email_Email"), Email): Keys 'Katalon_Demo_12_351_2018_10_12_364@gmail.com' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Email_Email'
+
+2018-12-17 10:43:50 - [MESSAGE][PASSED] - Keys 'Katalon_Demo_12_351_2018_10_12_364@gmail.com' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Email_Email'
+
+2018-12-17 10:43:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Password_Password"), Password): Keys 'password@123' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Password_Password'
+
+2018-12-17 10:43:50 - [MESSAGE][PASSED] - Keys 'password@123' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Password_Password'
+
+2018-12-17 10:43:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Confirm password_Confirm"), Password): Keys 'password@123' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Confirm password_Confirm'
+
+2018-12-17 10:43:50 - [MESSAGE][PASSED] - Keys 'password@123' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Confirm password_Confirm'
+
+2018-12-17 10:43:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Register/input__register-button")): Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input__register-button' is clicked on
+
+2018-12-17 10:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input__register-button' is clicked on
+
+2018-12-17 10:43:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Your registration comple")): Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Your registration comple' is clicked on
+
+2018-12-17 10:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Register/input_Your registration comple' is clicked on
+
+2018-12-17 10:43:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-17 10:43:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-17 10:43:57 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Page_Demo Web Shop/a_Computers")): Object: 'Object Repository/Page_Demo Web Shop/a_Computers' is hovered
+
+2018-12-17 10:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Computers' is hovered
+
+2018-12-17 10:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/a_Desktops")): Object: 'Object Repository/Page_Demo Web Shop/a_Desktops' is clicked on
+
+2018-12-17 10:43:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Desktops' is clicked on
+
+2018-12-17 10:43:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-17 10:44:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-17 10:44:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Desktops/input_Build it_button-2 produc")): Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Desktops/input_Build it_button-2 produc' is clicked on
+
+2018-12-17 10:44:03 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Desktops/input_Build it_button-2 produc' is clicked on
+
+2018-12-17 10:44:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Build your own/input_Qty_add-to-cart-button-7")): Object: 'Object Repository/Page_Demo Web Shop. Build your own/input_Qty_add-to-cart-button-7' is clicked on
+
+2018-12-17 10:44:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Build your own/input_Qty_add-to-cart-button-7' is clicked on
+
+2018-12-17 10:44:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-17 10:44:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-17 10:44:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Build your own/span_Shopping cart")): Object: 'Object Repository/Page_Demo Web Shop. Build your own/span_Shopping cart' is clicked on
+
+2018-12-17 10:44:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Build your own/span_Shopping cart' is clicked on
+
+2018-12-17 10:44:12 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/select_Select countryUnited St"), "India", false): All options with label 'India' are selected in object 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/select_Select countryUnited St' 
+
+2018-12-17 10:44:12 - [MESSAGE][PASSED] - All options with label 'India' are selected in object 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/select_Select countryUnited St' 
+
+2018-12-17 10:44:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_ZipPost"), Zip_postal_code): Keys '411037' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_ZipPost'
+
+2018-12-17 10:44:12 - [MESSAGE][PASSED] - Keys '411037' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_ZipPost'
+
+2018-12-17 10:44:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_estimat")): Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_estimat' is clicked on
+
+2018-12-17 10:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_Zip  postal code_estimat' is clicked on
+
+2018-12-17 10:44:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms o")): Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms o' is clicked on
+
+2018-12-17 10:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms o' is clicked on
+
+2018-12-17 10:44:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/button_Checkout")): Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/button_Checkout' is clicked on
+
+2018-12-17 10:44:14 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Shopping Cart/button_Checkout' is clicked on
+
+2018-12-17 10:44:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-17 10:44:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-17 10:44:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Company_BillingNewAddres"), Company): Text 'Electronica' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Company_BillingNewAddres'
+
+2018-12-17 10:44:20 - [MESSAGE][PASSED] - Text 'Electronica' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Company_BillingNewAddres'
+
+2018-12-17 10:44:20 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/select_Select countryUnited St"), "India", false): All options with label 'India' are selected in object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/select_Select countryUnited St' 
+
+2018-12-17 10:44:20 - [MESSAGE][PASSED] - All options with label 'India' are selected in object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/select_Select countryUnited St' 
+
+2018-12-17 10:44:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_City_BillingNewAddress.C"), City): Text 'Bombay' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_City_BillingNewAddress.C'
+
+2018-12-17 10:44:20 - [MESSAGE][PASSED] - Text 'Bombay' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_City_BillingNewAddress.C'
+
+2018-12-17 10:44:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 1_BillingNewAddr"), Address_1): Text 'RockStar Road RockStar Soc' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 1_BillingNewAddr'
+
+2018-12-17 10:44:20 - [MESSAGE][PASSED] - Text 'RockStar Road RockStar Soc' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 1_BillingNewAddr'
+
+2018-12-17 10:44:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 2_BillingNewAddr"), Address_2): Text 'Flat no 1001' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 2_BillingNewAddr'
+
+2018-12-17 10:44:20 - [MESSAGE][PASSED] - Text 'Flat no 1001' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Address 2_BillingNewAddr'
+
+2018-12-17 10:44:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Zip  postal code_Billing"), Zip_postal_code_1): Text '411033' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Zip  postal code_Billing'
+
+2018-12-17 10:44:21 - [MESSAGE][PASSED] - Text '411033' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Zip  postal code_Billing'
+
+2018-12-17 10:44:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Phone number_BillingNewA"), Phone_number): Text '9922445566' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Phone number_BillingNewA'
+
+2018-12-17 10:44:21 - [MESSAGE][PASSED] - Text '9922445566' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Phone number_BillingNewA'
+
+2018-12-17 10:44:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Fax number_BillingNewAdd"), Fax_number): Text '+44 161 999 8888' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Fax number_BillingNewAdd'
+
+2018-12-17 10:44:21 - [MESSAGE][PASSED] - Text '+44 161 999 8888' is set on object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Fax number_BillingNewAdd'
+
+2018-12-17 10:44:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 new-address-ne")): Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 new-address-ne' is clicked on
+
+2018-12-17 10:44:21 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 new-address-ne' is clicked on
+
+2018-12-17 10:44:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-17 10:44:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-17 10:44:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 Custom"), 10): Object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 Custom' is present
+
+2018-12-17 10:44:26 - [MESSAGE][PASSED] - Object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 Custom' is present
+
+2018-12-17 10:44:26 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2018-12-17 10:44:26 - [TEST_STEP][PASSED] - elem = driver.findElement(By.xpath("(//input[@type = 'button' and @class = 'button-1 new-address-next-step-button' and @title = 'Continue' and @value = 'Continue'])[2]")): null
+
+2018-12-17 10:44:26 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(elem)): Execute JavaScript 'arguments[0].click()' successfully
+
+2018-12-17 10:44:26 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2018-12-17 10:44:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Ground (0.00)_shippingop"), 10): Object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Ground (0.00)_shippingop' is present
+
+2018-12-17 10:44:27 - [MESSAGE][PASSED] - Object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Ground (0.00)_shippingop' is present
+
+2018-12-17 10:44:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Ground (0.00)_shippingop")): Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Ground (0.00)_shippingop' is clicked on
+
+2018-12-17 10:44:27 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Ground (0.00)_shippingop' is clicked on
+
+2018-12-17 10:44:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 shipping-metho")): Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 shipping-metho' is clicked on
+
+2018-12-17 10:44:27 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 shipping-metho' is clicked on
+
+2018-12-17 10:44:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Check  Money Order (5.00")): Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Check  Money Order (5.00' is clicked on
+
+2018-12-17 10:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Check  Money Order (5.00' is clicked on
+
+2018-12-17 10:44:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 payment-method")): Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 payment-method' is clicked on
+
+2018-12-17 10:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input__button-1 payment-method' is clicked on
+
+2018-12-17 10:44:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-17 10:44:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-17 10:44:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/select_VisaMaster cardDiscover"), "MasterCard", false): All options with value 'MasterCard' are selected in object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/select_VisaMaster cardDiscover' 
+
+2018-12-17 10:44:33 - [MESSAGE][PASSED] - All options with value 'MasterCard' are selected in object 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/select_VisaMaster cardDiscover' 
+
+2018-12-17 10:44:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Cardholder name_Cardhold"), Cardholder_name): Keys 'John Doe' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Cardholder name_Cardhold'
+
+2018-12-17 10:44:33 - [MESSAGE][PASSED] - Keys 'John Doe' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Cardholder name_Cardhold'
+
+2018-12-17 10:44:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Card number_CardNumber"), Card_number): Keys '378282246310005' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Card number_CardNumber'
+
+2018-12-17 10:44:33 - [MESSAGE][PASSED] - Keys '378282246310005' sent to object: 'Object Repository/End To End Senario/Page_Demo Web Shop. Checkout/input_Card number_CardNumber'
+
+2018-12-17 10:44:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/select_01020304050607080910111"), "3", false): All options with value '3' are selected in object 'Object Repository/Page_Demo Web Shop. Checkout/select_01020304050607080910111' 
+
+2018-12-17 10:44:33 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Page_Demo Web Shop. Checkout/select_01020304050607080910111' 
+
+2018-12-17 10:44:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/select_20182019202020212022202"), "2020", false): All options with value '2020' are selected in object 'Object Repository/Page_Demo Web Shop. Checkout/select_20182019202020212022202' 
+
+2018-12-17 10:44:33 - [MESSAGE][PASSED] - All options with value '2020' are selected in object 'Object Repository/Page_Demo Web Shop. Checkout/select_20182019202020212022202' 
+
+2018-12-17 10:44:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input_Card code_CardCode"), Card_code): Keys '111' sent to object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Card code_CardCode'
+
+2018-12-17 10:44:34 - [MESSAGE][PASSED] - Keys '111' sent to object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Card code_CardCode'
+
+2018-12-17 10:44:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-n")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-n' is clicked on
+
+2018-12-17 10:44:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-n' is clicked on
+
+2018-12-17 10:44:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-17 10:44:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-17 10:44:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-' is clicked on
+
+2018-12-17 10:44:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-' is clicked on
+
+2018-12-17 10:44:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input_Click here for order det")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Click here for order det' is clicked on
+
+2018-12-17 10:44:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Click here for order det' is clicked on
+
+2018-12-17 10:44:40 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-17 10:44:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 10:44:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-17 10:44:40 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-17 10:44:40 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-17 10:44:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 10:44:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-17 10:43:09 - [TEST_SUITE][PASSED] - EndtoEndDemo: Test Cases/Nirmal/TC5 - End To End Scenario]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

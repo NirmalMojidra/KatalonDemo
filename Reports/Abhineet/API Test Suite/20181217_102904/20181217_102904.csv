@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+API Test Suite,,,2018-12-17 10:29:23,2018-12-17 10:30:14,50.789s,FAILED
+,,,,,,
+Test Cases/Abhineet/getTemprature,,,2018-12-17 10:29:24,2018-12-17 10:29:51,26.819s,FAILED
+Start listener action : sampleBeforeTestCase,,,2018-12-17 10:29:24,2018-12-17 10:29:24,0.154s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-12-17 10:29:24,2018-12-17 10:29:24,0.008s,PASSED
+"Request = findTestObject(""Object Repository/Abhineet/GetTempratureOfCity"")",,,2018-12-17 10:29:25,2018-12-17 10:29:25,0.104s,PASSED
+Response = sendRequest(Request),,,2018-12-17 10:29:25,2018-12-17 10:29:51,25.719s,FAILED
+jsonString = Response,,,2018-12-17 10:29:51,2018-12-17 10:29:51,0.001s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,2018-12-17 10:29:51,2018-12-17 10:29:51,0.030s,FAILED
+println(Response.toString()),,,2018-12-17 10:29:51,2018-12-17 10:29:51,0.036s,PASSED
+"containsString(Response, ""Hyderabad"", false)",,,2018-12-17 10:29:51,2018-12-17 10:29:51,0.098s,FAILED
+Start listener action : sampleAfterTestCase,,,2018-12-17 10:29:51,2018-12-17 10:29:51,0.007s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-12-17 10:29:51,2018-12-17 10:29:51,0.003s,PASSED
+,,,,,,
+Test Cases/Abhineet/postCustomer,,,2018-12-17 10:29:51,2018-12-17 10:30:14,22.672s,FAILED
+Start listener action : sampleBeforeTestCase,,,2018-12-17 10:29:51,2018-12-17 10:29:51,0.053s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-12-17 10:29:51,2018-12-17 10:29:51,0.003s,PASSED
+"Request = findTestObject(""Object Repository/Abhineet/postCustomer"")",,,2018-12-17 10:29:52,2018-12-17 10:29:52,0.082s,PASSED
+"body = ""{""FirstName"": ""Obhineet"",""LastName"": ""Mish"",""UserName"": ""rush5efu123"",""Password"": ""#rtggh5fhfh"",""Email"": ""rupsh9efu@gmail.com""}""",,,2018-12-17 10:29:52,2018-12-17 10:29:52,0.001s,PASSED
+Request.setBodyContent(new com.kms.katalon.core.testobject.impl.HttpTextBodyContent(body)),,,2018-12-17 10:29:52,2018-12-17 10:29:52,0.033s,PASSED
+Response = sendRequest(Request),,,2018-12-17 10:29:52,2018-12-17 10:30:13,21.137s,FAILED
+"verifyElementPropertyValue(Response, ""SuccessCode"", ""OPERATION_SUCCESS"", STOP_ON_FAILURE)",,,2018-12-17 10:30:13,2018-12-17 10:30:14,0.018s,FAILED
+Start listener action : sampleAfterTestCase,,,2018-12-17 10:30:14,2018-12-17 10:30:14,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-12-17 10:30:14,2018-12-17 10:30:14,0.002s,PASSED

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Basic_login,Chrome 71.0.3578.98,,2018-12-17 10:28:49,2018-12-17 10:32:26,3m - 36.621s,FAILED
+,,,,,,
+Test Cases/Nikita.A/Basiclogin,Chrome 71.0.3578.98,,2018-12-17 10:28:52,2018-12-17 10:32:26,3m - 33.650s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-17 10:28:53,2018-12-17 10:28:53,0.022s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-17 10:28:53,2018-12-17 10:28:53,0.021s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-17 10:28:56,2018-12-17 10:29:33,37.790s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 71.0.3578.98,,2018-12-17 10:29:33,2018-12-17 10:29:38,4.216s,PASSED
+"click(findTestObject(""Object Repository/Basiclogin/span_Username (1)""))",Chrome 71.0.3578.98,,2018-12-17 10:29:38,2018-12-17 10:29:39,1.031s,PASSED
+"setText(findTestObject(""Object Repository/Basiclogin/input_LOGIN Panel_txtUsername (1)""), ""Admin"")",Chrome 71.0.3578.98,,2018-12-17 10:29:39,2018-12-17 10:29:40,0.988s,PASSED
+"setText(findTestObject(""Object Repository/Basiclogin/input_Username_txtPassword""), """")",Chrome 71.0.3578.98,,2018-12-17 10:29:40,2018-12-17 10:29:40,0.229s,PASSED
+"click(findTestObject(""Object Repository/Basiclogin/input_Password_Submit (1)""))",Chrome 71.0.3578.98,,2018-12-17 10:29:40,2018-12-17 10:29:40,0.579s,PASSED
+"Text = getText(findTestObject(""Object Repository/Basiclogin/span_Assign Leave""))",Chrome 71.0.3578.98,,2018-12-17 10:29:40,2018-12-17 10:30:16,35.548s,FAILED
+"verifyEqual(Text, ""Assign123"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2018-12-17 10:30:16,2018-12-17 10:30:16,0.055s,FAILED
+try,Chrome 71.0.3578.98,,2018-12-17 10:30:16,2018-12-17 10:30:16,0.024s,FAILED
+catch (Exception e),Chrome 71.0.3578.98,,2018-12-17 10:30:16,2018-12-17 10:30:16,0.051s,PASSED
+"click(findTestObject(""Basiclogin/img""))",Chrome 71.0.3578.98,,2018-12-17 10:30:16,2018-12-17 10:30:50,33.990s,FAILED
+"setText(findTestObject(""Object Repository/Basiclogin/input__timeemployeeName""), ""abc"")",Chrome 71.0.3578.98,,2018-12-17 10:30:50,2018-12-17 10:31:23,32.792s,FAILED
+"click(findTestObject(""Object Repository/Basiclogin/input__btnView (1)""))",Chrome 71.0.3578.98,,2018-12-17 10:31:23,2018-12-17 10:31:54,30.984s,FAILED
+"verifyElementPresent(findTestObject(""Basiclogin/span_Invalid""), 0)",Chrome 71.0.3578.98,,2018-12-17 10:31:54,2018-12-17 10:32:25,31.007s,FAILED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-17 10:32:25,2018-12-17 10:32:26,1.133s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-17 10:32:26,2018-12-17 10:32:26,0.004s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-17 10:32:26,2018-12-17 10:32:26,0.002s,PASSED
