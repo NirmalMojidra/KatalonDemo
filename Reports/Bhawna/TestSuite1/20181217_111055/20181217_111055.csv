@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Chrome 71.0.3578.98,,2018-12-17 11:13:56,2018-12-17 11:15:07,1m - 11.075s,PASSED
+,,,,,,
+Test Cases/Bhawna/TC_MouseHoverAndScreenshot,Chrome 71.0.3578.98,,2018-12-17 11:13:57,2018-12-17 11:14:32,35.644s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-17 11:13:57,2018-12-17 11:13:57,0.014s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-17 11:13:57,2018-12-17 11:13:57,0.006s,PASSED
+openBrowser(Url),Chrome 71.0.3578.98,,2018-12-17 11:13:57,2018-12-17 11:14:26,29.137s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-17 11:14:26,2018-12-17 11:14:27,1.154s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/Page_SiteOrigin - Free WordPress Th/a_Plugins"")))",Chrome 71.0.3578.98,,2018-12-17 11:14:27,2018-12-17 11:14:28,0.198s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-17 11:14:28,2018-12-17 11:14:31,3.035s,PASSED
+com.util.TakeScreenshot.takeScreenshotOfWebPage(filename),Chrome 71.0.3578.98,,2018-12-17 11:14:31,2018-12-17 11:14:31,0.479s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-17 11:14:31,2018-12-17 11:14:32,1.083s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-17 11:14:32,2018-12-17 11:14:32,0.006s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-17 11:14:32,2018-12-17 11:14:32,0.003s,PASSED
+,,,,,,
+Test Cases/Arunava/TC1_Scroll,Chrome 71.0.3578.98,,2018-12-17 11:14:32,2018-12-17 11:15:07,34.531s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-17 11:14:32,2018-12-17 11:14:32,0.014s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-17 11:14:32,2018-12-17 11:14:32,0.003s,PASSED
+"openBrowser(""http://demo.guru99.com/"")",Chrome 71.0.3578.98,,2018-12-17 11:14:33,2018-12-17 11:15:01,28.921s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-17 11:15:01,2018-12-17 11:15:03,1.131s,PASSED
+"click(findTestObject(""Object Repository/Demo_Guru/Page_Home Page/Lnk_NewTours""))",Chrome 71.0.3578.98,,2018-12-17 11:15:03,2018-12-17 11:15:05,2.769s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Demo_Guru/Page_Welcome Mercury Tours/Img_TourTips""), 10)",Chrome 71.0.3578.98,,2018-12-17 11:15:05,2018-12-17 11:15:05,0.069s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-17 11:15:05,2018-12-17 11:15:07,1.392s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-17 11:15:07,2018-12-17 11:15:07,0.003s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-17 11:15:07,2018-12-17 11:15:07,0.001s,PASSED

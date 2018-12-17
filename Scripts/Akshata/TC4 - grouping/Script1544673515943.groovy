@@ -16,3 +16,5 @@ import internal.GlobalVariable as GlobalVariable
 String title = WebUI.callTestCase(findTestCase('Akshata/TC5 - grouping'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 println(title)
+
+WebUI.closeBrowser()

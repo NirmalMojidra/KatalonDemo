@@ -4,7 +4,7 @@
    <name>grouping</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-17T10:49:33</lastRun>
+   <lastRun>2018-12-17T11:10:55</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -18,15 +18,9 @@
       <testCaseId>Test Cases/Akshata/TC4 - grouping</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5a791cb0-34aa-4c60-a96b-dd47dc52c717</guid>
+      <guid>8ae6f31e-eb5a-4011-a024-7496fd907a60</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Akshata/TC5 - grouping</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d13da42d-476e-48ad-8f12-00d472a28e8a</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/Akshata/TC3 - Drag and drop - List elements</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
