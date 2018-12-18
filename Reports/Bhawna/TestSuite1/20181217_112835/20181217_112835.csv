@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,,,2018-12-17 11:28:46,2018-12-17 11:30:28,1m - 42.284s,FAILED
+,,,,,,
+Test Cases/Bhawna/TC_MouseHoverAndScreenshot,,,2018-12-17 11:28:49,2018-12-17 11:30:28,1m - 38.923s,FAILED
+Start listener action : sampleBeforeTestCase,,,2018-12-17 11:28:51,2018-12-17 11:28:51,0.404s,PASSED
+openBrowser(Url),,,2018-12-17 11:28:52,2018-12-17 11:30:25,1m - 32.981s,FAILED
+maximizeWindow(),,,2018-12-17 11:30:25,2018-12-17 11:30:25,0.056s,FAILED
+"if (verifyElementVisible(findTestObject(""Object Repository/Page_SiteOrigin - Free WordPress Th/a_Plugins"")))",,,2018-12-17 11:30:25,2018-12-17 11:30:25,0.181s,FAILED
+delay(3),,,2018-12-17 11:30:25,2018-12-17 11:30:28,3.057s,PASSED
+com.util.TakeScreenshot.takeScreenshotOfWebPage(filename),,,2018-12-17 11:30:28,2018-12-17 11:30:28,0.045s,FAILED
+closeBrowser(),,,2018-12-17 11:30:28,2018-12-17 11:30:28,0.024s,FAILED
+Start listener action : sampleAfterTestCase,,,2018-12-17 11:30:28,2018-12-17 11:30:28,0.031s,PASSED

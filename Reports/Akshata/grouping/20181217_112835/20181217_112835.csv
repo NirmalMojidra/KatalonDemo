@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+grouping,Chrome 71.0.3578.98,,2018-12-17 11:28:54,2018-12-17 11:30:19,1m - 24.801s,PASSED
+,,,,,,
+Test Cases/Akshata/TC4 - grouping,Chrome 71.0.3578.98,,2018-12-17 11:28:55,2018-12-17 11:29:50,55.032s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-17 11:28:55,2018-12-17 11:28:56,0.246s,PASSED
+"title = callTestCase(findTestCase(""Akshata/TC5 - grouping""), [:], CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2018-12-17 11:28:56,2018-12-17 11:29:49,52.410s,PASSED
+println(title),Chrome 71.0.3578.98,,2018-12-17 11:29:49,2018-12-17 11:29:49,0.005s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-17 11:29:49,2018-12-17 11:29:50,1.956s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-17 11:29:50,2018-12-17 11:29:50,0.012s,PASSED
+,,,,,,
+Test Cases/Akshata/TC3 - Drag and drop - List elements,Chrome 71.0.3578.98,,2018-12-17 11:29:51,2018-12-17 11:30:16,25.979s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-17 11:29:51,2018-12-17 11:29:51,0.022s,PASSED
+"openBrowser(""http://executeautomation.com/demosite/Dragging.html"")",Chrome 71.0.3578.98,,2018-12-17 11:29:51,2018-12-17 11:30:12,20.317s,PASSED
+"dragAndDropToObject(findTestObject(""Object Repository/Drag and drop list elements/List element 4""), findTestObject(""Object Repository/Drag and drop list elements/List element 1""))",Chrome 71.0.3578.98,,2018-12-17 11:30:12,2018-12-17 11:30:13,1.155s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-17 11:30:13,2018-12-17 11:30:16,3.008s,PASSED
+"dragAndDropToObject(findTestObject(""Object Repository/Drag and drop list elements/List element 1""), findTestObject(""Object Repository/Drag and drop list elements/List element 4""))",Chrome 71.0.3578.98,,2018-12-17 11:30:16,2018-12-17 11:30:16,0.659s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-17 11:30:16,2018-12-17 11:30:16,0.004s,PASSED

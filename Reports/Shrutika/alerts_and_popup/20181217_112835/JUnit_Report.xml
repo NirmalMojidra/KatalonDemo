@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="alerts_and_popup" time="130" tests="1" failures="1" errors="0">
+   <testsuite name="alerts_and_popup" tests="1" failures="1" errors="0" time="130" timestamp="2018-12-17 11:28:47" hostname="Gupta_shr - Shrutika-GT.India.XoriantCorp.com" id="Test Suites/Shrutika/alerts_and_popup">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\gupta_shr\\git\\KatalonDemo\\Reports\\Shrutika\\alerts_and_popup\\20181217_112835"/>
+         <property name="logFiles" value="C:\\Users\\gupta_shr\\git\\KatalonDemo\\Reports\\Shrutika\\alerts_and_popup\\20181217_112835\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gupta_shr - Shrutika-GT.India.XoriantCorp.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Firefox 64.0"/>
+         <property name="hostAddress" value="10.20.3.151"/>
+         <property name="sessionId" value="e020c832-e12e-4d04-8f53-84fd1601dfd2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Shrutika/PopUp/AlertPopUp Test Case" classname="Test Cases/Shrutika/PopUp/AlertPopUp Test Case" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Shrutika/PopUp/AlertPopUp Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://toolsqa.com/handling-alerts-using-selenium-webdriver/' (Root cause: org.openqa.selenium.WebDriverException: connection refused
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at AlertPopUp Test Case.run(AlertPopUp Test Case:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545026315669.run(TempTestSuite1545026315669.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-17 11:28:51 - [TEST_CASE][FAILED] - Test Cases/Shrutika/PopUp/AlertPopUp Test Case: Test Cases/Shrutika/PopUp/AlertPopUp Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://toolsqa.com/handling-alerts-using-selenium-webdriver/' (Root cause: org.openqa.selenium.WebDriverException: connection refused
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at AlertPopUp Test Case.run(AlertPopUp Test Case:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545026315669.run(TempTestSuite1545026315669.groovy:36)
+
+
+2018-12-17 11:28:51 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-17 11:28:51 - [TEST_STEP][PASSED] - println("This section belongs to @BeforeTestCase"): null
+
+2018-12-17 11:28:51 - [TEST_STEP][PASSED] - println("***************************************************************"): null
+
+2018-12-17 11:28:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 11:28:51 - [TEST_STEP][PASSED] - println("***************************************************************"): null
+
+2018-12-17 11:28:51 - [TEST_STEP][FAILED] - openBrowser("http://toolsqa.com/handling-alerts-using-selenium-webdriver/"): Unable to open browser with url: 'http://toolsqa.com/handling-alerts-using-selenium-webdriver/' (Root cause: org.openqa.selenium.WebDriverException: connection refused
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+
+2018-12-17 11:28:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2018-12-17 11:28:53 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-17 11:30:25 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://toolsqa.com/handling-alerts-using-selenium-webdriver/' (Root cause: org.openqa.selenium.WebDriverException: connection refused
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+
+2018-12-17 11:30:25 - [TEST_STEP][FAILED] - maximizeWindow(): Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-12-17 11:30:25 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-12-17 11:30:25 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-12-17 11:30:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-17 11:30:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-17 11:30:26 - [TEST_STEP][FAILED] - scrollToElement(findTestObject("Shrutika/Page_TOOLSQA  Free QA Automation To/Simple Alert Pop up text"), 2): Unable to scroll to object 'Object Repository/Shrutika/Page_TOOLSQA  Free QA Automation To/Simple Alert Pop up text' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-12-17 11:30:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-12-17 11:30:26 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Shrutika/Page_TOOLSQA  Free QA Automation To/Simple Alert Pop up text' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-12-17 11:30:26 - [TEST_STEP][FAILED] - click(findTestObject("Shrutika/Page_TOOLSQA  Free QA Automation To/button_Simple Alert")): Unable to click on object 'Object Repository/Shrutika/Page_TOOLSQA  Free QA Automation To/button_Simple Alert' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-12-17 11:30:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-12-17 11:30:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shrutika/Page_TOOLSQA  Free QA Automation To/button_Simple Alert' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-12-17 11:30:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-17 11:30:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-17 11:30:27 - [TEST_STEP][FAILED] - if (waitForAlert(5)): Unable to wait for alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-12-17 11:30:27 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-12-17 11:30:27 - [MESSAGE][FAILED] - Unable to wait for alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-12-17 11:30:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-17 11:30:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-17 11:30:28 - [TEST_STEP][PASSED] - switchToDefaultContent(): Switching to default content failed because of: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+
+2018-12-17 11:30:28 - [MESSAGE][WARNING] - Switching to default content failed because of: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+
+2018-12-17 11:30:28 - [TEST_STEP][FAILED] - click(findTestObject("Shrutika/Page_TOOLSQA  Free QA Automation To/button_Confirm Pop up")): Unable to click on object 'Object Repository/Shrutika/Page_TOOLSQA  Free QA Automation To/button_Confirm Pop up' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-12-17 11:30:28 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-12-17 11:30:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shrutika/Page_TOOLSQA  Free QA Automation To/button_Confirm Pop up' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-12-17 11:30:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-17 11:30:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-17 11:30:29 - [TEST_STEP][FAILED] - if (waitForAlert(2)): Unable to wait for alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-12-17 11:30:29 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-12-17 11:30:29 - [MESSAGE][FAILED] - Unable to wait for alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-12-17 11:30:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-17 11:30:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-17 11:30:31 - [TEST_STEP][PASSED] - switchToDefaultContent(): Switching to default content failed because of: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+
+2018-12-17 11:30:31 - [MESSAGE][WARNING] - Switching to default content failed because of: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+
+2018-12-17 11:30:31 - [TEST_STEP][FAILED] - click(findTestObject("Shrutika/Page_TOOLSQA  Free QA Automation To/button_Prompt Pop up")): Unable to click on object 'Object Repository/Shrutika/Page_TOOLSQA  Free QA Automation To/button_Prompt Pop up' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-12-17 11:30:31 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-12-17 11:30:31 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shrutika/Page_TOOLSQA  Free QA Automation To/button_Prompt Pop up' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-12-17 11:30:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-17 11:30:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-17 11:30:33 - [TEST_STEP][FAILED] - if (waitForAlert(5)): Unable to wait for alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-12-17 11:30:33 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-12-17 11:30:33 - [MESSAGE][FAILED] - Unable to wait for alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-12-17 11:30:33 - [TEST_STEP][PASSED] - switchToDefaultContent(): Switching to default content failed because of: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+
+2018-12-17 11:30:33 - [MESSAGE][WARNING] - Switching to default content failed because of: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+
+2018-12-17 11:30:33 - [TEST_STEP][FAILED] - closeBrowser(): closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://toolsqa.com/handling-alerts-using-selenium-webdriver/' (Root cause: org.openqa.selenium.WebDriverException: connection refused
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at AlertPopUp Test Case.run(AlertPopUp Test Case:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545026315669.run(TempTestSuite1545026315669.groovy:36)
+
+
+2018-12-17 11:30:33 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-17 11:30:33 - [MESSAGE][FAILED] - closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://toolsqa.com/handling-alerts-using-selenium-webdriver/' (Root cause: org.openqa.selenium.WebDriverException: connection refused
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at AlertPopUp Test Case.run(AlertPopUp Test Case:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545026315669.run(TempTestSuite1545026315669.groovy:36)
+
+
+2018-12-17 11:30:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-17 11:30:33 - [TEST_STEP][PASSED] - println("This section belongs to @AfterTestCase"): null
+
+2018-12-17 11:30:33 - [TEST_STEP][PASSED] - println("***************************************************************"): null
+
+2018-12-17 11:30:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId() + " : " + testCaseContext.getTestCaseStatus()): null
+
+2018-12-17 11:30:33 - [TEST_STEP][PASSED] - println("***************************************************************"): null]]></system-out>
+         <system-err><![CDATA[2018-12-17 11:28:51 - [TEST_CASE][FAILED] - Test Cases/Shrutika/PopUp/AlertPopUp Test Case: Test Cases/Shrutika/PopUp/AlertPopUp Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://toolsqa.com/handling-alerts-using-selenium-webdriver/' (Root cause: org.openqa.selenium.WebDriverException: connection refused
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at AlertPopUp Test Case.run(AlertPopUp Test Case:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545026315669.run(TempTestSuite1545026315669.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shrutika/PopUp/AlertWindowPopUp Test Case" classname="Test Cases/Shrutika/PopUp/AlertWindowPopUp Test Case" status="PASSED">
+         <system-out><![CDATA[2018-12-17 11:30:33 - [TEST_CASE][PASSED] - Test Cases/Shrutika/PopUp/AlertWindowPopUp Test Case: Test Cases/Shrutika/PopUp/AlertWindowPopUp Test Case
+
+2018-12-17 11:30:33 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-17 11:30:33 - [TEST_STEP][PASSED] - println("This section belongs to @BeforeTestCase"): null
+
+2018-12-17 11:30:33 - [TEST_STEP][PASSED] - println("***************************************************************"): null
+
+2018-12-17 11:30:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 11:30:33 - [TEST_STEP][PASSED] - println("***************************************************************"): null
+
+2018-12-17 11:30:34 - [TEST_STEP][PASSED] - openBrowser("https://www.elated.com/articles/javascript-tabs/"): Browser is opened with url: 'https://www.elated.com/articles/javascript-tabs/'
+
+2018-12-17 11:30:34 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2018-12-17 11:30:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.elated.com/articles/javascript-tabs/'
+
+2018-12-17 11:30:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-17 11:30:53 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-17 11:30:53 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Shrutika/Page_JavaScript Tabs - Create Tabbe/iframe_The Document Object Mod"), 2): null
+
+2018-12-17 11:30:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shrutika/Page_JavaScript Tabs - Create Tabbe/div_id(katalon-spy_elementInfo")): Object: 'Object Repository/Shrutika/Page_JavaScript Tabs - Create Tabbe/div_id(katalon-spy_elementInfo' is clicked on
+
+2018-12-17 11:30:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Shrutika/Page_JavaScript Tabs - Create Tabbe/div_id(katalon-spy_elementInfo' is clicked on
+
+2018-12-17 11:30:54 - [TEST_STEP][PASSED] - switchToWindowTitle("Share a link on Twitter"): Switched to window with title: 'Share a link on Twitter'
+
+2018-12-17 11:30:55 - [MESSAGE][PASSED] - Switched to window with title: 'Share a link on Twitter'
+
+2018-12-17 11:30:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shrutika/Page_Share a link on Twitter/input_Phone email or username_"), "Abc"): Text 'Abc' is set on object 'Object Repository/Shrutika/Page_Share a link on Twitter/input_Phone email or username_'
+
+2018-12-17 11:30:55 - [MESSAGE][PASSED] - Text 'Abc' is set on object 'Object Repository/Shrutika/Page_Share a link on Twitter/input_Phone email or username_'
+
+2018-12-17 11:30:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shrutika/Page_Share a link on Twitter/input_Password_sessionpassword"), "Password"): Text 'Password' is set on object 'Object Repository/Shrutika/Page_Share a link on Twitter/input_Password_sessionpassword'
+
+2018-12-17 11:30:55 - [MESSAGE][PASSED] - Text 'Password' is set on object 'Object Repository/Shrutika/Page_Share a link on Twitter/input_Password_sessionpassword'
+
+2018-12-17 11:30:55 - [TEST_STEP][PASSED] - verifyTextPresent("Share a link with your followers", false): Text 'Share a link with your followers' is present on page 
+
+2018-12-17 11:30:55 - [MESSAGE][PASSED] - Text 'Share a link with your followers' is present on page 
+
+2018-12-17 11:30:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-17 11:30:57 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-17 11:30:57 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-17 11:30:57 - [TEST_STEP][PASSED] - println("This section belongs to @AfterTestCase"): null
+
+2018-12-17 11:30:57 - [TEST_STEP][PASSED] - println("***************************************************************"): null
+
+2018-12-17 11:30:57 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId() + " : " + testCaseContext.getTestCaseStatus()): null
+
+2018-12-17 11:30:57 - [TEST_STEP][PASSED] - println("***************************************************************"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-17 11:28:47 - [TEST_SUITE][FAILED] - alerts_and_popup: Test Cases/Shrutika/PopUp/AlertPopUp Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://toolsqa.com/handling-alerts-using-selenium-webdriver/' (Root cause: org.openqa.selenium.WebDriverException: connection refused
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at AlertPopUp Test Case.run(AlertPopUp Test Case:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545026315669.run(TempTestSuite1545026315669.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-17 11:28:47 - [TEST_SUITE][FAILED] - alerts_and_popup: Test Cases/Shrutika/PopUp/AlertPopUp Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://toolsqa.com/handling-alerts-using-selenium-webdriver/' (Root cause: org.openqa.selenium.WebDriverException: connection refused
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SHRUTIKA-GT', ip: '10.20.3.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at AlertPopUp Test Case.run(AlertPopUp Test Case:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545026315669.run(TempTestSuite1545026315669.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
