@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Chrome 70.0.3538.110,,2018-12-17 11:19:31,2018-12-17 11:19:49,17.958s,PASSED
+,,,,,,
+Test Cases/Bhawna/TC_MouseHoverAndScreenshot,Chrome 70.0.3538.110,,2018-12-17 11:19:33,2018-12-17 11:19:49,16.738s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.110,,2018-12-17 11:19:33,2018-12-17 11:19:33,0.020s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.110,,2018-12-17 11:19:33,2018-12-17 11:19:33,0.010s,PASSED
+openBrowser(Url),Chrome 70.0.3538.110,,2018-12-17 11:19:33,2018-12-17 11:19:43,9.839s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-17 11:19:43,2018-12-17 11:19:44,1.165s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/Page_SiteOrigin - Free WordPress Th/a_Plugins"")))",Chrome 70.0.3538.110,,2018-12-17 11:19:44,2018-12-17 11:19:45,0.501s,PASSED
+delay(3),Chrome 70.0.3538.110,,2018-12-17 11:19:45,2018-12-17 11:19:48,3.069s,PASSED
+com.util.TakeScreenshot.takeScreenshotOfWebPage(filename),Chrome 70.0.3538.110,,2018-12-17 11:19:48,2018-12-17 11:19:48,0.881s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-17 11:19:48,2018-12-17 11:19:49,0.745s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 70.0.3538.110,,2018-12-17 11:19:49,2018-12-17 11:19:49,0.009s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 70.0.3538.110,,2018-12-17 11:19:49,2018-12-17 11:19:49,0.006s,PASSED

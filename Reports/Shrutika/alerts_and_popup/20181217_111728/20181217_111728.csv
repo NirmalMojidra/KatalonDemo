@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+alerts_and_popup,Chrome 70.0.3538.110,,2018-12-17 11:20:00,2018-12-17 11:20:52,52.242s,PASSED
+,,,,,,
+Test Cases/Shrutika/PopUp/AlertPopUp Test Case,Chrome 70.0.3538.110,Alert Pop Up Handling Test Case,2018-12-17 11:20:01,2018-12-17 11:20:35,33.802s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.110,,2018-12-17 11:20:01,2018-12-17 11:20:01,0.040s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.110,,2018-12-17 11:20:01,2018-12-17 11:20:01,0.011s,PASSED
+"openBrowser(""http://toolsqa.com/handling-alerts-using-selenium-webdriver/"")",Chrome 70.0.3538.110,,2018-12-17 11:20:02,2018-12-17 11:20:20,18.780s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-17 11:20:20,2018-12-17 11:20:22,1.203s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-17 11:20:22,2018-12-17 11:20:23,1.074s,PASSED
+"scrollToElement(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/Simple Alert Pop up text""), 2)",Chrome 70.0.3538.110,,2018-12-17 11:20:23,2018-12-17 11:20:23,0.383s,PASSED
+"click(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/button_Simple Alert""))",Chrome 70.0.3538.110,,2018-12-17 11:20:23,2018-12-17 11:20:24,1.437s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-17 11:20:24,2018-12-17 11:20:25,1.004s,PASSED
+if (waitForAlert(5)),Chrome 70.0.3538.110,,2018-12-17 11:20:25,2018-12-17 11:20:26,0.142s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-17 11:20:26,2018-12-17 11:20:27,1.003s,PASSED
+switchToDefaultContent(),Chrome 70.0.3538.110,,2018-12-17 11:20:27,2018-12-17 11:20:27,0.089s,PASSED
+"click(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/button_Confirm Pop up""))",Chrome 70.0.3538.110,,2018-12-17 11:20:27,2018-12-17 11:20:27,0.171s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-17 11:20:27,2018-12-17 11:20:28,1.002s,PASSED
+if (waitForAlert(2)),Chrome 70.0.3538.110,,2018-12-17 11:20:28,2018-12-17 11:20:28,0.068s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-17 11:20:28,2018-12-17 11:20:30,2.003s,PASSED
+switchToDefaultContent(),Chrome 70.0.3538.110,,2018-12-17 11:20:30,2018-12-17 11:20:30,0.021s,PASSED
+"click(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/button_Prompt Pop up""))",Chrome 70.0.3538.110,,2018-12-17 11:20:30,2018-12-17 11:20:30,0.143s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-17 11:20:30,2018-12-17 11:20:32,2.002s,PASSED
+if (waitForAlert(5)),Chrome 70.0.3538.110,,2018-12-17 11:20:32,2018-12-17 11:20:34,2.078s,PASSED
+switchToDefaultContent(),Chrome 70.0.3538.110,,2018-12-17 11:20:34,2018-12-17 11:20:34,0.023s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-17 11:20:34,2018-12-17 11:20:35,0.740s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 70.0.3538.110,,2018-12-17 11:20:35,2018-12-17 11:20:35,0.008s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 70.0.3538.110,,2018-12-17 11:20:35,2018-12-17 11:20:35,0.007s,PASSED
+,,,,,,
+Test Cases/Shrutika/PopUp/AlertWindowPopUp Test Case,Chrome 70.0.3538.110,AlertWindowPopUp Test Case,2018-12-17 11:20:35,2018-12-17 11:20:52,17.301s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.110,,2018-12-17 11:20:35,2018-12-17 11:20:35,0.018s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.110,,2018-12-17 11:20:35,2018-12-17 11:20:35,0.004s,PASSED
+"openBrowser(""https://www.elated.com/articles/javascript-tabs/"")",Chrome 70.0.3538.110,,2018-12-17 11:20:35,2018-12-17 11:20:47,12.045s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-17 11:20:47,2018-12-17 11:20:49,1.145s,PASSED
+"switchToFrame(findTestObject(""Object Repository/Shrutika/Page_JavaScript Tabs - Create Tabbe/iframe_The Document Object Mod""), 2)",Chrome 70.0.3538.110,,2018-12-17 11:20:49,2018-12-17 11:20:49,0.232s,PASSED
+"click(findTestObject(""Object Repository/Shrutika/Page_JavaScript Tabs - Create Tabbe/div_id(katalon-spy_elementInfo""))",Chrome 70.0.3538.110,,2018-12-17 11:20:49,2018-12-17 11:20:49,0.575s,PASSED
+"switchToWindowTitle(""Share a link on Twitter"")",Chrome 70.0.3538.110,,2018-12-17 11:20:49,2018-12-17 11:20:50,1.136s,PASSED
+"setText(findTestObject(""Object Repository/Shrutika/Page_Share a link on Twitter/input_Phone email or username_""), ""Abc"")",Chrome 70.0.3538.110,,2018-12-17 11:20:50,2018-12-17 11:20:51,0.645s,PASSED
+"setText(findTestObject(""Object Repository/Shrutika/Page_Share a link on Twitter/input_Password_sessionpassword""), ""Password"")",Chrome 70.0.3538.110,,2018-12-17 11:20:51,2018-12-17 11:20:51,0.300s,PASSED
+"verifyTextPresent(""Share a link with your followers"", false)",Chrome 70.0.3538.110,,2018-12-17 11:20:51,2018-12-17 11:20:52,0.113s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-17 11:20:52,2018-12-17 11:20:52,0.724s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 70.0.3538.110,,2018-12-17 11:20:52,2018-12-17 11:20:52,0.005s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 70.0.3538.110,,2018-12-17 11:20:52,2018-12-17 11:20:52,0.005s,PASSED
