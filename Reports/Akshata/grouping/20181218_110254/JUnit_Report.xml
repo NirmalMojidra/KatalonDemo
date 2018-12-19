@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="grouping" time="89" tests="2" failures="0" errors="0">
+   <testsuite name="grouping" tests="2" failures="0" errors="0" time="89" timestamp="2018-12-18 11:03:20" hostname="C5281054 - INLN56580283A.apj.global.corp.sap" id="Test Suites/Akshata/grouping">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\Akshata\\grouping\\20181218_110254"/>
+         <property name="logFiles" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\Akshata\\grouping\\20181218_110254\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="C5281054 - INLN56580283A.apj.global.corp.sap"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.242.1"/>
+         <property name="sessionId" value="5d3c03d3f079ae66612730dfc9a99034"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Akshata/TC4 - grouping" classname="Test Cases/Akshata/TC4 - grouping" status="PASSED">
+         <system-out><![CDATA[2018-12-18 11:03:26 - [TEST_CASE][PASSED] - Test Cases/Akshata/TC4 - grouping: Test Cases/Akshata/TC4 - grouping
+
+2018-12-18 11:03:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-18 11:03:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:03:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-18 11:03:27 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-18 11:03:27 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-18 11:03:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:03:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-18 11:03:29 - [TEST_STEP][PASSED] - title = callTestCase(findTestCase("Akshata/TC5 - grouping"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Akshata/TC5 - grouping' successfully
+
+2018-12-18 11:03:29 - [TEST_CASE][PASSED] - Test Cases/Akshata/TC5 - grouping: Test Cases/Akshata/TC5 - grouping
+
+2018-12-18 11:03:31 - [TEST_STEP][PASSED] - openBrowser("https://www.google.co.in/"): Browser is opened with url: 'https://www.google.co.in/'
+
+2018-12-18 11:03:32 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2018-12-18 11:03:33 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-18 11:04:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.co.in/'
+
+2018-12-18 11:04:08 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'Google'
+
+2018-12-18 11:04:08 - [MESSAGE][PASSED] - Current window's title is: 'Google'
+
+2018-12-18 11:04:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Akshata/TC5 - grouping' successfully
+
+2018-12-18 11:04:08 - [TEST_STEP][PASSED] - println(title): null
+
+2018-12-18 11:04:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-18 11:04:10 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-18 11:04:10 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-18 11:04:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:04:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-18 11:04:10 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-18 11:04:10 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-18 11:04:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:04:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Akshata/TC3 - Drag and drop - List elements" classname="Test Cases/Akshata/TC3 - Drag and drop - List elements" status="PASSED">
+         <system-out><![CDATA[2018-12-18 11:04:10 - [TEST_CASE][PASSED] - Test Cases/Akshata/TC3 - Drag and drop - List elements: Test Cases/Akshata/TC3 - Drag and drop - List elements
+
+2018-12-18 11:04:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-18 11:04:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:04:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-18 11:04:10 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-18 11:04:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-18 11:04:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:04:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-18 11:04:11 - [TEST_STEP][PASSED] - openBrowser("http://executeautomation.com/demosite/Dragging.html"): Browser is opened with url: 'http://executeautomation.com/demosite/Dragging.html'
+
+2018-12-18 11:04:11 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2018-12-18 11:04:44 - [MESSAGE][PASSED] - Browser is opened with url: 'http://executeautomation.com/demosite/Dragging.html'
+
+2018-12-18 11:04:44 - [TEST_STEP][PASSED] - dragAndDropToObject(findTestObject("Object Repository/Drag and drop list elements/List element 4"), findTestObject("Object Repository/Drag and drop list elements/List element 1")): Dragged object with id 'Object Repository/Drag and drop list elements/List element 4' to object with id 'TestObject - 'Object Repository/Drag and drop list elements/List element 1'' successfully
+
+2018-12-18 11:04:45 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Drag and drop list elements/List element 4' to object with id 'TestObject - 'Object Repository/Drag and drop list elements/List element 1'' successfully
+
+2018-12-18 11:04:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-18 11:04:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-18 11:04:48 - [TEST_STEP][PASSED] - dragAndDropToObject(findTestObject("Object Repository/Drag and drop list elements/List element 1"), findTestObject("Object Repository/Drag and drop list elements/List element 4")): Dragged object with id 'Object Repository/Drag and drop list elements/List element 1' to object with id 'TestObject - 'Object Repository/Drag and drop list elements/List element 4'' successfully
+
+2018-12-18 11:04:48 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Drag and drop list elements/List element 1' to object with id 'TestObject - 'Object Repository/Drag and drop list elements/List element 4'' successfully
+
+2018-12-18 11:04:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-18 11:04:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:04:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-18 11:04:48 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-18 11:04:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-18 11:04:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:04:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-18 11:03:20 - [TEST_SUITE][PASSED] - grouping: Test Cases/Akshata/TC3 - Drag and drop - List elements]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

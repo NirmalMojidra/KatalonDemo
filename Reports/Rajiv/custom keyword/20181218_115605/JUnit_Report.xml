@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="custom keyword" time="88" tests="1" failures="0" errors="0">
+   <testsuite name="custom keyword" tests="1" failures="0" errors="0" time="88" timestamp="2018-12-18 11:56:23" hostname="C5281054 - INLN56580283A.apj.global.corp.sap" id="Test Suites/Rajiv/custom keyword">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\Rajiv\\custom keyword\\20181218_115605"/>
+         <property name="logFiles" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\Rajiv\\custom keyword\\20181218_115605\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="C5281054 - INLN56580283A.apj.global.corp.sap"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.242.1"/>
+         <property name="sessionId" value="b72ff2623e98bfb651fb39af82764287"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rajiv/JavaScript" classname="Test Cases/Rajiv/JavaScript" status="PASSED">
+         <system-out><![CDATA[2018-12-18 11:56:28 - [TEST_CASE][PASSED] - Test Cases/Rajiv/JavaScript: Test Cases/Rajiv/JavaScript
+
+2018-12-18 11:56:30 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-18 11:56:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:56:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-18 11:56:30 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-18 11:56:30 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-18 11:56:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:56:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-18 11:56:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-18 11:56:36 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2018-12-18 11:56:36 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-18 11:57:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-18 11:57:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-18 11:57:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-18 11:57:16 - [TEST_STEP][PASSED] - executeJavaScript("window.location='https://www.freecrm.com'", null): Execute JavaScript 'window.location='https://www.freecrm.com'' successfully
+
+2018-12-18 11:57:21 - [MESSAGE][PASSED] - Execute JavaScript 'window.location='https://www.freecrm.com'' successfully
+
+2018-12-18 11:57:21 - [TEST_STEP][PASSED] - wb1 = findWebElement(findTestObject("Object Repository/JavaScript/FreeCRMUsername"), 5): null
+
+2018-12-18 11:57:22 - [TEST_STEP][PASSED] - wb2 = findWebElement(findTestObject("Object Repository/JavaScript/FreeCRMPassword"), 5): null
+
+2018-12-18 11:57:22 - [TEST_STEP][PASSED] - wb3 = findWebElement(findTestObject("Object Repository/JavaScript/FreeCRMLoginBtn"), 5): null
+
+2018-12-18 11:57:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-18 11:57:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - javaScript.JavaScriptExecutor.jsType(variable, wb1): javaScript.JavaScriptExecutor.jsType is PASSED
+
+2018-12-18 11:57:25 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].style.border='3px solid blue'' successfully
+
+2018-12-18 11:57:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-18 11:57:27 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value='Admin12'' successfully
+
+2018-12-18 11:57:27 - [MESSAGE][PASSED] - javaScript.JavaScriptExecutor.jsType is PASSED
+
+2018-12-18 11:57:27 - [TEST_STEP][PASSED] - javaScript.JavaScriptExecutor.jsType(variable_0, wb2): javaScript.JavaScriptExecutor.jsType is PASSED
+
+2018-12-18 11:57:27 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].style.border='3px solid blue'' successfully
+
+2018-12-18 11:57:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-18 11:57:29 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value='Admin12'' successfully
+
+2018-12-18 11:57:29 - [MESSAGE][PASSED] - javaScript.JavaScriptExecutor.jsType is PASSED
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - javaScript.JavaScriptExecutor.jsClick(wb3): javaScript.JavaScriptExecutor.jsClick is PASSED
+
+2018-12-18 11:57:29 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].style.border='3px solid green'' successfully
+
+2018-12-18 11:57:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-18 11:57:35 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2018-12-18 11:57:35 - [MESSAGE][PASSED] - javaScript.JavaScriptExecutor.jsClick is PASSED
+
+2018-12-18 11:57:35 - [TEST_STEP][PASSED] - javaScript.JavaScriptExecutor.alertGenerator("This Alert is generated by JavaScript !! "): javaScript.JavaScriptExecutor.alertGenerator is PASSED
+
+2018-12-18 11:57:35 - [MESSAGE][PASSED] - Execute JavaScript 'alert('This Alert is generated by JavaScript !! ');' successfully
+
+2018-12-18 11:57:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-18 11:57:38 - [MESSAGE][PASSED] - javaScript.JavaScriptExecutor.alertGenerator is PASSED
+
+2018-12-18 11:57:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-18 11:57:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-18 11:57:40 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2018-12-18 11:57:40 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-18 11:57:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-18 11:57:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-18 11:57:43 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/JavaScript/iFrame"), 5): null
+
+2018-12-18 11:57:43 - [TEST_STEP][PASSED] - wb4 = findWebElement(findTestObject("Object Repository/JavaScript/FreeCRMLogout"), 5): null
+
+2018-12-18 11:57:43 - [TEST_STEP][PASSED] - javaScript.JavaScriptExecutor.jsClick(wb4): javaScript.JavaScriptExecutor.jsClick is PASSED
+
+2018-12-18 11:57:43 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].style.border='3px solid green'' successfully
+
+2018-12-18 11:57:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-18 11:57:47 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2018-12-18 11:57:47 - [MESSAGE][PASSED] - javaScript.JavaScriptExecutor.jsClick is PASSED
+
+2018-12-18 11:57:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-18 11:57:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-18 11:57:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-18 11:57:50 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-18 11:57:50 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-18 11:57:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:57:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-18 11:57:50 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-18 11:57:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-18 11:57:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:57:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-18 11:56:23 - [TEST_SUITE][PASSED] - custom keyword: Test Cases/Rajiv/JavaScript]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

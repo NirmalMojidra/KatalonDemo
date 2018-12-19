@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ExceptionHandling,Chrome 71.0.3578.98,,2018-12-18 11:56:37,2018-12-18 11:57:33,55.567s,FAILED
+,,,,,,
+Test Cases/Shrutika/Control Statements/ExceptionHandling Test Case,Chrome 71.0.3578.98,ExceptionHandling Test Case,2018-12-18 11:56:41,2018-12-18 11:57:33,51.883s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-18 11:56:41,2018-12-18 11:56:41,0.016s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-18 11:56:41,2018-12-18 11:56:41,0.003s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 71.0.3578.98,,2018-12-18 11:56:42,2018-12-18 11:57:18,36.293s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-18 11:57:18,2018-12-18 11:57:20,1.557s,PASSED
+"click(findTestObject(""Shrutika/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 71.0.3578.98,,2018-12-18 11:57:20,2018-12-18 11:57:22,1.667s,PASSED
+"setText(findTestObject(""Shrutika/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 71.0.3578.98,,2018-12-18 11:57:22,2018-12-18 11:57:24,2.974s,PASSED
+"setText(findTestObject(""Shrutika/Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 71.0.3578.98,,2018-12-18 11:57:24,2018-12-18 11:57:26,1.053s,PASSED
+"click(findTestObject(""Shrutika/Page_CURA Healthcare Service/button_Login""))",Chrome 71.0.3578.98,,2018-12-18 11:57:26,2018-12-18 11:57:26,0.735s,PASSED
+"click(findTestObject(""Shrutika/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 71.0.3578.98,,2018-12-18 11:57:26,2018-12-18 11:57:27,0.610s,PASSED
+"click(findTestObject(""Shrutika/Page_CURA Healthcare Service/input_Medicttaid_programs""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2018-12-18 11:57:27,2018-12-18 11:57:27,0.529s,FAILED
+try,Chrome 71.0.3578.98,,2018-12-18 11:57:27,2018-12-18 11:57:28,0.922s,PASSED
+catch (Exception e),Chrome 71.0.3578.98,,2018-12-18 11:57:28,2018-12-18 11:57:28,0.010s,PASSED
+Finally,Chrome 71.0.3578.98,,2018-12-18 11:57:28,2018-12-18 11:57:33,4.396s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-18 11:57:33,2018-12-18 11:57:33,0.005s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-18 11:57:33,2018-12-18 11:57:33,0.004s,PASSED

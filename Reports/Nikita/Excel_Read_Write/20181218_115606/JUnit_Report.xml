@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Excel_Read_Write" time="89" tests="3" failures="0" errors="0">
+   <testsuite name="Excel_Read_Write" tests="3" failures="0" errors="0" time="89" timestamp="2018-12-18 11:56:34" hostname="C5281054 - INLN56580283A.apj.global.corp.sap" id="Test Suites/Nikita/Excel_Read_Write">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\Nikita\\Excel_Read_Write\\20181218_115606"/>
+         <property name="logFiles" value="C:\\Users\\c5281054\\git\\KatalonDemo\\Reports\\Nikita\\Excel_Read_Write\\20181218_115606\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="C5281054 - INLN56580283A.apj.global.corp.sap"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.242.1"/>
+         <property name="sessionId" value="bccb848022eb19d951f164e3cc965dc4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Nikita/Orange HRM/Excel_write_Demo" classname="Test Cases/Nikita/Orange HRM/Excel_write_Demo" status="PASSED">
+         <system-out><![CDATA[2018-12-18 11:56:38 - [TEST_CASE][PASSED] - Test Cases/Nikita/Orange HRM/Excel_write_Demo: Test Cases/Nikita/Orange HRM/Excel_write_Demo
+
+2018-12-18 11:56:39 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-18 11:56:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:56:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-18 11:56:39 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-18 11:56:39 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-18 11:56:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:56:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-18 11:56:40 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:56:44 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:56:44 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+2018-12-18 11:56:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-18 11:56:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:56:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-18 11:56:44 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-18 11:56:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-18 11:56:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:56:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nikita/Orange HRM/List_excel Write" classname="Test Cases/Nikita/Orange HRM/List_excel Write" status="PASSED">
+         <system-out><![CDATA[2018-12-18 11:56:44 - [TEST_CASE][PASSED] - Test Cases/Nikita/Orange HRM/List_excel Write: Test Cases/Nikita/Orange HRM/List_excel Write
+
+2018-12-18 11:56:44 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-18 11:56:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:56:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-18 11:56:44 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-18 11:56:44 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-18 11:56:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:56:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-18 11:56:45 - [TEST_STEP][PASSED] - openBrowser("https://www.w3schools.com/"): Browser is opened with url: 'https://www.w3schools.com/'
+
+2018-12-18 11:56:47 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2018-12-18 11:56:47 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-18 11:57:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/'
+
+2018-12-18 11:57:20 - [TEST_STEP][PASSED] - wb = findWebElements(findTestObject("Object Repository/Excel_List/List"), 30): null
+
+2018-12-18 11:57:21 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement wa : wb): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:21 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:21 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:21 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:21 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:21 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:21 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:21 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:21 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:21 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:21 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:21 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:22 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:22 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:22 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:22 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:22 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:22 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:23 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:23 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:23 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:23 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:23 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:23 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:23 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:23 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:23 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:23 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:23 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:23 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:24 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:24 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:24 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:24 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:24 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:24 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:24 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:24 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:24 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:24 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:24 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:24 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:24 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:24 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:24 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:24 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:24 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:24 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:25 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:26 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:26 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:26 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:26 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:26 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:26 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:26 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:26 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:26 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:27 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:27 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:27 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:27 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:27 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:27 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:27 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:27 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:27 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:27 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:27 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:27 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:27 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:27 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:27 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:27 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:27 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:27 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:28 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:28 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:28 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:28 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:28 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:28 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:28 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:29 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:30 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:30 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:30 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - element_list = wa.getText(): null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - println(element_list): null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - com.poi.writeExcelSheet.excelWrite(element_list): com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:30 - [MESSAGE][PASSED] - com.poi.writeExcelSheet.excelWrite is PASSED
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nikita/Orange HRM/Login_Excel_Read_testdata" classname="Test Cases/Nikita/Orange HRM/Login_Excel_Read_testdata" status="PASSED">
+         <system-out><![CDATA[2018-12-18 11:57:30 - [TEST_CASE][PASSED] - Test Cases/Nikita/Orange HRM/Login_Excel_Read_testdata: Test Cases/Nikita/Orange HRM/Login_Excel_Read_testdata
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:57:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2018-12-18 11:57:31 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2018-12-18 11:57:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-18 11:57:33 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2018-12-18 11:58:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2018-12-18 11:58:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/span_Username")): Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-12-18 11:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-12-18 11:58:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), Username): Text '' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2018-12-18 11:58:02 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2018-12-18 11:58:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Username_txtPassword"), Password): Text '' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2018-12-18 11:58:02 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2018-12-18 11:58:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2018-12-18 11:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2018-12-18 11:58:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-18 11:58:03 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-18 11:58:03 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-18 11:58:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:58:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2018-12-18 11:58:03 - [TEST_STEP][PASSED] - println(testCaseContext.getMessage()): null
+
+2018-12-18 11:58:03 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-18 11:58:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-18 11:58:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-18 11:56:34 - [TEST_SUITE][PASSED] - Excel_Read_Write: Test Cases/Nikita/Orange HRM/Login_Excel_Read_testdata]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

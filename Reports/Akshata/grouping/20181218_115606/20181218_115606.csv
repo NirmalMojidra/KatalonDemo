@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+grouping,Chrome 71.0.3578.98,,2018-12-18 11:56:28,2018-12-18 11:58:04,1m - 36.564s,PASSED
+,,,,,,
+Test Cases/Akshata/TC4 - grouping,Chrome 71.0.3578.98,,2018-12-18 11:56:33,2018-12-18 11:57:31,58.051s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-18 11:56:33,2018-12-18 11:56:34,0.350s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-18 11:56:34,2018-12-18 11:56:34,0.013s,PASSED
+"title = callTestCase(findTestCase(""Akshata/TC5 - grouping""), [:], CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2018-12-18 11:56:35,2018-12-18 11:57:18,42.143s,PASSED
+println(title),Chrome 71.0.3578.98,,2018-12-18 11:57:18,2018-12-18 11:57:18,0.004s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-18 11:57:18,2018-12-18 11:57:31,13.475s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-18 11:57:31,2018-12-18 11:57:31,0.006s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-18 11:57:31,2018-12-18 11:57:31,0.004s,PASSED
+,,,,,,
+Test Cases/Akshata/TC3 - Drag and drop - List elements,Chrome 71.0.3578.98,,2018-12-18 11:57:31,2018-12-18 11:58:03,32.270s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-18 11:57:31,2018-12-18 11:57:31,0.005s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-18 11:57:31,2018-12-18 11:57:31,0.004s,PASSED
+"openBrowser(""http://executeautomation.com/demosite/Dragging.html"")",Chrome 71.0.3578.98,,2018-12-18 11:57:32,2018-12-18 11:57:59,27.210s,PASSED
+"dragAndDropToObject(findTestObject(""Object Repository/Drag and drop list elements/List element 4""), findTestObject(""Object Repository/Drag and drop list elements/List element 1""))",Chrome 71.0.3578.98,,2018-12-18 11:57:59,2018-12-18 11:58:00,0.747s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-18 11:58:00,2018-12-18 11:58:03,3.011s,PASSED
+"dragAndDropToObject(findTestObject(""Object Repository/Drag and drop list elements/List element 1""), findTestObject(""Object Repository/Drag and drop list elements/List element 4""))",Chrome 71.0.3578.98,,2018-12-18 11:58:03,2018-12-18 11:58:03,0.656s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-18 11:58:03,2018-12-18 11:58:03,0.003s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-18 11:58:03,2018-12-18 11:58:03,0.003s,PASSED
