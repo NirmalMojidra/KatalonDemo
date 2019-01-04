@@ -16,5 +16,4 @@ import internal.GlobalVariable as GlobalVariable
 
 println 'trest'
 
-println 'test'
-
+println 'Update'
