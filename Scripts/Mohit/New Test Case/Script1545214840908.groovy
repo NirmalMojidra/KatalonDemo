@@ -16,4 +16,4 @@ import internal.GlobalVariable as GlobalVariable
 
 println 'trest'
 
-println 'trest'
+println 'Git Test'
