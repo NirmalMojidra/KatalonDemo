@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="custom keyword" time="61" tests="1" failures="0" errors="0">
+   <testsuite name="custom keyword" tests="1" failures="0" errors="0" time="61" timestamp="2018-12-17 14:35:32" hostname="Gupta_shr - Shrutika-GT.India.XoriantCorp.com" id="Test Suites/Rajiv/custom keyword">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\gupta_shr\\git\\KatalonDemo\\Reports\\Rajiv\\custom keyword\\20181217_143523"/>
+         <property name="logFiles" value="C:\\Users\\gupta_shr\\git\\KatalonDemo\\Reports\\Rajiv\\custom keyword\\20181217_143523\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gupta_shr - Shrutika-GT.India.XoriantCorp.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.20.3.151"/>
+         <property name="sessionId" value="35cc938d36fcf1896a9c377541680a86"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rajiv/JavaScript" classname="Test Cases/Rajiv/JavaScript" status="PASSED">
+         <system-out><![CDATA[2018-12-17 14:35:36 - [TEST_CASE][PASSED] - Test Cases/Rajiv/JavaScript: Test Cases/Rajiv/JavaScript
+
+2018-12-17 14:35:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2018-12-17 14:35:37 - [TEST_STEP][PASSED] - println("This section belongs to @BeforeTestCase"): null
+
+2018-12-17 14:35:37 - [TEST_STEP][PASSED] - println("***************************************************************"): null
+
+2018-12-17 14:35:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-17 14:35:37 - [TEST_STEP][PASSED] - println("***************************************************************"): null
+
+2018-12-17 14:35:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-17 14:35:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-17 14:35:40 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-17 14:35:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-17 14:35:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-17 14:35:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-17 14:35:50 - [TEST_STEP][PASSED] - executeJavaScript("window.location='https://www.freecrm.com'", null): Execute JavaScript 'window.location='https://www.freecrm.com'' successfully
+
+2018-12-17 14:35:58 - [MESSAGE][PASSED] - Execute JavaScript 'window.location='https://www.freecrm.com'' successfully
+
+2018-12-17 14:35:58 - [TEST_STEP][PASSED] - wb1 = findWebElement(findTestObject("Object Repository/JavaScript/FreeCRMUsername"), 5): null
+
+2018-12-17 14:35:58 - [TEST_STEP][PASSED] - wb2 = findWebElement(findTestObject("Object Repository/JavaScript/FreeCRMPassword"), 5): null
+
+2018-12-17 14:35:58 - [TEST_STEP][PASSED] - wb3 = findWebElement(findTestObject("Object Repository/JavaScript/FreeCRMLoginBtn"), 5): null
+
+2018-12-17 14:35:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-17 14:36:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-17 14:36:01 - [TEST_STEP][PASSED] - javaScript.JavaScriptExecutor.jsType(variable, wb1): javaScript.JavaScriptExecutor.jsType is PASSED
+
+2018-12-17 14:36:01 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].style.border='3px solid blue'' successfully
+
+2018-12-17 14:36:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-17 14:36:04 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value='Admin12'' successfully
+
+2018-12-17 14:36:04 - [MESSAGE][PASSED] - javaScript.JavaScriptExecutor.jsType is PASSED
+
+2018-12-17 14:36:04 - [TEST_STEP][PASSED] - javaScript.JavaScriptExecutor.jsType(variable_0, wb2): javaScript.JavaScriptExecutor.jsType is PASSED
+
+2018-12-17 14:36:04 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].style.border='3px solid blue'' successfully
+
+2018-12-17 14:36:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-17 14:36:06 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value='Admin12'' successfully
+
+2018-12-17 14:36:06 - [MESSAGE][PASSED] - javaScript.JavaScriptExecutor.jsType is PASSED
+
+2018-12-17 14:36:06 - [TEST_STEP][PASSED] - javaScript.JavaScriptExecutor.jsClick(wb3): javaScript.JavaScriptExecutor.jsClick is PASSED
+
+2018-12-17 14:36:06 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].style.border='3px solid green'' successfully
+
+2018-12-17 14:36:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-17 14:36:14 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2018-12-17 14:36:14 - [MESSAGE][PASSED] - javaScript.JavaScriptExecutor.jsClick is PASSED
+
+2018-12-17 14:36:14 - [TEST_STEP][PASSED] - javaScript.JavaScriptExecutor.alertGenerator("This Alert is generated by JavaScript !! "): javaScript.JavaScriptExecutor.alertGenerator is PASSED
+
+2018-12-17 14:36:14 - [MESSAGE][PASSED] - Execute JavaScript 'alert('This Alert is generated by JavaScript !! ');' successfully
+
+2018-12-17 14:36:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-17 14:36:17 - [MESSAGE][PASSED] - javaScript.JavaScriptExecutor.alertGenerator is PASSED
+
+2018-12-17 14:36:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-17 14:36:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-17 14:36:19 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2018-12-17 14:36:19 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-17 14:36:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-17 14:36:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-17 14:36:22 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/JavaScript/iFrame"), 5): null
+
+2018-12-17 14:36:22 - [TEST_STEP][PASSED] - wb4 = findWebElement(findTestObject("Object Repository/JavaScript/FreeCRMLogout"), 5): null
+
+2018-12-17 14:36:22 - [TEST_STEP][PASSED] - javaScript.JavaScriptExecutor.jsClick(wb4): javaScript.JavaScriptExecutor.jsClick is PASSED
+
+2018-12-17 14:36:22 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].style.border='3px solid green'' successfully
+
+2018-12-17 14:36:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-17 14:36:28 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2018-12-17 14:36:28 - [MESSAGE][PASSED] - javaScript.JavaScriptExecutor.jsClick is PASSED
+
+2018-12-17 14:36:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-17 14:36:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-17 14:36:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-17 14:36:33 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-17 14:36:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-17 14:36:33 - [TEST_STEP][PASSED] - println("This section belongs to @AfterTestCase"): null
+
+2018-12-17 14:36:33 - [TEST_STEP][PASSED] - println("***************************************************************"): null
+
+2018-12-17 14:36:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId() + " : " + testCaseContext.getTestCaseStatus()): null
+
+2018-12-17 14:36:33 - [TEST_STEP][PASSED] - println("***************************************************************"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-17 14:35:32 - [TEST_SUITE][PASSED] - custom keyword: Test Cases/Rajiv/JavaScript]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

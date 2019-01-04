@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+finalDemoSuite,Chrome 71.0.3578.98,,2018-12-17 11:28:46,2018-12-17 11:30:34,1m - 48.436s,FAILED
+,,,,,,
+Test Cases/Thalesh/AutomationDemoSite,Chrome 71.0.3578.98,,2018-12-17 11:28:48,2018-12-17 11:30:08,1m - 20.619s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-17 11:28:48,2018-12-17 11:28:49,0.855s,PASSED
+openBrowser(null),Chrome 71.0.3578.98,,2018-12-17 11:28:50,2018-12-17 11:29:07,17.377s,PASSED
+"navigateToUrl(""http://demo.automationtesting.in/Register.html"")",Chrome 71.0.3578.98,,2018-12-17 11:29:07,2018-12-17 11:29:48,40.707s,PASSED
+"setText(findTestObject(""DemoAuto/input_FirstName""), ""thalesh"")",Chrome 71.0.3578.98,,2018-12-17 11:29:48,2018-12-17 11:29:50,1.609s,PASSED
+"setText(findTestObject(""DemoAuto/input_LastName""), ""sharma"")",Chrome 71.0.3578.98,,2018-12-17 11:29:50,2018-12-17 11:29:50,0.270s,PASSED
+"setText(findTestObject(""DemoAuto/textarea_Address""), ""test text area"")",Chrome 71.0.3578.98,,2018-12-17 11:29:50,2018-12-17 11:29:50,0.299s,PASSED
+"setText(findTestObject(""DemoAuto/input_EmailAddress""), ""thalesh.s@gmail.com"")",Chrome 71.0.3578.98,,2018-12-17 11:29:50,2018-12-17 11:29:51,0.810s,PASSED
+"setText(findTestObject(""Object Repository/DemoAuto/input_Phone""), ""1234567890"")",Chrome 71.0.3578.98,,2018-12-17 11:29:51,2018-12-17 11:29:52,0.477s,PASSED
+"click(findTestObject(""DemoAuto/input_GenderRadioOptions""))",Chrome 71.0.3578.98,,2018-12-17 11:29:52,2018-12-17 11:29:52,0.145s,PASSED
+"click(findTestObject(""DemoAuto/input_HobbiesCheckbox""))",Chrome 71.0.3578.98,,2018-12-17 11:29:52,2018-12-17 11:29:52,0.197s,PASSED
+"scrollToElement(findTestObject(""DemoAuto/select_Skills""), 5)",Chrome 71.0.3578.98,,2018-12-17 11:29:52,2018-12-17 11:29:52,0.125s,PASSED
+"click(findTestObject(""DemoAuto/select_Skills""))",Chrome 71.0.3578.98,,2018-12-17 11:29:52,2018-12-17 11:29:54,1.490s,PASSED
+"selectOptionByValue(findTestObject(""DemoAuto/select_Skills""), ""Java"", true)",Chrome 71.0.3578.98,,2018-12-17 11:29:54,2018-12-17 11:30:00,6.476s,PASSED
+"click(findTestObject(""DemoAuto/select_Country""))",Chrome 71.0.3578.98,,2018-12-17 11:30:00,2018-12-17 11:30:00,0.262s,PASSED
+"selectOptionByValue(findTestObject(""DemoAuto/select_Country""), ""United Kingdom"", true)",Chrome 71.0.3578.98,,2018-12-17 11:30:00,2018-12-17 11:30:01,0.236s,FAILED
+"click(findTestObject(""DemoAuto/li_Country0""))",Chrome 71.0.3578.98,,2018-12-17 11:30:01,2018-12-17 11:30:01,0.481s,PASSED
+obj = new com.kms.katalon.core.testobject.TestObject(TheObjectName),Chrome 71.0.3578.98,,2018-12-17 11:30:01,2018-12-17 11:30:01,0.017s,PASSED
+"obj.addProperty(""xpath"", EQUALS, ""//ul[@id='select2-country-results']/li[text()='India']"")",Chrome 71.0.3578.98,,2018-12-17 11:30:01,2018-12-17 11:30:01,0.013s,PASSED
+click(obj),Chrome 71.0.3578.98,,2018-12-17 11:30:01,2018-12-17 11:30:01,0.347s,PASSED
+"selectOptionByValue(findTestObject(""DemoAuto/select_Year""), ""1990"", true)",Chrome 71.0.3578.98,,2018-12-17 11:30:01,2018-12-17 11:30:04,2.580s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/DemoAuto/select_Month""), ""January"", true)",Chrome 71.0.3578.98,,2018-12-17 11:30:04,2018-12-17 11:30:05,0.908s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/DemoAuto/select_Day""), ""1"", true)",Chrome 71.0.3578.98,,2018-12-17 11:30:05,2018-12-17 11:30:05,0.521s,PASSED
+"setText(findTestObject(""DemoAuto/input_FirstPassword""), ""Tt123456"")",Chrome 71.0.3578.98,,2018-12-17 11:30:05,2018-12-17 11:30:06,0.194s,PASSED
+"setText(findTestObject(""DemoAuto/input_ConfirmPassword""), ""Tt123456"")",Chrome 71.0.3578.98,,2018-12-17 11:30:06,2018-12-17 11:30:06,0.169s,PASSED
+"click(findTestObject(""Object Repository/DemoAuto/button_Submit""))",Chrome 71.0.3578.98,,2018-12-17 11:30:06,2018-12-17 11:30:06,0.080s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-17 11:30:06,2018-12-17 11:30:08,2.259s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-17 11:30:08,2018-12-17 11:30:08,0.009s,PASSED
+,,,,,,
+Test Cases/Thalesh/Test1_InputForm,Chrome 71.0.3578.98,"This test includes following interactions-
+Enter text in text box
+Select the value from Drop down list
+Click on radio button
+Click on button",2018-12-17 11:30:08,2018-12-17 11:30:31,23.257s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-17 11:30:08,2018-12-17 11:30:08,0.025s,PASSED
+openBrowser(null),Chrome 71.0.3578.98,,2018-12-17 11:30:09,2018-12-17 11:30:14,4.864s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-17 11:30:14,2018-12-17 11:30:15,1.157s,PASSED
+"navigateToUrl(""https://www.seleniumeasy.com/test"")",Chrome 71.0.3578.98,,2018-12-17 11:30:15,2018-12-17 11:30:27,12.049s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.98,,2018-12-17 11:30:27,2018-12-17 11:30:27,0.169s,PASSED
+"waitForElementPresent(findTestObject(""Page_Home/li_All Examples""), 10)",Chrome 71.0.3578.98,,2018-12-17 11:30:27,2018-12-17 11:30:27,0.138s,PASSED
+"scrollToElement(findTestObject(""Page_Home/li_All Examples""), 5)",Chrome 71.0.3578.98,,2018-12-17 11:30:27,2018-12-17 11:30:27,0.105s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Input Forms""))",Chrome 71.0.3578.98,,2018-12-17 11:30:27,2018-12-17 11:30:28,0.145s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_InputFormSubmit""))",Chrome 71.0.3578.98,,2018-12-17 11:30:28,2018-12-17 11:30:28,0.455s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_FirstName""), ""thalesh"")",Chrome 71.0.3578.98,,2018-12-17 11:30:28,2018-12-17 11:30:29,0.664s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_LastName""), ""Sharma"")",Chrome 71.0.3578.98,,2018-12-17 11:30:29,2018-12-17 11:30:29,0.195s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_EMail""), ""thalesh@gmail.com"")",Chrome 71.0.3578.98,,2018-12-17 11:30:29,2018-12-17 11:30:29,0.271s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_Phone""), ""1234567890"")",Chrome 71.0.3578.98,,2018-12-17 11:30:29,2018-12-17 11:30:29,0.233s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_Address""), ""Baner, Pune"")",Chrome 71.0.3578.98,,2018-12-17 11:30:29,2018-12-17 11:30:30,0.234s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_City""), ""Pune"")",Chrome 71.0.3578.98,,2018-12-17 11:30:30,2018-12-17 11:30:30,0.193s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Page_Home/select_State""), ""California"", false)",Chrome 71.0.3578.98,,2018-12-17 11:30:30,2018-12-17 11:30:30,0.280s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_ZipCode""), ""EJ08 2EX"")",Chrome 71.0.3578.98,,2018-12-17 11:30:30,2018-12-17 11:30:30,0.229s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_Website""), ""www.facebook.com"")",Chrome 71.0.3578.98,,2018-12-17 11:30:30,2018-12-17 11:30:31,0.325s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/input_hosting""))",Chrome 71.0.3578.98,,2018-12-17 11:30:31,2018-12-17 11:30:31,0.127s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/Project Description""), ""test"")",Chrome 71.0.3578.98,,2018-12-17 11:30:31,2018-12-17 11:30:31,0.218s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/button_Send""))",Chrome 71.0.3578.98,,2018-12-17 11:30:31,2018-12-17 11:30:31,0.488s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-17 11:30:31,2018-12-17 11:30:31,0.005s,PASSED

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+samanta,,,2018-12-10 15:19:48,2018-12-10 15:19:53,5.252s,FAILED
+,,,,,,
+Test Cases/Samanta/TC1_PopUpHandling,,,2018-12-10 15:19:48,2018-12-10 15:19:49,1.464s,FAILED
+"openBrowser(""http://demo.guru99.com/popup.php"")",,,2018-12-10 15:19:48,2018-12-10 15:19:49,0.942s,FAILED
+,,,,,,
+Test Cases/Samanta/TC2_HandlingCheckBox,,,2018-12-10 15:19:49,2018-12-10 15:19:50,0.418s,FAILED
+"openBrowser("""")",,,2018-12-10 15:19:50,2018-12-10 15:19:50,0.035s,FAILED
+,,,,,,
+Test Cases/Samanta/TC3_HandlingRadioButton,,,2018-12-10 15:19:50,2018-12-10 15:19:50,0.302s,FAILED
+"openBrowser(""http://demo.guru99.com/test/radio.html"")",,,2018-12-10 15:19:50,2018-12-10 15:19:50,0.016s,FAILED
+,,,,,,
+Test Cases/Samanta/TC4_CheckPointTest,,,2018-12-10 15:19:50,2018-12-10 15:19:52,2.140s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Samanta/Checkpoint""), true)",,,2018-12-10 15:19:50,2018-12-10 15:19:52,1.863s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Samanta/Checkpoint""), true, STOP_ON_FAILURE)",,,2018-12-10 15:19:52,2018-12-10 15:19:52,0.043s,PASSED
+,,,,,,
+Test Cases/Samanta/TC5_Popop,,,2018-12-10 15:19:52,2018-12-10 15:19:53,0.325s,FAILED
+"openBrowser(""https://html-online.com/demo/popup-box/"")",,,2018-12-10 15:19:53,2018-12-10 15:19:53,0.032s,FAILED

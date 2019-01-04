@@ -4,7 +4,11 @@
    <name>grouping</name>
    <tag></tag>
    <isRerun>false</isRerun>
+<<<<<<< HEAD
    <lastRun>2018-12-18T11:56:06</lastRun>
+=======
+   <lastRun>2018-12-17T14:35:23</lastRun>
+>>>>>>> branch 'master' of https://github.com/NirmalMojidra/KatalonDemo
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

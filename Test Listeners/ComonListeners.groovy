@@ -3,6 +3,10 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import org.junit.Before
+import org.junit.BeforeClass
+import org.testng.annotations.BeforeGroups
+
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
@@ -29,9 +33,11 @@ class ComonListeners {
 	 */
 	@BeforeTestCase
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
+		println("This section belongs to @BeforeTestCase")
+		println("***************************************************************")
 		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseVariables()
-		println testCaseContext.getMessage()
+		println("***************************************************************")
+		
 	}
 
 	/**
@@ -40,9 +46,10 @@ class ComonListeners {
 	 */
 	@AfterTestCase
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
-		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseStatus()
-		println testCaseContext.getMessage()
+		println("This section belongs to @AfterTestCase")
+		println("***************************************************************")
+		println testCaseContext.getTestCaseId() +" : "+ testCaseContext.getTestCaseStatus()
+		println("***************************************************************")
 	}
 
 	/**
@@ -51,7 +58,10 @@ class ComonListeners {
 	 */
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
+		println("This section belongs to @BeforeTestSuite")
+		println("***************************************************************")
 		println testSuiteContext.getTestSuiteId()
+		println("***************************************************************")
 	}
 
 	/**
@@ -60,6 +70,16 @@ class ComonListeners {
 	 */
 	@AfterTestSuite
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
+		println("This section belongs to @AfterTestSuite")
+		println("***************************************************************")
 		println testSuiteContext.getTestSuiteId()
+		println("***************************************************************")
 	}
+	
+	@BeforeGroups
+	def sameClass(TestSuiteContext testSuiteContext){
+		println("This section belongs to @BeforeGroup")
+			
+	}
+
 }

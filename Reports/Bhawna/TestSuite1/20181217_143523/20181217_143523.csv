@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Firefox 64.0,,2018-12-17 14:35:33,2018-12-17 14:37:05,1m - 31.853s,PASSED
+,,,,,,
+Test Cases/Bhawna/TC_MouseHoverAndScreenshot,Firefox 64.0,,2018-12-17 14:35:37,2018-12-17 14:37:05,1m - 27.348s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2018-12-17 14:35:38,2018-12-17 14:35:38,0.062s,PASSED
+openBrowser(Url),Firefox 64.0,,2018-12-17 14:35:39,2018-12-17 14:36:54,1m - 14.986s,PASSED
+maximizeWindow(),Firefox 64.0,,2018-12-17 14:36:54,2018-12-17 14:36:58,3.543s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/Page_SiteOrigin - Free WordPress Th/a_Plugins"")))",Firefox 64.0,,2018-12-17 14:36:58,2018-12-17 14:36:58,0.522s,PASSED
+delay(3),Firefox 64.0,,2018-12-17 14:36:58,2018-12-17 14:37:01,3.046s,PASSED
+com.util.TakeScreenshot.takeScreenshotOfWebPage(filename),Firefox 64.0,,2018-12-17 14:37:01,2018-12-17 14:37:02,0.697s,PASSED
+closeBrowser(),Firefox 64.0,,2018-12-17 14:37:02,2018-12-17 14:37:05,2.965s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2018-12-17 14:37:05,2018-12-17 14:37:05,0.009s,PASSED

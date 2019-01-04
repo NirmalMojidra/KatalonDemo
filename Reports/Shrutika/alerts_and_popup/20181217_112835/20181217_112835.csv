@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+alerts_and_popup,Firefox 64.0,,2018-12-17 11:28:47,2018-12-17 11:30:57,2m - 10.347s,FAILED
+,,,,,,
+Test Cases/Shrutika/PopUp/AlertPopUp Test Case,Firefox 64.0,Alert Pop Up Handling Test Case,2018-12-17 11:28:51,2018-12-17 11:30:33,1m - 42.402s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2018-12-17 11:28:51,2018-12-17 11:28:51,0.025s,PASSED
+"openBrowser(""http://toolsqa.com/handling-alerts-using-selenium-webdriver/"")",Firefox 64.0,,2018-12-17 11:28:51,2018-12-17 11:30:25,1m - 33.128s,FAILED
+maximizeWindow(),Firefox 64.0,,2018-12-17 11:30:25,2018-12-17 11:30:25,0.068s,FAILED
+delay(1),Firefox 64.0,,2018-12-17 11:30:25,2018-12-17 11:30:26,1.052s,PASSED
+"scrollToElement(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/Simple Alert Pop up text""), 2)",Firefox 64.0,,2018-12-17 11:30:26,2018-12-17 11:30:26,0.181s,FAILED
+"click(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/button_Simple Alert""))",Firefox 64.0,,2018-12-17 11:30:26,2018-12-17 11:30:26,0.049s,FAILED
+delay(1),Firefox 64.0,,2018-12-17 11:30:26,2018-12-17 11:30:27,1.037s,PASSED
+if (waitForAlert(5)),Firefox 64.0,,2018-12-17 11:30:27,2018-12-17 11:30:27,0.041s,FAILED
+delay(1),Firefox 64.0,,2018-12-17 11:30:27,2018-12-17 11:30:28,1.009s,PASSED
+switchToDefaultContent(),Firefox 64.0,,2018-12-17 11:30:28,2018-12-17 11:30:28,0.025s,PASSED
+"click(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/button_Confirm Pop up""))",Firefox 64.0,,2018-12-17 11:30:28,2018-12-17 11:30:28,0.014s,FAILED
+delay(1),Firefox 64.0,,2018-12-17 11:30:28,2018-12-17 11:30:29,1.004s,PASSED
+if (waitForAlert(2)),Firefox 64.0,,2018-12-17 11:30:29,2018-12-17 11:30:29,0.007s,FAILED
+delay(2),Firefox 64.0,,2018-12-17 11:30:29,2018-12-17 11:30:31,2.008s,PASSED
+switchToDefaultContent(),Firefox 64.0,,2018-12-17 11:30:31,2018-12-17 11:30:31,0.004s,PASSED
+"click(findTestObject(""Shrutika/Page_TOOLSQA  Free QA Automation To/button_Prompt Pop up""))",Firefox 64.0,,2018-12-17 11:30:31,2018-12-17 11:30:31,0.018s,FAILED
+delay(2),Firefox 64.0,,2018-12-17 11:30:31,2018-12-17 11:30:33,2.010s,PASSED
+if (waitForAlert(5)),Firefox 64.0,,2018-12-17 11:30:33,2018-12-17 11:30:33,0.005s,FAILED
+switchToDefaultContent(),Firefox 64.0,,2018-12-17 11:30:33,2018-12-17 11:30:33,0.007s,PASSED
+closeBrowser(),Firefox 64.0,,2018-12-17 11:30:33,2018-12-17 11:30:33,0.054s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2018-12-17 11:30:33,2018-12-17 11:30:33,0.012s,PASSED
+,,,,,,
+Test Cases/Shrutika/PopUp/AlertWindowPopUp Test Case,Firefox 64.0,AlertWindowPopUp Test Case,2018-12-17 11:30:33,2018-12-17 11:30:57,23.781s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2018-12-17 11:30:33,2018-12-17 11:30:33,0.032s,PASSED
+"openBrowser(""https://www.elated.com/articles/javascript-tabs/"")",Firefox 64.0,,2018-12-17 11:30:34,2018-12-17 11:30:50,15.830s,PASSED
+maximizeWindow(),Firefox 64.0,,2018-12-17 11:30:50,2018-12-17 11:30:53,3.547s,PASSED
+"switchToFrame(findTestObject(""Object Repository/Shrutika/Page_JavaScript Tabs - Create Tabbe/iframe_The Document Object Mod""), 2)",Firefox 64.0,,2018-12-17 11:30:53,2018-12-17 11:30:53,0.091s,PASSED
+"click(findTestObject(""Object Repository/Shrutika/Page_JavaScript Tabs - Create Tabbe/div_id(katalon-spy_elementInfo""))",Firefox 64.0,,2018-12-17 11:30:53,2018-12-17 11:30:54,0.430s,PASSED
+"switchToWindowTitle(""Share a link on Twitter"")",Firefox 64.0,,2018-12-17 11:30:54,2018-12-17 11:30:55,0.723s,PASSED
+"setText(findTestObject(""Object Repository/Shrutika/Page_Share a link on Twitter/input_Phone email or username_""), ""Abc"")",Firefox 64.0,,2018-12-17 11:30:55,2018-12-17 11:30:55,0.330s,PASSED
+"setText(findTestObject(""Object Repository/Shrutika/Page_Share a link on Twitter/input_Password_sessionpassword""), ""Password"")",Firefox 64.0,,2018-12-17 11:30:55,2018-12-17 11:30:55,0.171s,PASSED
+"verifyTextPresent(""Share a link with your followers"", false)",Firefox 64.0,,2018-12-17 11:30:55,2018-12-17 11:30:55,0.134s,PASSED
+closeBrowser(),Firefox 64.0,,2018-12-17 11:30:55,2018-12-17 11:30:57,1.788s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2018-12-17 11:30:57,2018-12-17 11:30:57,0.004s,PASSED
